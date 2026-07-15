@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "target": "bigrigrescue",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {
+        "source": "**",
+        "destination": "https://www.i40breakdown.com/",
+        "type": 301
+      }
+    ]
+  }
+}

@@ -1,0 +1,2711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truck Repair in North Carolina | Big Rig Rescue</title>
+    <meta name="description" content="24/7 Emergency Truck Repair Along Interstate 40. Roadside Towing, Diesel Engine Repair, Reefer Service, Mobile Mechanics - Fast Response.">
+    <meta name="theme-color" content="#ff2020">
+    <link rel="canonical" href="https://bigrigrescue.co/state/NC/">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { 
+            font-family: 'Arial', 'Helvetica Neue', sans-serif; 
+            line-height: 1.6; 
+            color: #222; 
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+        }
+        a { color: #ff2020; text-decoration: none; transition: all 0.3s; }
+        a:hover { text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* ANIMATIONS */
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(255, 32, 32, 0.6); }
+            50% { box-shadow: 0 0 40px rgba(255, 32, 32, 0.9); }
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes flash {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        /* HEADER */
+        header { 
+            background: linear-gradient(135deg, #ff2020 0%, #cc0000 50%, #990000 100%);
+            color: white; 
+            padding: 25px 0;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+            position: relative;
+            overflow: hidden;
+            animation: slideDown 0.8s ease;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(255,255,255,0.2), transparent);
+            border-radius: 50%;
+            animation: pulse 4s infinite;
+        }
+        header::after {
+            content: '⚙️';
+            position: absolute;
+            font-size: 200px;
+            right: -50px;
+            top: -50px;
+            opacity: 0.08;
+            animation: pulse 3s infinite;
+        }
+        header .container { position: relative; z-index: 1; }
+        header h1 { 
+            font-size: 52px; 
+            margin-bottom: 8px; 
+            font-weight: 900;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+            letter-spacing: -1px;
+        }
+        header .tagline {
+            font-size: 14px;
+            color: #ffff00;
+            font-weight: 900;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        header p { 
+            font-size: 18px; 
+            opacity: 0.95; 
+            font-weight: 600;
+            max-width: 600px;
+        }
+        
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, #ff2020 0%, #ff4040 50%, #ffaa00 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        .hero .container { position: relative; z-index: 1; }
+        .hero h2 {
+            font-size: 56px;
+            margin-bottom: 15px;
+            font-weight: 900;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+            animation: pulse 2s infinite;
+            letter-spacing: -2px;
+        }
+        .hero .highlight {
+            color: #ffff00;
+            font-weight: 900;
+            display: block;
+            font-size: 64px;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+        }
+        .hero p {
+            font-size: 22px;
+            margin: 20px 0;
+            opacity: 0.95;
+            font-weight: 700;
+        }
+        .hero .emergency-badge {
+            display: inline-block;
+            background: rgba(0,0,0,0.3);
+            border: 3px solid #ffff00;
+            color: #ffff00;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 16px;
+            margin-top: 15px;
+            animation: glow 2s infinite;
+        }
+        
+        .stat-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            margin-top: 40px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .stat-box {
+            background: rgba(0,0,0,0.25);
+            padding: 25px;
+            border-radius: 12px;
+            border: 3px solid rgba(255,255,255,0.3);
+            transition: all 0.3s;
+            animation: slideDown 0.8s ease-out backwards;
+        }
+        .stat-box:nth-child(1) { animation-delay: 0.1s; }
+        .stat-box:nth-child(2) { animation-delay: 0.2s; }
+        .stat-box:nth-child(3) { animation-delay: 0.3s; }
+        .stat-box:nth-child(4) { animation-delay: 0.4s; }
+        .stat-box:hover {
+            background: rgba(0,0,0,0.4);
+            transform: scale(1.08);
+        }
+        .stat-box .number {
+            font-size: 36px;
+            font-weight: 900;
+            color: #ffff00;
+        }
+        .stat-box .label {
+            font-size: 13px;
+            opacity: 0.9;
+            margin-top: 8px;
+            font-weight: 700;
+        }
+        
+        h2 { font-size: 38px; margin: 50px 0 30px 0; color: #333; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; }
+        h3 { font-size: 22px; margin: 20px 0 15px 0; font-weight: bold; }
+        
+        /* BREADCRUMB */
+        .breadcrumb { font-size: 13px; margin: 15px 0; color: #666; }
+        .breadcrumb a { color: #ff2020; font-weight: 700; }
+        
+        /* SEARCH FILTER */
+        .search-filter { 
+            background: white; 
+            padding: 35px; 
+            margin-bottom: 50px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            border-left: 6px solid #ff2020;
+        }
+        .search-filter h2 { margin-top: 0; }
+        .search-filter label { 
+            display: block; 
+            margin: 15px 0 8px 0; 
+            font-weight: bold; 
+            font-size: 15px;
+            color: #333;
+        }
+        .search-filter select, .search-filter input { 
+            width: 100%; 
+            padding: 12px; 
+            margin-bottom: 15px; 
+            border: 2px solid #ddd; 
+            border-radius: 8px; 
+            font-size: 14px;
+        }
+        .search-filter select:focus, .search-filter input:focus {
+            outline: none;
+            border-color: #ff2020;
+            box-shadow: 0 0 8px rgba(255,32,32,0.4);
+        }
+        
+        /* BUTTONS */
+        .button { 
+            display: inline-block; 
+            background: linear-gradient(135deg, #ff2020, #cc0000);
+            color: white; 
+            padding: 14px 32px; 
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            text-decoration: none;
+            font-weight: 900;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255,32,32,0.4);
+        }
+        .button:hover { 
+            background: linear-gradient(135deg, #ff4040, #dd0000);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255,32,32,0.6);
+            text-decoration: none;
+        }
+        
+        /* SHOP CARDS */
+        .shop-card { 
+            border: none;
+            padding: 28px; 
+            margin-bottom: 20px; 
+            border-radius: 12px; 
+            background: white;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            border-left: 5px solid #ff2020;
+        }
+        .shop-card:hover {
+            box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+            transform: translateY(-5px);
+        }
+        .shop-card h3 { 
+            margin: 0 0 10px 0; 
+            color: #333;
+        }
+        .shop-card h3 a {
+            color: #ff2020;
+            font-weight: 900;
+        }
+        .shop-card h3 a:hover {
+            color: #cc0000;
+            text-decoration: underline;
+        }
+        .shop-card p { margin: 8px 0; color: #666; }
+        
+        .shop-card a.phone-link { 
+            display: inline-block; 
+            background: linear-gradient(135deg, #ff2020, #cc0000);
+            color: white; 
+            padding: 16px 28px; 
+            border-radius: 8px; 
+            font-size: 18px; 
+            font-weight: 900; 
+            margin: 15px 0; 
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(255,32,32,0.4);
+            transition: all 0.3s;
+        }
+        .shop-card a.phone-link:hover { 
+            background: linear-gradient(135deg, #ff4040, #dd0000);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255,32,32,0.6);
+            text-decoration: none;
+        }
+        
+        /* BADGES */
+        .badges { margin: 15px 0; }
+        .badge { 
+            display: inline-block; 
+            background: #f0f0f0; 
+            color: #333; 
+            padding: 8px 16px; 
+            margin: 6px 8px 6px 0; 
+            border-radius: 25px; 
+            font-size: 13px; 
+            font-weight: 800;
+            border: 2px solid #ddd;
+            transition: all 0.3s;
+        }
+        .badge:hover {
+            transform: scale(1.1);
+        }
+        .badge.highlight { 
+            background: linear-gradient(135deg, #ff2020, #ff4040);
+            color: white; 
+            border: none;
+            font-weight: 900;
+            animation: glow 2s infinite;
+        }
+        
+        /* RATING */
+        .rating { 
+            color: #ff9800; 
+            margin: 10px 0;
+            font-weight: 900;
+            font-size: 15px;
+        }
+        
+        /* GRID */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        /* SERVICE LINKS */
+        .service-link { 
+            display: inline-block; 
+            padding: 16px 20px; 
+            background: white; 
+            border: 3px solid #ff2020;
+            border-radius: 10px; 
+            margin: 10px 10px 10px 0; 
+            text-decoration: none; 
+            color: #ff2020; 
+            font-weight: 900;
+            font-size: 15px;
+            transition: all 0.3s;
+        }
+        .service-link:hover { 
+            background: #ff2020;
+            color: white;
+            text-decoration: none;
+            transform: scale(1.08);
+        }
+        .service-link small {
+            display: block;
+            font-size: 12px;
+            opacity: 0.8;
+            margin-top: 4px;
+            font-weight: bold;
+        }
+        
+        /* FOOTER */
+        footer { 
+            background: #1a1a1a; 
+            color: white;
+            padding: 40px; 
+            margin-top: 80px; 
+            text-align: center; 
+            font-size: 13px;
+            border-top: 5px solid #ff2020;
+        }
+        footer a { color: #ff2020; font-weight: 900; }
+        
+        /* BIG CALL BUTTON */
+        .big-call-button {
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, #ff2020, #cc0000);
+            color: white;
+            padding: 35px 20px;
+            border: none;
+            border-radius: 12px;
+            font-size: 32px;
+            font-weight: 900;
+            margin: 30px 0;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(255,32,32,0.5);
+            transition: all 0.3s;
+            cursor: pointer;
+            animation: glow 2s infinite;
+        }
+        .big-call-button:hover {
+            background: linear-gradient(135deg, #ff4040, #dd0000);
+            transform: scale(1.05);
+            box-shadow: 0 12px 40px rgba(255,32,32,0.7);
+            text-decoration: none;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            header h1 { font-size: 40px; }
+            .hero h2 { font-size: 42px; }
+            .hero .highlight { font-size: 48px; }
+            .grid { grid-template-columns: 1fr; }
+            .stat-boxes { grid-template-columns: repeat(2, 1fr); }
+            h2 { font-size: 28px; }
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 32px; }
+            header p { font-size: 14px; }
+            .hero h2 { font-size: 32px; }
+            .hero .highlight { font-size: 38px; }
+            .hero p { font-size: 16px; }
+            .container { padding: 15px; }
+            .grid { grid-template-columns: 1fr; }
+            .big-call-button { font-size: 26px; padding: 25px 15px; }
+            h2 { font-size: 22px; }
+            .stat-boxes { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="tagline">🚛 TRUCK & RV EMERGENCY REPAIR 🚐</div>
+            <h1>🚛 BIG RIG RESCUE</h1>
+            <p>24/7 EMERGENCY TRUCK REPAIR ALONG I-40</p>
+        </div>
+    </header>
+
+        <div class="breadcrumb">
+            <a href="/">Home</a> / North Carolina
+        </div>
+        
+        <h2>🚨 EMERGENCY TRUCK REPAIR IN NORTH CAROLINA</h2>
+        <p>Found <strong>226 shops</strong> across <strong>49 cities</strong>.</p>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/apex/d%26h-rv-%26-marine-apex/">D&H RV & Marine APEX</a></h3>
+            <p><strong>Apex, NC</strong></p>
+            <a href="tel:+1 919-362-4665" class="phone-link">📞 +1 919-362-4665</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (325.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/arden/jim-campen-trailer-sales/">Jim Campen Trailer Sales</a></h3>
+            <p><strong>Arden, NC</strong></p>
+            <a href="tel:+1 828-684-4284" class="phone-link">📞 +1 828-684-4284</a>
+            <div class="badges"><span class="badge ">Trailer</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (170.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/asheville-mobile-truck-repair/">Asheville Mobile Truck Repair</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-827-4635" class="phone-link">📞 +1 828-827-4635</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.0 (4.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/firestone-complete-auto-care/">Firestone Complete Auto Care</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-412-0811" class="phone-link">📞 +1 828-412-0811</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.1 (634.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/firestone-complete-auto-care/">Firestone Complete Auto Care</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-575-0515" class="phone-link">📞 +1 828-575-0515</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.0 (688.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/fleetpride/">FleetPride</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-274-5294" class="phone-link">📞 +1 828-274-5294</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (94.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/jan-davis-tire-store/">Jan Davis Tire Store</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-253-5634" class="phone-link">📞 +1 828-253-5634</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (352.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-298-0298" class="phone-link">📞 +1 828-298-0298</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (252.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/mhc-kenworth---asheville/">MHC Kenworth - Asheville</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-667-8771" class="phone-link">📞 +1 828-667-8771</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.1 (151.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/mr-motorcycle/">MR Motorcycle</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-277-8600" class="phone-link">📞 +1 828-277-8600</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (953.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/mountain-view-tire-%26-service/">Mountain View Tire & Service</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-252-9681" class="phone-link">📞 +1 828-252-9681</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.8 (22.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/olen-hensley-automotive-inc./">Olen Hensley Automotive Inc.</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-258-1738" class="phone-link">📞 +1 828-258-1738</a>
+            <div class="badges"><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (43.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/sky-overland/">Sky Overland</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-484-2474" class="phone-link">📞 +1 828-484-2474</a>
+            <div class="badges"><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (9.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/truck-%26-trailer-services/">Truck & Trailer SERVICES</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-301-8543" class="phone-link">📞 +1 828-301-8543</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (34.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/u-haul-moving-%26-storage-of-e-asheville/">U-Haul Moving & Storage of E Asheville</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-298-8551" class="phone-link">📞 +1 828-298-8551</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 2.6 (253.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/u-haul-moving-%26-storage-of-south-asheville/">U-Haul Moving & Storage of South Asheville</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-483-5707" class="phone-link">📞 +1 828-483-5707</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.2 (336.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/asheville/walker-tire---nc/">Walker Tire - NC</a></h3>
+            <p><strong>Asheville, NC</strong></p>
+            <a href="tel:+1 828-255-8200" class="phone-link">📞 +1 828-255-8200</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (328.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/browns-summit/piedmont-performance-diesel-%26-off-road/">Piedmont Performance Diesel & Off-Road</a></h3>
+            <p><strong>Browns Summit, NC</strong></p>
+            <a href="tel:+1 336-954-1516" class="phone-link">📞 +1 336-954-1516</a>
+            <div class="badges"><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/burlington/central-carolina-diesel-repair/">Central Carolina Diesel Repair</a></h3>
+            <p><strong>Burlington, NC</strong></p>
+            <a href="tel:+1 336-907-0129" class="phone-link">📞 +1 336-907-0129</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/burlington/diesel-engine-%26-heavy-equipment-repair/">Diesel Engine & Heavy Equipment Repair</a></h3>
+            <p><strong>Burlington, NC</strong></p>
+            <a href="tel:+1 336-227-8782" class="phone-link">📞 +1 336-227-8782</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/burlington/rudy%27s-performance-parts/">Rudy's Performance Parts</a></h3>
+            <p><strong>Burlington, NC</strong></p>
+            <a href="tel:+1 866-757-6537" class="phone-link">📞 +1 866-757-6537</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (707.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/candler/asheville-welding/">Asheville Welding</a></h3>
+            <p><strong>Candler, NC</strong></p>
+            <a href="tel:+1 828-365-8799" class="phone-link">📞 +1 828-365-8799</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Tire</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (58.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/candler/diesel-power-truck-center/">Diesel Power Truck Center</a></h3>
+            <p><strong>Candler, NC</strong></p>
+            <a href="tel:+1 828-303-2009" class="phone-link">📞 +1 828-303-2009</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (326.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/candler/mountain-power-performance/">Mountain Power Performance</a></h3>
+            <p><strong>Candler, NC</strong></p>
+            <a href="tel:+1 828-989-5153" class="phone-link">📞 +1 828-989-5153</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (89.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/candler/ta-truck-service/">TA Truck Service</a></h3>
+            <p><strong>Candler, NC</strong></p>
+            <a href="tel:+1 828-641-9658" class="phone-link">📞 +1 828-641-9658</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.6 (35.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/candler/truck%26trailer-roadside-assistence/">TRUCK&TRAILER ROADSIDE ASSISTENCE</a></h3>
+            <p><strong>Candler, NC</strong></p>
+            <a href="tel:+1 828-483-2149" class="phone-link">📞 +1 828-483-2149</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (6.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/candler/truck-to-trailer-%7C-truck-sales-%26-parts/">Truck to Trailer | Truck Sales & Parts</a></h3>
+            <p><strong>Candler, NC</strong></p>
+            <a href="tel:+1 252-220-8829" class="phone-link">📞 +1 252-220-8829</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (93.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/castle-hayne/tidewater-fleet-maintenance-llc/">Tidewater Fleet Maintenance LLC</a></h3>
+            <p><strong>Castle Hayne, NC</strong></p>
+            <a href="tel:+1 910-619-6840" class="phone-link">📞 +1 910-619-6840</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (1.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/chapel-hill/compass-rose-mobile-rv-service/">Compass Rose Mobile RV Service</a></h3>
+            <p><strong>Chapel Hill, NC</strong></p>
+            <a href="tel:+1 919-391-7836" class="phone-link">📞 +1 919-391-7836</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/charlotte/carolina-trailer-repair-%26-fabrications%2C-llc/">Carolina Trailer Repair & Fabrications, LLC</a></h3>
+            <p><strong>Charlotte, NC</strong></p>
+            <a href="tel:+1 704-951-7756" class="phone-link">📞 +1 704-951-7756</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (22.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/claremont/dewey%27s-diesel-%26-tire/">Dewey's Diesel & Tire</a></h3>
+            <p><strong>Claremont, NC</strong></p>
+            <a href="tel:+1 828-464-5944" class="phone-link">📞 +1 828-464-5944</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (32.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/colfax/clarke-power-services%2C-inc./">Clarke Power Services, Inc.</a></h3>
+            <p><strong>Colfax, NC</strong></p>
+            <a href="tel:+1 336-292-9240" class="phone-link">📞 +1 336-292-9240</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (92.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/colfax/parrish-truck-tire-center/">Parrish Truck Tire Center</a></h3>
+            <p><strong>Colfax, NC</strong></p>
+            <a href="tel:+1 336-334-9979" class="phone-link">📞 +1 336-334-9979</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/colfax/transource-truck-%26-trailer-centers%3A-nc/">TranSource Truck & Trailer Centers: NC</a></h3>
+            <p><strong>Colfax, NC</strong></p>
+            <a href="tel:+1 336-996-6060" class="phone-link">📞 +1 336-996-6060</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/dobson/northwest-carolina-truck-%26-trailer-repair/">Northwest Carolina Truck & Trailer Repair</a></h3>
+            <p><strong>Dobson, NC</strong></p>
+            <a href="tel:+1 336-865-0442" class="phone-link">📞 +1 336-865-0442</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (81.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/%2377-auto-repair%2C-inc./">#77 Auto Repair, Inc.</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-294-4227" class="phone-link">📞 +1 919-294-4227</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (98.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/a%26m-diesel-techs-%E2%80%93-towing-%26-fleet-services/">A&M Diesel Techs – Towing & Fleet Services</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-822-3002" class="phone-link">📞 +1 919-822-3002</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (1.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/advanced-maintenance/">Advanced Maintenance</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-309-2424" class="phone-link">📞 +1 919-309-2424</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.9 (61.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/c-and-c-automotive/">C and C Automotive</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-220-5633" class="phone-link">📞 +1 919-220-5633</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (138.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/cpr-towing-%26-truck-repair/">CPR Towing & Truck Repair</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-888-1888" class="phone-link">📞 +1 919-888-1888</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (193.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/chapel-hill-tire---hillsborough-rd/">Chapel Hill Tire - Hillsborough Rd</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-251-5506" class="phone-link">📞 +1 919-251-5506</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (1154.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/durham-tires/">Durham Tires</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-220-8473" class="phone-link">📞 +1 919-220-8473</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (366.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/durham-transmission-repair/">Durham Transmission Repair</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-471-2506" class="phone-link">📞 +1 919-471-2506</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (456.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/horus-mobile-mechanics-auto-repairs-llc/">Horus Mobile Mechanics Auto Repairs LLC</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-637-8833" class="phone-link">📞 +1 919-637-8833</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (320.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-477-5835" class="phone-link">📞 +1 919-477-5835</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (132.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/mobile-welding-tech%2C-llc./">Mobile Welding Tech, LLC.</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-495-0715" class="phone-link">📞 +1 919-495-0715</a>
+            <div class="badges"><span class="badge highlight">Roadside</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (116.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/roberts-truck-%26-auto-center/">Roberts Truck & Auto Center</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-683-6333" class="phone-link">📞 +1 919-683-6333</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (19.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/s-%26-s-towing-%26-heavy-transport/">S & S Towing & Heavy Transport</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-812-5153" class="phone-link">📞 +1 919-812-5153</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (31.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/satco-truck-equipment%2C-inc./">Satco Truck Equipment, Inc.</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-383-5547" class="phone-link">📞 +1 919-383-5547</a>
+            <div class="badges"><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (9.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/swedish-imports/">Swedish Imports</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-493-4545" class="phone-link">📞 +1 919-493-4545</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (589.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/tactical-truck-repair-%26-towing/">Tactical Truck Repair & Towing</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 984-209-1766" class="phone-link">📞 +1 984-209-1766</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.9 (221.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/take-5-oil-change/">Take 5 Oil Change</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-373-2639" class="phone-link">📞 +1 919-373-2639</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (167.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/tire-solutions-%7C-durham-commercial-tire-shop/">Tire Solutions | Durham Commercial Tire Shop</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-602-0000" class="phone-link">📞 +1 919-602-0000</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Tire</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (112.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/trailer-hitches-at-u-haul/">Trailer Hitches at U-Haul</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 919-682-9302" class="phone-link">📞 +1 919-682-9302</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.7 (55.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/durham/triangle-mobile-hitch/">Triangle Mobile Hitch</a></h3>
+            <p><strong>Durham, NC</strong></p>
+            <a href="tel:+1 844-994-4824" class="phone-link">📞 +1 844-994-4824</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (88.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/elon/triad-truck-%26-trailer-repair/">Triad Truck & Trailer Repair</a></h3>
+            <p><strong>Elon, NC</strong></p>
+            <a href="tel:+1 336-395-3030" class="phone-link">📞 +1 336-395-3030</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/fletcher/fleetpro-truck-center-inc/">FleetPro Truck Center Inc</a></h3>
+            <p><strong>Fletcher, NC</strong></p>
+            <a href="tel:+1 828-407-1020" class="phone-link">📞 +1 828-407-1020</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (75.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/fuquay-varina/triangle-rv-repair-llc/">Triangle RV Repair LLC</a></h3>
+            <p><strong>Fuquay-Varina, NC</strong></p>
+            <a href="tel:+1 919-346-7154" class="phone-link">📞 +1 919-346-7154</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (37.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/garner/advanced-maintenance/">Advanced Maintenance</a></h3>
+            <p><strong>Garner, NC</strong></p>
+            <a href="tel:+1 888-607-2408" class="phone-link">📞 +1 888-607-2408</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 1.8 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/garner/camping-world---garner/">Camping World - Garner</a></h3>
+            <p><strong>Garner, NC</strong></p>
+            <a href="tel:+1 888-795-3805" class="phone-link">📞 +1 888-795-3805</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.9 (1619.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/garner/fleetpride-service-center/">FleetPride Service Center</a></h3>
+            <p><strong>Garner, NC</strong></p>
+            <a href="tel:+1 919-779-2320" class="phone-link">📞 +1 919-779-2320</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.8 (17.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/garner/johnson-%26-johnson-import-%26-domestic-specialists/">Johnson & Johnson Import & Domestic Specialists</a></h3>
+            <p><strong>Garner, NC</strong></p>
+            <a href="tel:+1 919-773-2314" class="phone-link">📞 +1 919-773-2314</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (215.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/garner/trailer-rental-at-u-haul/">Trailer Rental at U-Haul</a></h3>
+            <p><strong>Garner, NC</strong></p>
+            <a href="tel:+1 919-779-3196" class="phone-link">📞 +1 919-779-3196</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.7 (6.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/goldsboro/archie-%26-sons-diesel-repair/">Archie & Sons Diesel Repair</a></h3>
+            <p><strong>Goldsboro, NC</strong></p>
+            <a href="tel:+1 919-221-0008" class="phone-link">📞 +1 919-221-0008</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (107.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/carolina-trailer-%26-equipment/">Carolina Trailer & Equipment</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-292-0722" class="phone-link">📞 +1 336-292-0722</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/diesel-equipment-co/">Diesel Equipment Co</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-373-8331" class="phone-link">📞 +1 336-373-8331</a>
+            <div class="badges"><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (29.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/fleetpro-truck-center%2C-inc/">FleetPro Truck Center, Inc</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-900-5597" class="phone-link">📞 +1 336-900-5597</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (14.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/force-tk--greensboro/">Force TK- Greensboro</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-855-7756" class="phone-link">📞 +1 336-855-7756</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/gate-city-trailers/">Gate City Trailers</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-314-3638" class="phone-link">📞 +1 336-314-3638</a>
+            <div class="badges"><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (5.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/greensboro-autotech/">Greensboro AutoTech</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-665-7070" class="phone-link">📞 +1 336-665-7070</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (154.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/greensboro-onsite-truck-repair/">Greensboro Onsite Truck Repair</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-920-7604" class="phone-link">📞 +1 336-920-7604</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 2.3 (9.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/greensboro-trailer-sales-%26-service-inc/">Greensboro Trailer Sales & Service Inc</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-272-4571" class="phone-link">📞 +1 336-272-4571</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (37.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/greensboro-truck-repair/">Greensboro Truck Repair</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-936-5407" class="phone-link">📞 +1 336-936-5407</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐  ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/hudson-autoworks/">Hudson Autoworks</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-772-0685" class="phone-link">📞 +1 336-772-0685</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (509.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-294-3293" class="phone-link">📞 +1 336-294-3293</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (194.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/mccarthy-tire-service/">McCarthy Tire Service</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-668-0091" class="phone-link">📞 +1 336-668-0091</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/national-fleet-management%2C-inc./">National Fleet Management, Inc.</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-837-0441" class="phone-link">📞 +1 336-837-0441</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (26.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/piedmont-trucks/">Piedmont Trucks</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-668-2401" class="phone-link">📞 +1 336-668-2401</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/statewide-trailer-alignment-frame/">Statewide Trailer Alignment Frame</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-294-1352" class="phone-link">📞 +1 336-294-1352</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (114.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/thompson-diesel-truck-repair-and-towing/">Thompson Diesel Truck Repair and Towing</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-808-5225" class="phone-link">📞 +1 336-808-5225</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (43.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/twin-state-trailers/">Twin State Trailers</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-542-5990" class="phone-link">📞 +1 336-542-5990</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.0 (29.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/vanguard-truck-centers/">Vanguard Truck Centers</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-993-2106" class="phone-link">📞 +1 336-993-2106</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.8 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/greensboro/velocity-truck-centers/">Velocity Truck Centers</a></h3>
+            <p><strong>Greensboro, NC</strong></p>
+            <a href="tel:+1 336-668-0911" class="phone-link">📞 +1 336-668-0911</a>
+            <div class="badges"><span class="badge ">Cooling</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.9 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/hamptonville/carolina-diesel-performance/">Carolina Diesel Performance</a></h3>
+            <p><strong>Hamptonville, NC</strong></p>
+            <a href="tel:+1 336-523-5118" class="phone-link">📞 +1 336-523-5118</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (10.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/hendersonville/camping-world---hendersonville/">Camping World - Hendersonville</a></h3>
+            <p><strong>Hendersonville, NC</strong></p>
+            <a href="tel:+1 888-762-4539" class="phone-link">📞 +1 888-762-4539</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (4230.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/hendersonville/jim-campen-trailer-sales/">Jim Campen Trailer Sales</a></h3>
+            <p><strong>Hendersonville, NC</strong></p>
+            <a href="tel:+1 828-684-8889" class="phone-link">📞 +1 828-684-8889</a>
+            <div class="badges"><span class="badge ">Trailer</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (85.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/hickory/truck-%26-trailer-repair%2C-inc/">Truck & Trailer Repair, INC</a></h3>
+            <p><strong>Hickory, NC</strong></p>
+            <a href="tel:+1 828-324-7504" class="phone-link">📞 +1 828-324-7504</a>
+            <div class="badges"><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (28.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/holly-ridge/ashby%27s-diesel/">Ashby's Diesel</a></h3>
+            <p><strong>Holly Ridge, NC</strong></p>
+            <a href="tel:+1 910-329-1005" class="phone-link">📞 +1 910-329-1005</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (64.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/jacksonville/greenline-diesel-%26-auto-repair/">Greenline Diesel & Auto Repair</a></h3>
+            <p><strong>Jacksonville, NC</strong></p>
+            <a href="tel:+1 910-333-3227" class="phone-link">📞 +1 910-333-3227</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (84.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/kenly/honor-diesel-center/">Honor Diesel Center</a></h3>
+            <p><strong>Kenly, NC</strong></p>
+            <a href="tel:+1 833-344-6667" class="phone-link">📞 +1 833-344-6667</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (33.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/kernersville/competition-truck-repair/">Competition Truck Repair</a></h3>
+            <p><strong>Kernersville, NC</strong></p>
+            <a href="tel:+1 336-257-8124" class="phone-link">📞 +1 336-257-8124</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (266.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/kernersville/diamond-automotive-of-the-triad/">Diamond Automotive of the Triad</a></h3>
+            <p><strong>Kernersville, NC</strong></p>
+            <a href="tel:+1 336-992-0444" class="phone-link">📞 +1 336-992-0444</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (99.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/kernersville/ramble-trailerworks/">Ramble Trailerworks</a></h3>
+            <p><strong>Kernersville, NC</strong></p>
+            <a href="tel:+1 336-559-7626" class="phone-link">📞 +1 336-559-7626</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (36.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/leicester/tameless-performance/">Tameless Performance</a></h3>
+            <p><strong>Leicester, NC</strong></p>
+            <a href="tel:+1 828-505-8195" class="phone-link">📞 +1 828-505-8195</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (55.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/leland/davis-diesel/">Davis Diesel</a></h3>
+            <p><strong>Leland, NC</strong></p>
+            <a href="tel:+1 910-880-5879" class="phone-link">📞 +1 910-880-5879</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.0 (20.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/lewisville/r-v-performance-specialist/">R V Performance Specialist</a></h3>
+            <p><strong>Lewisville, NC</strong></p>
+            <a href="tel:+1 336-945-9944" class="phone-link">📞 +1 336-945-9944</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/lexington/north-davidson-automotive/">North Davidson Automotive</a></h3>
+            <p><strong>Lexington, NC</strong></p>
+            <a href="tel:+1 336-850-6587" class="phone-link">📞 +1 336-850-6587</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (288.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/lincolnton/nc-diesel-performance-truck-repair/">NC Diesel Performance Truck Repair</a></h3>
+            <p><strong>Lincolnton, NC</strong></p>
+            <a href="tel:+1 336-975-8091" class="phone-link">📞 +1 336-975-8091</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.1 (35.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/marion/mccurry%27s-diesel-roadside-repair-llc/">McCurry's Diesel Roadside Repair LLC</a></h3>
+            <p><strong>Marion, NC</strong></p>
+            <a href="tel:+1 828-460-4357" class="phone-link">📞 +1 828-460-4357</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (54.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/mebane/ta-truck-service/">TA Truck Service</a></h3>
+            <p><strong>Mebane, NC</strong></p>
+            <a href="tel:+1 919-304-7478" class="phone-link">📞 +1 919-304-7478</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.7 (303.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/mebane/united-diesel-inc/">United Diesel Inc</a></h3>
+            <p><strong>Mebane, NC</strong></p>
+            <a href="tel:+1 919-563-8840" class="phone-link">📞 +1 919-563-8840</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (40.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/mills-river/reese-trailer-sales/">Reese Trailer Sales</a></h3>
+            <p><strong>Mills River, NC</strong></p>
+            <a href="tel:+1 828-684-3996" class="phone-link">📞 +1 828-684-3996</a>
+            <div class="badges"><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (136.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/mocksville/eco-diesel-dynamics-%28by-appt.-only%29/">ECO Diesel Dynamics (By Appt. Only)</a></h3>
+            <p><strong>Mocksville, NC</strong></p>
+            <a href="tel:+1 704-999-5509" class="phone-link">📞 +1 704-999-5509</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (19.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/mocksville/mid-carolina-diesel/">Mid Carolina Diesel</a></h3>
+            <p><strong>Mocksville, NC</strong></p>
+            <a href="tel:+1 336-753-1832" class="phone-link">📞 +1 336-753-1832</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (14.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/mocksville/ta-travel-center/">TA Travel Center</a></h3>
+            <p><strong>Mocksville, NC</strong></p>
+            <a href="tel:+1 336-751-3815" class="phone-link">📞 +1 336-751-3815</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.0 (1285.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/a-%26-j-automotive/">A & J Automotive</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-230-0933" class="phone-link">📞 +1 919-230-0933</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (503.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/atlantic-auto-and-diesel-llc/">Atlantic Auto and Diesel LLC</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-815-0432" class="phone-link">📞 +1 919-815-0432</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (29.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/barbour%27s-towing-%26-truck-repair/">Barbour's Towing & Truck Repair</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-790-3827" class="phone-link">📞 +1 919-790-3827</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (1095.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/benchmark-autoworks/">Benchmark Autoworks</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-664-8009" class="phone-link">📞 +1 919-664-8009</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (196.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/black%27s-tire-%26-auto-service/">Black's Tire & Auto Service</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-872-8800" class="phone-link">📞 +1 919-872-8800</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (905.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/brisbon-automotive/">Brisbon Automotive</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 984-209-4595" class="phone-link">📞 +1 984-209-4595</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (30.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/choice-auto-repair/">Choice Auto Repair</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-233-0033" class="phone-link">📞 +1 919-233-0033</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (514.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/classic-collision/">Classic Collision</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-250-9422" class="phone-link">📞 +1 919-250-9422</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (210.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/duty-tire-%26-service-center/">Duty Tire & Service Center</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-772-6100" class="phone-link">📞 +1 919-772-6100</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (223.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/east-coast-fleet-service/">East Coast Fleet Service</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-344-0683" class="phone-link">📞 +1 919-344-0683</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (45.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/east-coast-towing/">East Coast Towing</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-858-2715" class="phone-link">📞 +1 919-858-2715</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (1607.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/epic-auto-center/">Epic Auto Center</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-876-3533" class="phone-link">📞 +1 919-876-3533</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (261.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/firestone-complete-auto-care/">Firestone Complete Auto Care</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-805-3461" class="phone-link">📞 +1 919-805-3461</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.0 (502.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/gower%27s-brake-%26-alignment/">Gower's Brake & Alignment</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-834-5909" class="phone-link">📞 +1 919-834-5909</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (310.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/hrt-performance/">HRT Performance</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-833-8671" class="phone-link">📞 +1 919-833-8671</a>
+            <div class="badges"><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (6.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/jay%27s-heavy-duty-repair-and-towing/">Jay's Heavy Duty Repair and Towing</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-977-0897" class="phone-link">📞 +1 919-977-0897</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (20.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/joseph-motors-inc/">Joseph Motors Inc</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-661-2886" class="phone-link">📞 +1 919-661-2886</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (64.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-872-4442" class="phone-link">📞 +1 919-872-4442</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (358.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-329-7324" class="phone-link">📞 +1 919-329-7324</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (248.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/mj-brothers-auto-%26-truck-repair/">MJ Brothers Auto & Truck Repair</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-521-5101" class="phone-link">📞 +1 919-521-5101</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (166.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/marvel-auto-transport/">Marvel Auto Transport</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 833-627-8351" class="phone-link">📞 +1 833-627-8351</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (725.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/mechanics-to-go/">Mechanics To Go</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-744-4147" class="phone-link">📞 +1 919-744-4147</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (73.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/messer-transmission-inc/">Messer Transmission Inc</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-834-2612" class="phone-link">📞 +1 919-834-2612</a>
+            <div class="badges"><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (55.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/mobile-diesel-inc/">Mobile Diesel Inc</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-335-4800" class="phone-link">📞 +1 919-335-4800</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐  ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/mobile-mechanic/">Mobile Mechanic</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-514-3208" class="phone-link">📞 +1 919-514-3208</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (2.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/motor-rite/">Motor Rite</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-625-3667" class="phone-link">📞 +1 919-625-3667</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (6.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/murrays-tire/">Murrays Tire</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-821-0573" class="phone-link">📞 +1 919-821-0573</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (2369.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/nick%27s-towing-%26-roadside-%28%28-we-buy-cars-running-or-not-%29%29/">Nick's Towing & roadside (( we buy cars running or not ))</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-771-6701" class="phone-link">📞 +1 919-771-6701</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (1111.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/prime-time-mobile-detailing/">Prime Time Mobile Detailing</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-436-0143" class="phone-link">📞 +1 919-436-0143</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (552.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/ra-hitch-%26-truck-outfitters/">RA Hitch & Truck Outfitters</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-267-9595" class="phone-link">📞 +1 919-267-9595</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (273.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/raleigh-super-mobile-truck-repair/">Raleigh Super Mobile Truck Repair</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-343-9538" class="phone-link">📞 +1 919-343-9538</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (1.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/red-rover-service/">Red Rover Service</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 336-499-1996" class="phone-link">📞 +1 336-499-1996</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (8.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/relentless-collision/">Relentless Collision</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-747-9165" class="phone-link">📞 +1 919-747-9165</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (198.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/russ%E2%80%99-trailer-repair--raleigh/">Russ’ Trailer Repair -Raleigh</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 910-919-1736" class="phone-link">📞 +1 910-919-1736</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.7 (3.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/the-one-stop-shop/">The One Stop Shop</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 704-606-3846" class="phone-link">📞 +1 704-606-3846</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (31.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/top-gear-tow-truck-service/">Top Gear Tow Truck Service</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 984-254-3658" class="phone-link">📞 +1 984-254-3658</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.0 (19.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/trailer-hitches-at-u-haul/">Trailer Hitches at U-Haul</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-821-1450" class="phone-link">📞 +1 919-821-1450</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 1.0 (1.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/trailer-rental-at-u-haul/">Trailer Rental at U-Haul</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-876-3001" class="phone-link">📞 +1 919-876-3001</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (2.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/trailer-rental-at-u-haul/">Trailer Rental at U-Haul</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-890-0163" class="phone-link">📞 +1 919-890-0163</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (4.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/transource-truck-%26-trailer-centers/">TranSource Truck & Trailer Centers</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-782-8785" class="phone-link">📞 +1 919-782-8785</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.8 (137.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/triangle-european/">Triangle European</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-582-7699" class="phone-link">📞 +1 919-582-7699</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (141.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/triangle-fleet-services/">Triangle Fleet Services</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-659-5497" class="phone-link">📞 +1 919-659-5497</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (304.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/velocity-truck-centers/">Velocity Truck Centers</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-231-2900" class="phone-link">📞 +1 919-231-2900</a>
+            <div class="badges"><span class="badge ">Cooling</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.7 (314.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/raleigh/xpress-auto-transport/">Xpress Auto Transport</a></h3>
+            <p><strong>Raleigh, NC</strong></p>
+            <a href="tel:+1 919-887-6515" class="phone-link">📞 +1 919-887-6515</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Trailer</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/rocky-point/transource-trucks--wilmington/">TranSource Trucks- Wilmington</a></h3>
+            <p><strong>Rocky Point, NC</strong></p>
+            <a href="tel:+1 888-494-6336" class="phone-link">📞 +1 888-494-6336</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (93.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/rural-hall/rvrx-mobile-rv-repair-llc/">RVRX Mobile RV Repair LLC</a></h3>
+            <p><strong>Rural Hall, NC</strong></p>
+            <a href="tel:+1 336-692-5984" class="phone-link">📞 +1 336-692-5984</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (93.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/salisbury/salisbury-truck-%26-trailer-repair/">Salisbury Truck & Trailer Repair</a></h3>
+            <p><strong>Salisbury, NC</strong></p>
+            <a href="tel:+1 704-223-5808" class="phone-link">📞 +1 704-223-5808</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (41.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/smithfield/nc-truck-and-diesel/">NC Truck And Diesel</a></h3>
+            <p><strong>Smithfield, NC</strong></p>
+            <a href="tel:+1 919-934-9345" class="phone-link">📞 +1 919-934-9345</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Tire</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (166.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/auto-equipment-inc/">Auto Equipment Inc</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-872-4116" class="phone-link">📞 +1 704-872-4116</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (44.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/carolina-industrial-trucks---statesville%2C-nc/">Carolina Industrial Trucks - Statesville, NC</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-924-8523" class="phone-link">📞 +1 704-924-8523</a>
+            <div class="badges"><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.0 (4.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/deaton-truck-%26-tire-service%2C-inc/">Deaton Truck & Tire Service, Inc</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 877-332-8660" class="phone-link">📞 +1 877-332-8660</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (3.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/excel-truck-group---statesville/">Excel Truck Group - Statesville</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-252-5400" class="phone-link">📞 +1 704-252-5400</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (395.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/gallaher-fleet-solutions/">Gallaher Fleet Solutions</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-960-8951" class="phone-link">📞 +1 704-960-8951</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (170.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/holland-transfer-co/">Holland Transfer Co</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-872-4269" class="phone-link">📞 +1 704-872-4269</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.9 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/holland-truck-%26-trailer-repair-llc/">Holland Truck & Trailer Repair LLC</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-768-2961" class="phone-link">📞 +1 704-768-2961</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (29.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 336-515-9740" class="phone-link">📞 +1 336-515-9740</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (109.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/mobile-auto-repair/">Mobile Auto Repair</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 888-608-6324" class="phone-link">📞 +1 888-608-6324</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (76.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/mobile-mechanic-of-statesville/">Mobile Mechanic of Statesville</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 888-391-6324" class="phone-link">📞 +1 888-391-6324</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (11.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/parrish-truck-tire-center/">Parrish Truck Tire Center</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-872-6565" class="phone-link">📞 +1 704-872-6565</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (167.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/statesville/we-do-diesels-plus/">We Do Diesels Plus</a></h3>
+            <p><strong>Statesville, NC</strong></p>
+            <a href="tel:+1 704-546-2525" class="phone-link">📞 +1 704-546-2525</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (22.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/stokesdale/oliver-diesel-%26-auto-repair/">Oliver Diesel & Auto Repair</a></h3>
+            <p><strong>Stokesdale, NC</strong></p>
+            <a href="tel:+1 336-644-9200" class="phone-link">📞 +1 336-644-9200</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Cooling</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/swannanoa/ace-roadside-service/">ACE ROADSIDE SERVICE</a></h3>
+            <p><strong>Swannanoa, NC</strong></p>
+            <a href="tel:+1 828-606-5978" class="phone-link">📞 +1 828-606-5978</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (71.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/swannanoa/valley-truck-service/">Valley Truck Service</a></h3>
+            <p><strong>Swannanoa, NC</strong></p>
+            <a href="tel:+1 828-686-7003" class="phone-link">📞 +1 828-686-7003</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (70.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/thomasville/nc-trailers/">NC Trailers</a></h3>
+            <p><strong>Thomasville, NC</strong></p>
+            <a href="tel:+1 336-475-5054" class="phone-link">📞 +1 336-475-5054</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (1643.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/thomasville/pure-diesel-repair%2C-inc./">Pure Diesel Repair, Inc.</a></h3>
+            <p><strong>Thomasville, NC</strong></p>
+            <a href="tel:+1 336-448-0324" class="phone-link">📞 +1 336-448-0324</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">RV</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (68.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/thomasville/thomasville-diesel-truck-service/">Thomasville Diesel Truck Service</a></h3>
+            <p><strong>Thomasville, NC</strong></p>
+            <a href="tel:+1 336-889-5388" class="phone-link">📞 +1 336-889-5388</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (78.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/whitsett/ta-truck-service/">TA Truck Service</a></h3>
+            <p><strong>Whitsett, NC</strong></p>
+            <a href="tel:+1 336-449-6060" class="phone-link">📞 +1 336-449-6060</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.9 (747.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/willow-spring/trailer-labs/">Trailer Labs</a></h3>
+            <p><strong>Willow Spring, NC</strong></p>
+            <a href="tel:+1 919-628-8569" class="phone-link">📞 +1 919-628-8569</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (78.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/advanced-automotive-%26-rv/">Advanced Automotive & RV</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-452-4661" class="phone-link">📞 +1 910-452-4661</a>
+            <div class="badges"><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (67.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/advanced-maintenance/">Advanced Maintenance</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 888-452-9206" class="phone-link">📞 +1 888-452-9206</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.2 (25.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/all-motors-automotive/">All Motors Automotive</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-769-0476" class="phone-link">📞 +1 910-769-0476</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (140.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/clarke-power-services%2C-inc./">Clarke Power Services, Inc.</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-392-7220" class="phone-link">📞 +1 910-392-7220</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (26.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/demann-marine-power/">DeMann Marine Power</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-791-6222" class="phone-link">📞 +1 910-791-6222</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (14.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/east-coast-autos-and-trailers/">East Coast Autos and Trailers</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-762-4555" class="phone-link">📞 +1 910-762-4555</a>
+            <div class="badges"><span class="badge ">Reefer</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (184.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/fleetpride/">FleetPride</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-762-8761" class="phone-link">📞 +1 910-762-8761</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (44.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/howard-rv-center/">Howard RV Center</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-791-5371" class="phone-link">📞 +1 910-791-5371</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (248.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/howard-rv-center---service-dept./">Howard RV Center - Service Dept.</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-792-6911" class="phone-link">📞 +1 910-792-6911</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (5.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/jbe-marine/">JBE Marine</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-371-8528" class="phone-link">📞 +1 910-371-8528</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (3.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/kennedy-automotive-services/">Kennedy Automotive Services</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-799-4441" class="phone-link">📞 +1 910-799-4441</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (349.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/labriola%27s-automotive/">Labriola's Automotive</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-297-2590" class="phone-link">📞 +1 910-297-2590</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (476.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-392-4921" class="phone-link">📞 +1 910-392-4921</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (314.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/mccarthy-tire-service/">McCarthy Tire Service</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-791-0132" class="phone-link">📞 +1 910-791-0132</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (41.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/mobiletech/">MobileTech</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-769-9122" class="phone-link">📞 +1 910-769-9122</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (379.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/mobiletech/">MobileTech</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-250-4060" class="phone-link">📞 +1 910-250-4060</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (382.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/mud-dog-trailers/">Mud Dog Trailers</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-759-6222" class="phone-link">📞 +1 910-759-6222</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (20.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/performance-parts-plus/">PERFORMANCE PARTS PLUS</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-518-5337" class="phone-link">📞 +1 910-518-5337</a>
+            
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (18.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/picone-automotive/">Picone Automotive</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-815-0029" class="phone-link">📞 +1 910-815-0029</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (57.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/pinnacle-trailer-sales-inc/">Pinnacle Trailer Sales Inc</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-342-0445" class="phone-link">📞 +1 910-342-0445</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (53.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/port-diesel/">Port Diesel</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-274-5577" class="phone-link">📞 +1 910-274-5577</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (15.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/specialized-mechanical-services%2C-inc/">Specialized Mechanical Services, Inc</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-620-3212" class="phone-link">📞 +1 910-620-3212</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (21.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/the-car-guys---wilmington%2C-nc---auto-repair/">The Car Guys - Wilmington, NC - Auto Repair</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-399-8042" class="phone-link">📞 +1 910-399-8042</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (443.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/velocity-truck-centers/">Velocity Truck Centers</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-763-6281" class="phone-link">📞 +1 910-763-6281</a>
+            <div class="badges"><span class="badge ">Trailer</span><span class="badge ">RV</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.1 (14.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/wilmington-tank-%26-trailer/">Wilmington Tank & Trailer</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-763-2286" class="phone-link">📞 +1 910-763-2286</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (3.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/wilmington/wilmington-truck-repair/">Wilmington Truck Repair</a></h3>
+            <p><strong>Wilmington, NC</strong></p>
+            <a href="tel:+1 910-586-3286" class="phone-link">📞 +1 910-586-3286</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.0 (2.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/ac-auto/">AC Auto</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-717-4808" class="phone-link">📞 +1 336-717-4808</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (995.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/bryant%27s-truck-%26-trailer-rpr/">Bryant's Truck & Trailer Rpr</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-661-0702" class="phone-link">📞 +1 336-661-0702</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (63.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/car-tow-dolly-inc./">Car Tow Dolly Inc.</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-996-4396" class="phone-link">📞 +1 336-996-4396</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">RV</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.5 (326.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/carolina-auto-service/">Carolina Auto Service</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-765-8599" class="phone-link">📞 +1 336-765-8599</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (257.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/cottman-transmission-and-total-auto-care/">Cottman Transmission and Total Auto Care</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-901-9060" class="phone-link">📞 +1 336-901-9060</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.3 (377.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/devil-dog-diesel-and-automotive-repair/">Devil Dog Diesel and Automotive Repair</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-995-5711" class="phone-link">📞 +1 336-995-5711</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (1.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/elite-fleet-services%2C-llc/">Elite Fleet Services, LLC</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-934-3030" class="phone-link">📞 +1 336-934-3030</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (4.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/flow-buick-gmc-of-winston-salem---service/">Flow Buick GMC of Winston-Salem - Service</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-790-0621" class="phone-link">📞 +1 336-790-0621</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.2 (24.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/flow-chevrolet-of-winston-salem---service/">Flow Chevrolet of Winston Salem - Service</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-760-7000" class="phone-link">📞 +1 336-760-7000</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (67.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/goodyear-commercial-tire-%26-service-centers/">Goodyear Commercial Tire & Service Centers</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-748-9128" class="phone-link">📞 +1 336-748-9128</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.4 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/gordon%27s-radiator-%26-a%2Fc-service/">Gordon's Radiator & A/C Service</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-788-9039" class="phone-link">📞 +1 336-788-9039</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Brakes</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.7 (96.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/j-medic-auto-repair/">J Medic Auto Repair</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-744-4444" class="phone-link">📞 +1 336-744-4444</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (544.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/jackson-auto-worx/">Jackson Auto Worx</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-753-5570" class="phone-link">📞 +1 336-753-5570</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (288.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/leonard-truck-outfitters/">Leonard Truck Outfitters</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-725-4787" class="phone-link">📞 +1 336-725-4787</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (266.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/mobile-mechanic-winston-salem/">Mobile Mechanic Winston Salem</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-439-3784" class="phone-link">📞 +1 336-439-3784</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">RV</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 3.1 (18.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/nc-trailers-of-winston-salem/">NC Trailers of Winston-Salem</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-499-9888" class="phone-link">📞 +1 336-499-9888</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (140.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/northwest-motorworks/">Northwest Motorworks</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-448-0042" class="phone-link">📞 +1 336-448-0042</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (249.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/parrish-truck-tire-center/">Parrish Truck Tire Center</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-661-1392" class="phone-link">📞 +1 336-661-1392</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Tire</span><span class="badge ">Trailer</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (110.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/rattle-%26-hum-automotive/">Rattle & Hum Automotive</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-293-7312" class="phone-link">📞 +1 336-293-7312</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (319.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/tito%E2%80%99s-car-care-center/">Tito’s Car Care Center</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-986-9736" class="phone-link">📞 +1 336-986-9736</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (261.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/trailer-rental-at-u-haul/">Trailer Rental at U-Haul</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-724-6951" class="phone-link">📞 +1 336-724-6951</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 5.0 (4.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/triangle-body-works-of-the-piedmont-llc/">Triangle Body Works of the Piedmont LLC</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-788-0631" class="phone-link">📞 +1 336-788-0631</a>
+            <div class="badges"><span class="badge ">Tire</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (13.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/triangle-campers-inc/">Triangle Campers Inc</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-748-9438" class="phone-link">📞 +1 336-748-9438</a>
+            <div class="badges"><span class="badge ">Trailer</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.9 (47.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/webber-off-road-%26-diesel-performance/">Webber Off-Road & Diesel Performance</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-448-2256" class="phone-link">📞 +1 336-448-2256</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.8 (199.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/winston-salem-onsite-truck-repair/">Winston-Salem OnSite Truck Repair</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-891-3087" class="phone-link">📞 +1 336-891-3087</a>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Tire</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐  ( reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/winston-salem/worldwide-auto-body-2-marine%2C-rv-and-heavy-commercial/">Worldwide Auto Body 2 Marine, RV and Heavy Commercial</a></h3>
+            <p><strong>Winston-Salem, NC</strong></p>
+            <a href="tel:+1 336-992-5678" class="phone-link">📞 +1 336-992-5678</a>
+            <div class="badges"><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Trailer</span><span class="badge ">RV</span><span class="badge ">Electrical</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (107.0 reviews)
+            </p>
+        </div>
+
+        <div class="shop-card">
+            <h3><a href="/shop/NC/youngsville/ncb-diesel-and-offroad/">NCB Diesel and Offroad</a></h3>
+            <p><strong>Youngsville, NC</strong></p>
+            <a href="tel:+1 919-665-1600" class="phone-link">📞 +1 919-665-1600</a>
+            <div class="badges"><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span></div>
+            <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                ⭐ 4.6 (153.0 reviews)
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Big Rig Rescue. 24/7 Emergency Truck Repair & Roadside Service.
+        <br><a href="/sitemap.xml">Sitemap</a> | <a href="/">Home</a></p>
+    </footer>
+</body>
+</html>

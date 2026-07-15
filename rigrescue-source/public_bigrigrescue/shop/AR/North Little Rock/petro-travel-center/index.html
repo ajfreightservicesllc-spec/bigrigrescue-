@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petro Travel Center - North Little Rock, AR | Big Rig Rescue</title>
+    <meta name="description" content="24/7 Emergency Truck Repair Along Interstate 40. Roadside Towing, Diesel Engine Repair, Reefer Service, Mobile Mechanics - Fast Response.">
+    <meta name="theme-color" content="#ff2020">
+    <link rel="canonical" href="https://bigrigrescue.co/shop/AR/north-little-rock/petro-travel-center/">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { 
+            font-family: 'Arial', 'Helvetica Neue', sans-serif; 
+            line-height: 1.6; 
+            color: #222; 
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+        }
+        a { color: #ff2020; text-decoration: none; transition: all 0.3s; }
+        a:hover { text-decoration: underline; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        
+        /* ANIMATIONS */
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 20px rgba(255, 32, 32, 0.6); }
+            50% { box-shadow: 0 0 40px rgba(255, 32, 32, 0.9); }
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes flash {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        /* HEADER */
+        header { 
+            background: linear-gradient(135deg, #ff2020 0%, #cc0000 50%, #990000 100%);
+            color: white; 
+            padding: 25px 0;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+            position: relative;
+            overflow: hidden;
+            animation: slideDown 0.8s ease;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(255,255,255,0.2), transparent);
+            border-radius: 50%;
+            animation: pulse 4s infinite;
+        }
+        header::after {
+            content: '⚙️';
+            position: absolute;
+            font-size: 200px;
+            right: -50px;
+            top: -50px;
+            opacity: 0.08;
+            animation: pulse 3s infinite;
+        }
+        header .container { position: relative; z-index: 1; }
+        header h1 { 
+            font-size: 52px; 
+            margin-bottom: 8px; 
+            font-weight: 900;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+            letter-spacing: -1px;
+        }
+        header .tagline {
+            font-size: 14px;
+            color: #ffff00;
+            font-weight: 900;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        header p { 
+            font-size: 18px; 
+            opacity: 0.95; 
+            font-weight: 600;
+            max-width: 600px;
+        }
+        
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(135deg, #ff2020 0%, #ff4040 50%, #ffaa00 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255,255,255,0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        .hero .container { position: relative; z-index: 1; }
+        .hero h2 {
+            font-size: 56px;
+            margin-bottom: 15px;
+            font-weight: 900;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+            animation: pulse 2s infinite;
+            letter-spacing: -2px;
+        }
+        .hero .highlight {
+            color: #ffff00;
+            font-weight: 900;
+            display: block;
+            font-size: 64px;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+        }
+        .hero p {
+            font-size: 22px;
+            margin: 20px 0;
+            opacity: 0.95;
+            font-weight: 700;
+        }
+        .hero .emergency-badge {
+            display: inline-block;
+            background: rgba(0,0,0,0.3);
+            border: 3px solid #ffff00;
+            color: #ffff00;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 16px;
+            margin-top: 15px;
+            animation: glow 2s infinite;
+        }
+        
+        .stat-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            margin-top: 40px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .stat-box {
+            background: rgba(0,0,0,0.25);
+            padding: 25px;
+            border-radius: 12px;
+            border: 3px solid rgba(255,255,255,0.3);
+            transition: all 0.3s;
+            animation: slideDown 0.8s ease-out backwards;
+        }
+        .stat-box:nth-child(1) { animation-delay: 0.1s; }
+        .stat-box:nth-child(2) { animation-delay: 0.2s; }
+        .stat-box:nth-child(3) { animation-delay: 0.3s; }
+        .stat-box:nth-child(4) { animation-delay: 0.4s; }
+        .stat-box:hover {
+            background: rgba(0,0,0,0.4);
+            transform: scale(1.08);
+        }
+        .stat-box .number {
+            font-size: 36px;
+            font-weight: 900;
+            color: #ffff00;
+        }
+        .stat-box .label {
+            font-size: 13px;
+            opacity: 0.9;
+            margin-top: 8px;
+            font-weight: 700;
+        }
+        
+        h2 { font-size: 38px; margin: 50px 0 30px 0; color: #333; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; }
+        h3 { font-size: 22px; margin: 20px 0 15px 0; font-weight: bold; }
+        
+        /* BREADCRUMB */
+        .breadcrumb { font-size: 13px; margin: 15px 0; color: #666; }
+        .breadcrumb a { color: #ff2020; font-weight: 700; }
+        
+        /* SEARCH FILTER */
+        .search-filter { 
+            background: white; 
+            padding: 35px; 
+            margin-bottom: 50px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            border-left: 6px solid #ff2020;
+        }
+        .search-filter h2 { margin-top: 0; }
+        .search-filter label { 
+            display: block; 
+            margin: 15px 0 8px 0; 
+            font-weight: bold; 
+            font-size: 15px;
+            color: #333;
+        }
+        .search-filter select, .search-filter input { 
+            width: 100%; 
+            padding: 12px; 
+            margin-bottom: 15px; 
+            border: 2px solid #ddd; 
+            border-radius: 8px; 
+            font-size: 14px;
+        }
+        .search-filter select:focus, .search-filter input:focus {
+            outline: none;
+            border-color: #ff2020;
+            box-shadow: 0 0 8px rgba(255,32,32,0.4);
+        }
+        
+        /* BUTTONS */
+        .button { 
+            display: inline-block; 
+            background: linear-gradient(135deg, #ff2020, #cc0000);
+            color: white; 
+            padding: 14px 32px; 
+            border: none; 
+            border-radius: 8px; 
+            cursor: pointer; 
+            font-size: 16px; 
+            text-decoration: none;
+            font-weight: 900;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(255,32,32,0.4);
+        }
+        .button:hover { 
+            background: linear-gradient(135deg, #ff4040, #dd0000);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255,32,32,0.6);
+            text-decoration: none;
+        }
+        
+        /* SHOP CARDS */
+        .shop-card { 
+            border: none;
+            padding: 28px; 
+            margin-bottom: 20px; 
+            border-radius: 12px; 
+            background: white;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+            border-left: 5px solid #ff2020;
+        }
+        .shop-card:hover {
+            box-shadow: 0 12px 35px rgba(0,0,0,0.2);
+            transform: translateY(-5px);
+        }
+        .shop-card h3 { 
+            margin: 0 0 10px 0; 
+            color: #333;
+        }
+        .shop-card h3 a {
+            color: #ff2020;
+            font-weight: 900;
+        }
+        .shop-card h3 a:hover {
+            color: #cc0000;
+            text-decoration: underline;
+        }
+        .shop-card p { margin: 8px 0; color: #666; }
+        
+        .shop-card a.phone-link { 
+            display: inline-block; 
+            background: linear-gradient(135deg, #ff2020, #cc0000);
+            color: white; 
+            padding: 16px 28px; 
+            border-radius: 8px; 
+            font-size: 18px; 
+            font-weight: 900; 
+            margin: 15px 0; 
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(255,32,32,0.4);
+            transition: all 0.3s;
+        }
+        .shop-card a.phone-link:hover { 
+            background: linear-gradient(135deg, #ff4040, #dd0000);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255,32,32,0.6);
+            text-decoration: none;
+        }
+        
+        /* BADGES */
+        .badges { margin: 15px 0; }
+        .badge { 
+            display: inline-block; 
+            background: #f0f0f0; 
+            color: #333; 
+            padding: 8px 16px; 
+            margin: 6px 8px 6px 0; 
+            border-radius: 25px; 
+            font-size: 13px; 
+            font-weight: 800;
+            border: 2px solid #ddd;
+            transition: all 0.3s;
+        }
+        .badge:hover {
+            transform: scale(1.1);
+        }
+        .badge.highlight { 
+            background: linear-gradient(135deg, #ff2020, #ff4040);
+            color: white; 
+            border: none;
+            font-weight: 900;
+            animation: glow 2s infinite;
+        }
+        
+        /* RATING */
+        .rating { 
+            color: #ff9800; 
+            margin: 10px 0;
+            font-weight: 900;
+            font-size: 15px;
+        }
+        
+        /* GRID */
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        /* SERVICE LINKS */
+        .service-link { 
+            display: inline-block; 
+            padding: 16px 20px; 
+            background: white; 
+            border: 3px solid #ff2020;
+            border-radius: 10px; 
+            margin: 10px 10px 10px 0; 
+            text-decoration: none; 
+            color: #ff2020; 
+            font-weight: 900;
+            font-size: 15px;
+            transition: all 0.3s;
+        }
+        .service-link:hover { 
+            background: #ff2020;
+            color: white;
+            text-decoration: none;
+            transform: scale(1.08);
+        }
+        .service-link small {
+            display: block;
+            font-size: 12px;
+            opacity: 0.8;
+            margin-top: 4px;
+            font-weight: bold;
+        }
+        
+        /* FOOTER */
+        footer { 
+            background: #1a1a1a; 
+            color: white;
+            padding: 40px; 
+            margin-top: 80px; 
+            text-align: center; 
+            font-size: 13px;
+            border-top: 5px solid #ff2020;
+        }
+        footer a { color: #ff2020; font-weight: 900; }
+        
+        /* BIG CALL BUTTON */
+        .big-call-button {
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, #ff2020, #cc0000);
+            color: white;
+            padding: 35px 20px;
+            border: none;
+            border-radius: 12px;
+            font-size: 32px;
+            font-weight: 900;
+            margin: 30px 0;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(255,32,32,0.5);
+            transition: all 0.3s;
+            cursor: pointer;
+            animation: glow 2s infinite;
+        }
+        .big-call-button:hover {
+            background: linear-gradient(135deg, #ff4040, #dd0000);
+            transform: scale(1.05);
+            box-shadow: 0 12px 40px rgba(255,32,32,0.7);
+            text-decoration: none;
+        }
+        
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            header h1 { font-size: 40px; }
+            .hero h2 { font-size: 42px; }
+            .hero .highlight { font-size: 48px; }
+            .grid { grid-template-columns: 1fr; }
+            .stat-boxes { grid-template-columns: repeat(2, 1fr); }
+            h2 { font-size: 28px; }
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 32px; }
+            header p { font-size: 14px; }
+            .hero h2 { font-size: 32px; }
+            .hero .highlight { font-size: 38px; }
+            .hero p { font-size: 16px; }
+            .container { padding: 15px; }
+            .grid { grid-template-columns: 1fr; }
+            .big-call-button { font-size: 26px; padding: 25px 15px; }
+            h2 { font-size: 22px; }
+            .stat-boxes { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="tagline">🚛 TRUCK & RV EMERGENCY REPAIR 🚐</div>
+            <h1>🚛 BIG RIG RESCUE</h1>
+            <p>24/7 EMERGENCY TRUCK REPAIR ALONG I-40</p>
+        </div>
+    </header>
+
+        <div class="breadcrumb">
+            <a href="/">Home</a> / <a href="/state/AR/">Arkansas</a> / <a href="/city/AR/north-little-rock/">North Little Rock</a> / Petro Travel Center
+        </div>
+        
+        <h2>Petro Travel Center</h2>
+        
+        <a href="tel:+1 501-945-3206" class="big-call-button">
+            📞 CALL NOW: +1 501-945-3206
+        </a>
+        
+        <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+        
+        <div class="shop-card" style="margin-top: 20px;">
+            <h3>📍 ADDRESS</h3>
+            <p><strong>3205 Valentine Rd Exit 161, North Little Rock, AR 72117</strong></p>
+            <a href="https://www.google.com/maps/search/3205%20Valentine%20Rd%20Exit%20161%2C%20North%20Little%20Rock%2C%20AR%2072117" target="_blank" class="button">📍 OPEN IN GOOGLE MAPS</a>
+            
+            <h3 style="margin-top: 20px;">🕐 HOURS</h3>
+            <p>Friday: ['Open 24 hours']; Monday: ['Open 24 hours']; Saturday: ['Open 24 hours']; Sunday: ['Open 24 hours']; Thursday: ['Open 24 hours']; Tuesday: ['Open 24 hours']; Wednesday: ['Open 24 hours']</p>
+            
+            <h3 style="margin-top: 20px;">⭐ RATING</h3>
+            <p class="rating">⭐ 2.7 / 5.0 (1142.0 reviews)</p>
+            
+            <h3 style="margin-top: 20px;">🔧 SERVICES</h3>
+            <div class="badges"><span class="badge highlight">Roadside</span><span class="badge highlight">24/7</span><span class="badge ">Engine</span><span class="badge ">Cooling</span><span class="badge ">Tire</span><span class="badge ">Reefer</span><span class="badge ">Trailer</span><span class="badge ">Brakes</span><span class="badge ">Electrical</span></div>
+            
+            <h3 style="margin-top: 20px;">🌐 WEBSITE</h3><p><a href="https://www.ta-petro.com/location/ar/petro-north-little-rock" target="_blank">https://www.ta-petro.com/location/ar/petro-north-little-rock</a></p>
+        </div>
+        
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Petro Travel Center",
+  "telephone": "+1 501-945-3206",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3205 Valentine Rd Exit 161",
+    "addressLocality": "North Little Rock",
+    "addressRegion": "AR",
+    "postalCode": "72117",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.780952,
+    "longitude": -92.12977219999999
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "2.7",
+    "reviewCount": 1142
+  }
+}
+        </script>
+    </div>
+    <footer>
+        <p>&copy; 2024 Big Rig Rescue. 24/7 Emergency Truck Repair & Roadside Service.
+        <br><a href="/sitemap.xml">Sitemap</a> | <a href="/">Home</a></p>
+    </footer>
+</body>
+</html>

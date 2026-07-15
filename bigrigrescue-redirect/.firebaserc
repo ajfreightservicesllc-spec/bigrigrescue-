@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "default": "aiansweragency-main"
+  },
+  "targets": {
+    "aiansweragency-main": {
+      "hosting": {
+        "bigrigrescue": ["bigrigrescue"]
+      }
+    }
+  }
+}

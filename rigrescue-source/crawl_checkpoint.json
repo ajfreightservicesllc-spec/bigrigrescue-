@@ -1,0 +1,4653 @@
+{
+  "total_shops": 664,
+  "shops_to_crawl": [
+    {
+      "name": "Bellemont Truck Repair and Towing",
+      "phone": "+1 928-214-0700",
+      "website": "http://www.bellemonttruckrepair.com/",
+      "city": "Bellemont",
+      "state": "AZ"
+    },
+    {
+      "name": "RV Country ( Flagstaff )",
+      "phone": "+1 928-526-6771",
+      "website": "https://rvcountry.com/contact/locations/flagstaff/",
+      "city": "Bellemont",
+      "state": "AZ"
+    },
+    {
+      "name": "Vanguard Truck Centers",
+      "phone": "+1 928-310-8584",
+      "website": "https://vanguardtrucks.com/location/arizona/flagstaff/",
+      "city": "Bellemont",
+      "state": "AZ"
+    },
+    {
+      "name": "Elite Diesel and Fleet Copper Canyon",
+      "phone": "+1 928-777-9777",
+      "website": "https://elitedieselandfleet.com/",
+      "city": "Camp Verde",
+      "state": "AZ"
+    },
+    {
+      "name": "Accu-Brake Flagstaff 4X4",
+      "phone": "+1 928-527-0270",
+      "website": "http://www.flagstaff4x4.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "American Trailer Company",
+      "phone": "+1 928-440-4742",
+      "website": "http://www.americantraileraz.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Coconino Motors Napa AutoCare Center Auto & Light Truck Repair",
+      "phone": "+1 928-774-4408",
+      "website": "http://coconinomotors.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Complete Car Care",
+      "phone": "+1 928-526-1026",
+      "website": "https://completecarcareflagstaff.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Flag Tool Equipment Repair",
+      "phone": "+1 928-773-9185",
+      "website": "http://flagtoolequipmentrepair.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Flag Truck Center",
+      "phone": "+1 928-714-9062",
+      "website": "http://www.flagtruckcenter.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Flagstaff Mobile Mechanic LLC",
+      "phone": "+1 928-856-9315",
+      "website": "https://flagstafftransmission.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Flagstaff Transmission Specialist",
+      "phone": "+1 928-774-2220",
+      "website": "https://flagstafftransmission.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Heath's Auto Service - Flagstaff",
+      "phone": "+1 928-223-5755",
+      "website": "https://heathsauto.com/locations/flagstaff/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "J.E.T.T. Towing - Heavy Duty, Off-Road Recovery & Semi-Truck Repair",
+      "phone": "+1 928-714-0354",
+      "website": "http://www.jetttowing.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "K&A Truck Services",
+      "phone": "+1 928-600-1085",
+      "website": "https://sites.google.com/view/ka-truck-services/home",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Little America Travel Center",
+      "phone": "+1 928-779-7942",
+      "website": "https://flagstaff.littleamerica.com/travel-center/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Murphys Heavy Towing, Off-Road Recovery & Semi Truck Repair",
+      "phone": "+1 928-853-5202",
+      "website": "https://mtaz.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Northern Arizona Towing & Off Road Recovery, LLC",
+      "phone": "+1 928-266-5420",
+      "website": "https://flagstafftransmission.com/services/towing",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Profab Mobile Welding L.L.C. az roc#337171",
+      "phone": "+1 928-853-1980",
+      "website": "http://www.profabmobilewelding.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Randy's Downtown Garage",
+      "phone": "+1 928-774-1006",
+      "website": "https://www.randysdowntowngarage.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Rush Truck Centers - Flagstaff",
+      "phone": "+1 928-679-2900",
+      "website": "https://www.rushtruckcenters.com/locations/15040000-flagstaff%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb-flagstaff-main",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Ryder",
+      "phone": "+1 928-774-3915",
+      "website": "https://ryder.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "TAG Automotive Repair",
+      "phone": "+1 928-779-0658",
+      "website": "https://tagautomotive.net/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Trailer Hitches at U-Haul",
+      "phone": "+1 928-779-5101",
+      "website": "https://www.uhaul.com/Locations/Trailer-Hitches-near-Flagstaff-AZ-86004/937023/%3Futm_source%3Dgmb%26utm_medium%3Dhitch%26utm_campaign%3Duhaulsmlm%26utm_content%3D937023",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "University Auto Repair",
+      "phone": "+1 928-707-8596",
+      "website": "https://universityautoflagstaff.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "Velocity Truck Centers",
+      "phone": "+1 928-522-0400",
+      "website": "https://www.velocitytruckcenters.com/",
+      "city": "Flagstaff",
+      "state": "AZ"
+    },
+    {
+      "name": "BP truck Repair",
+      "phone": "+1 347-925-7135",
+      "website": "https://bptruckrepairaz.com/",
+      "city": "Holbrook",
+      "state": "AZ"
+    },
+    {
+      "name": "Carquest Auto Parts - HOLBROOK TRUCK & AUTO PARTS",
+      "phone": "+1 928-524-6868",
+      "website": "https://www.carquest.com/locations/az/holbrook/6871/",
+      "city": "Holbrook",
+      "state": "AZ"
+    },
+    {
+      "name": "Future Tire and Automotive",
+      "phone": "+1 928-365-3600",
+      "website": "https://www.futuretireaz.com/holbrook",
+      "city": "Holbrook",
+      "state": "AZ"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 928-458-7228",
+      "website": "https://www.ta-petro.com/",
+      "city": "Holbrook",
+      "state": "AZ"
+    },
+    {
+      "name": "TRUCK SERVICE!!",
+      "phone": "+1 928-241-4377",
+      "website": "https://dot.cards/wicked_1",
+      "city": "Holbrook",
+      "state": "AZ"
+    },
+    {
+      "name": "ACR Diesel & Auto Repair",
+      "phone": "+1 928-263-1723",
+      "website": "https://acrdieselandautorepair.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "American Fleet Service Solutions",
+      "phone": "+1 928-263-1290",
+      "website": "http://www.americanfleetss.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "B&B Auto & Diesel Repair, Inc.",
+      "phone": "+1 928-692-3168",
+      "website": "https://bandbautodiesel.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Blue Beacon Truck Wash of Kingman, AZ",
+      "phone": "+1 928-757-9898",
+      "website": "https://bluebeacon.com/locations/listing/kingman-az",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Davis truck repair",
+      "phone": "+1 800-719-3268",
+      "website": "https://davistruckrepair.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Dirty Diesel Welding & Repair",
+      "phone": "+1 928-715-8414",
+      "website": "http://dirtydieselwr.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Great West Tire",
+      "phone": "+1 928-757-9255",
+      "website": "https://www.greatwestus.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Joe's Auto RV & Truck",
+      "phone": "+1 928-681-5823",
+      "website": "http://www.joesautorvtruck.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Kermit's Transmission",
+      "phone": "+1 928-757-1020",
+      "website": "https://kermitstransmission.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Kingman Diesel Repair, LLC",
+      "phone": "+1 928-757-7868",
+      "website": "http://kingmandiesel.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "RR Hitches",
+      "phone": "+1 928-757-3020",
+      "website": "http://www.rrhitches.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Southern Tire Mart at Pilot",
+      "phone": "+1 928-681-1040",
+      "website": "https://stmtires.com/locations/store-STMP-851/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 928-753-1307",
+      "website": "https://www.ta-petro.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 928-757-2888",
+      "website": "https://www.ta-petro.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Toys For Trucks - Kingman, AZ - Car, Truck, Jeep and Off-Road Accessories",
+      "phone": "+1 928-753-4101",
+      "website": "https://www.toysfortrucks.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "TrailersPlus",
+      "phone": "+1 928-263-6480",
+      "website": "https://www.trailersplus.com/Arizona/Kingman/inventory/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp%26y_source%3D1_OTY0OTc1Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%253D%253D",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Velocity Truck Centers",
+      "phone": "+1 928-757-7936",
+      "website": "https://www.velocitytruckcenters.com/location/kingman",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Weldons Truck & Trailer",
+      "phone": "+1 334-759-7020",
+      "website": "https://weldonstrucktrailer.com/",
+      "city": "Kingman",
+      "state": "AZ"
+    },
+    {
+      "name": "Crabtree RV Parts & Service",
+      "phone": "+1 479-632-0829",
+      "website": "http://www.crabtreerv.com/",
+      "city": "Alma",
+      "state": "AR"
+    },
+    {
+      "name": "Fun Town RV Little Rock",
+      "phone": "+1 855-219-7859",
+      "website": "https://www.funtownrv.com/locations/little-rock",
+      "city": "Bryant",
+      "state": "AR"
+    },
+    {
+      "name": "Danny's Diesel Repair",
+      "phone": "+1 501-605-1174",
+      "website": "http://dannysdieselrepair.com/",
+      "city": "Cabot",
+      "state": "AR"
+    },
+    {
+      "name": "Altec Service Center",
+      "phone": "+1 501-504-2355",
+      "website": "https://www.altec.com/locations/conway-ar-service-center",
+      "city": "Conway",
+      "state": "AR"
+    },
+    {
+      "name": "Central Diesel Services",
+      "phone": "+1 501-339-3117",
+      "website": "https://centraldieselservices.wordpress.com/",
+      "city": "Conway",
+      "state": "AR"
+    },
+    {
+      "name": "Charley's Automotive",
+      "phone": "+1 501-329-7272",
+      "website": "https://www.charleysauto.com/",
+      "city": "Conway",
+      "state": "AR"
+    },
+    {
+      "name": "FleetPride Service Center",
+      "phone": "+1 501-358-6929",
+      "website": "https://branches.fleetpride.com/ar/conway/truckparts-cnw-sc.html",
+      "city": "Conway",
+      "state": "AR"
+    },
+    {
+      "name": "Luyet Automotive",
+      "phone": "+1 501-764-1500",
+      "website": "https://luyetautomotive.com/",
+      "city": "Conway",
+      "state": "AR"
+    },
+    {
+      "name": "The Trailer Shop",
+      "phone": "+1 501-288-9446",
+      "website": "https://www.thetrailershopllc.com/",
+      "city": "Conway",
+      "state": "AR"
+    },
+    {
+      "name": "TrailersPlus",
+      "phone": "+1 501-214-4326",
+      "website": "https://www.trailersplus.com/Arkansas/Conway/inventory/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp%26y_source%3D1_OTY0OTczMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%253D%253D",
+      "city": "Conway",
+      "state": "AR"
+    },
+    {
+      "name": "I-55 Truck and Trailer Repair",
+      "phone": "+1 870-635-4003",
+      "website": "https://i55truckandtrailer.com/",
+      "city": "Crawfordsville",
+      "state": "AR"
+    },
+    {
+      "name": "DPF Alternatives Little Rock",
+      "phone": "+1 479-280-7482",
+      "website": "https://dpfalternatives.com/locations/little-rock-arkansas",
+      "city": "Dardanelle",
+      "state": "AR"
+    },
+    {
+      "name": "Arkansas Fuel Injection Of Fort Smith Inc",
+      "phone": "+1 479-646-7709",
+      "website": "https://www.arkansasfuelinjection.com/",
+      "city": "Fort Smith",
+      "state": "AR"
+    },
+    {
+      "name": "Arkansas Trailer",
+      "phone": "+1 479-648-0009",
+      "website": "http://arkansastrailer.com/",
+      "city": "Fort Smith",
+      "state": "AR"
+    },
+    {
+      "name": "David Whitt Truck Repair",
+      "phone": "+1 479-648-1551",
+      "website": "http://david-repair-fort-smith.jany.io/",
+      "city": "Fort Smith",
+      "state": "AR"
+    },
+    {
+      "name": "Diesel Service Co Inc",
+      "phone": "+1 479-783-0337",
+      "website": "https://lomyu.me/diesel-service-co-inc-154388-us",
+      "city": "Fort Smith",
+      "state": "AR"
+    },
+    {
+      "name": "Jon's Service Center",
+      "phone": "+1 479-646-3555",
+      "website": "https://www.jsc-ar.com/",
+      "city": "Fort Smith",
+      "state": "AR"
+    },
+    {
+      "name": "Mobile Auto Repair Pros",
+      "phone": "+1 479-755-8342",
+      "website": "http://mobileautorepairpros.com/ar/mechanic-fort-smith",
+      "city": "Fort Smith",
+      "state": "AR"
+    },
+    {
+      "name": "Arkansas Diesel Engines",
+      "phone": "+1 501-812-4300",
+      "website": "http://www.ardieselengines.com/",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Arkansas Fuel Injection",
+      "phone": "+1 501-565-3712",
+      "website": "http://arkansasfuelinjectioninc.com/",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "FleetPride Service Center",
+      "phone": "+1 501-313-5606",
+      "website": "https://branches.fleetpride.com/ar/littlerock/truckparts-ltr-sc.html",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Hillcrest Camshaft",
+      "phone": "+1 501-565-6700",
+      "website": "http://www.hillcrestcamshaft.com/",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Little Rock On-Site Truck Repair",
+      "phone": "+1 501-737-4975",
+      "website": "https://mobiletruckrepairlittlerock.com/",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "MHC Kenworth - Little Rock",
+      "phone": "+1 501-490-1500",
+      "website": "https://mhc.com/locations/mhc-kenworth-little-rock",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Rebel Rebuilders Inc",
+      "phone": "+1 501-821-4611",
+      "website": "http://www.rebelrebuilders.com/",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Taylor's Truck & Trailer",
+      "phone": "+1 501-375-0251",
+      "website": "http://www.taylorstruckandtrailer.com/home.html",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Whitey's Truck Center",
+      "phone": "+1 501-568-7812",
+      "website": "https://whiteystruckcenter.com/",
+      "city": "Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Precision Tune Auto Care",
+      "phone": "+1 501-232-7205",
+      "website": "http://www.precisiontune.com/LittleRockAFBAR",
+      "city": "Little Rock AFB",
+      "state": "AR"
+    },
+    {
+      "name": "Hogan Truck Leasing & Rental: Russellville, AR",
+      "phone": "+1 479-967-3410",
+      "website": "http://www.hogan1.com/",
+      "city": "London",
+      "state": "AR"
+    },
+    {
+      "name": "Legget Truck Repair",
+      "phone": "+1 501-309-7132",
+      "website": "https://arkansas.leggettruckrepair.com/",
+      "city": "Mabelvale",
+      "state": "AR"
+    },
+    {
+      "name": "Onsite Truck and Trailer Repair",
+      "phone": "+1 501-251-7243",
+      "website": "https://onsitetruckrepairlr.com/",
+      "city": "Mabelvale",
+      "state": "AR"
+    },
+    {
+      "name": "B&M Truck & Trailer Service",
+      "phone": "+1 870-739-1766",
+      "website": "http://www.bamtruckandtrailer.com/",
+      "city": "Marion",
+      "state": "AR"
+    },
+    {
+      "name": "Memphis Truck and Trailer Repair Service",
+      "phone": "+1 870-514-2213",
+      "website": "https://memphistruckandtrailerrepair.com/",
+      "city": "Marion",
+      "state": "AR"
+    },
+    {
+      "name": "Rapid Response Truck and Trailer",
+      "phone": "+1 901-467-9962",
+      "website": "https://www.rapidresponsetrucktrailer.com/",
+      "city": "Marion",
+      "state": "AR"
+    },
+    {
+      "name": "Triple N Truck & Trailer",
+      "phone": "+1 870-739-6844",
+      "website": "http://triplenrepair.com/",
+      "city": "Marion",
+      "state": "AR"
+    },
+    {
+      "name": "Strokers Diesel Performance & Repair",
+      "phone": "+1 870-224-4626",
+      "website": "https://www.strokersdiesel.com/",
+      "city": "Monticello",
+      "state": "AR"
+    },
+    {
+      "name": "A&D Truck Repair",
+      "phone": "+1 501-353-0228",
+      "website": "http://www.adtruckrepairllc.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Central Arkansas Truck & Trailer",
+      "phone": "+1 501-568-2185",
+      "website": "https://cenarktruck.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "DJ's Auto Repair",
+      "phone": "+1 501-834-3000",
+      "website": "https://www.djsautorepair.com/%3Futm_campaign%3Dgmb",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "FlexArmor Arkansas",
+      "phone": "+1 904-830-5445",
+      "website": "https://rvroof.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Grace Trailer Service Inc",
+      "phone": "+1 501-955-2379",
+      "website": "http://www.gracetrailer.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "JHook Towing & Recovery",
+      "phone": "+1 501-955-2400",
+      "website": "http://www.jhooktowing.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Joes Garage",
+      "phone": "+1 501-753-4685",
+      "website": "http://www.joesgaragenlr.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Legget Truck Repair",
+      "phone": "+1 501-284-6566",
+      "website": "https://www.leggettruckrepair.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Little Rock Truck Parts",
+      "phone": "+1 501-734-1292",
+      "website": "http://www.littlerocktruckparts.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Petro Travel Center",
+      "phone": "+1 501-945-3206",
+      "website": "https://www.ta-petro.com/location/ar/petro-north-little-rock",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Powers Truck Parts & Service",
+      "phone": "+1 501-372-4828",
+      "website": "https://www.powerstruckparts.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "RV Roof Arkansas",
+      "phone": "+1 870-816-6360",
+      "website": "http://rvroof.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Red\u2019s Diesel & Auto Repair",
+      "phone": "+1 501-243-0190",
+      "website": "https://www.redsdieselandautorepair.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 501-945-1602",
+      "website": "https://www.ta-petro.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Terex Services",
+      "phone": "+1 501-945-6100",
+      "website": "https://www.terex.com/utilities/en/service/terexservices",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Tri-State Thermo King - Little Rock",
+      "phone": "+1 501-490-1979",
+      "website": "http://www.tstk.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "United Engines | Little Rock, AR",
+      "phone": "+1 501-562-5565",
+      "website": "https://unitedholdingscorp.com/",
+      "city": "North Little Rock",
+      "state": "AR"
+    },
+    {
+      "name": "Stacked Commercial Truck & Trailer Repair",
+      "phone": "+1 870-247-7478",
+      "website": "https://www.stackedtruckandtrailerrepair.com/",
+      "city": "Pine Bluff",
+      "state": "AR"
+    },
+    {
+      "name": "W&B Service Co",
+      "phone": "+1 479-890-0330",
+      "website": "http://www.wbservice.com/",
+      "city": "Pottsville",
+      "state": "AR"
+    },
+    {
+      "name": "Arkansas Tire & Auto Service",
+      "phone": "+1 479-968-4304",
+      "website": "http://www.arkansastireautoservice.com/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Cogswell Towing Wrecker and Road Service",
+      "phone": "+1 479-968-4665",
+      "website": "https://cogswelltowing.com/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Fleet Tire Point S Tire and Auto Service",
+      "phone": "+1 479-967-6209",
+      "website": "https://pointstire.com/russellville",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Hindsman and Son",
+      "phone": "+1 479-888-6720",
+      "website": "https://www.hindsmanandson.com/locations/ar/russellville/auto-repair-1309-e-main-street%3Futm_source%3Dlocal_listing%26utm_medium%3Dorganic%26utm_campaign%3Dstore_9120",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Hodges Heavy Duty Truck Parts",
+      "phone": "+1 479-967-1333",
+      "website": "https://www.hodgesheavydutytruckandtowing.com/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Hodges Towing and Recovery",
+      "phone": "+1 479-968-5111",
+      "website": "http://www.hodgeswrecker.com/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "O'Reilly Auto Parts",
+      "phone": "+1 479-967-2132",
+      "website": "https://locations.oreillyauto.com/en-us/ar/russellville/autoparts-362.html",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "RHINO LININGS OF RUSSELLVILLE",
+      "phone": "+1 479-968-3370",
+      "website": "https://rhinolinings.com/find-applicator/ar/russellville/rhino_truckbed_liners_russellville_ar_72802_69197.html",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Rush Truck Centers - Russellville Service",
+      "phone": "+1 479-967-5800",
+      "website": "https://www.rushtruckcenters.com/locations/32050000-russellville%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb-russellville-service",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Sharma's Fleet Services",
+      "phone": "+1 307-313-4498",
+      "website": "https://sharmasfleetservices.com/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Southern Tire Mart @ Pilot",
+      "phone": "+1 479-880-9224",
+      "website": "https://stmtires.com/locations/store-STMP-533/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Trailer Rental at U-Haul",
+      "phone": "+1 479-498-0933",
+      "website": "https://www.uhaul.com/Locations/Trailer-Rentals-near-Russellville-AR-72802/742075/%3Futm_source%3Dgmb%26utm_medium%3Dtrailer%26utm_campaign%3Duhaulsmlm%26utm_content%3D742075",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Tri-State Thermo King - Russellville",
+      "phone": "+1 479-968-1947",
+      "website": "http://www.tstk.com/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Under The Hood Auto Repair LLC",
+      "phone": "+1 479-886-8632",
+      "website": "https://underthehoodauto.co/",
+      "city": "Russellville",
+      "state": "AR"
+    },
+    {
+      "name": "Scranton Truck & Trailer",
+      "phone": "+1 479-938-1111",
+      "website": "https://www.scrantontruckandtrailer.com/",
+      "city": "Scranton",
+      "state": "AR"
+    },
+    {
+      "name": "Forest River RV | Camping World",
+      "phone": "+1 866-789-0643",
+      "website": "https://rv.campingworld.com/dealer/forestriver-sherwood-arkansas",
+      "city": "Sherwood",
+      "state": "AR"
+    },
+    {
+      "name": "Quality Truck and Trailer Repair",
+      "phone": "+1 870-771-8602",
+      "website": "https://www.qualitytruckfix.com/",
+      "city": "Trumann",
+      "state": "AR"
+    },
+    {
+      "name": "AEM 24HR MOBILE TRUCK AND TRAILER REPAIR",
+      "phone": "+1 479-259-5619",
+      "website": "http://aem24mobiletruckandtrailer.com/",
+      "city": "Van Buren",
+      "state": "AR"
+    },
+    {
+      "name": "Highway 64 Truck and Trailer Repair",
+      "phone": "+1 479-668-3107",
+      "website": "https://www.highway64semitruckservice.com/",
+      "city": "Van Buren",
+      "state": "AR"
+    },
+    {
+      "name": "A-1 Wrecker & Diesel",
+      "phone": "+1 870-732-1010",
+      "website": "https://a1wreckerdiesel.com/%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "Boss Truck Shop",
+      "phone": "+1 870-551-7000",
+      "website": "http://www.bosstruckshops.com/",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "Cliff Carter's Wrecker Service",
+      "phone": "+1 870-735-4285",
+      "website": "https://cliffcarterbodyshopar.com/",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "ELH Truck & Trailer",
+      "phone": "+1 870-629-5034",
+      "website": "http://www.elhtruckrepair.com/",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 870-702-5550",
+      "website": "https://www.ta-petro.com/",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "TDC Automotive LLC",
+      "phone": "+1 870-394-9537",
+      "website": "https://www.tdcautomotive.org/",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "TJ's Fab and Mobile Repair Truck & Tanker Service",
+      "phone": "+1 901-607-6688",
+      "website": "https://www.tjsfabandmobile.com/",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "TrailersPlus",
+      "phone": "+1 870-376-5196",
+      "website": "https://www.trailersplus.com/Arkansas/West_Memphis/inventory/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp%26y_source%3D1_OTY0OTc1Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%253D%253D",
+      "city": "West Memphis",
+      "state": "AR"
+    },
+    {
+      "name": "2 Men & A Wrench Complete Auto Service & Emissions Testing",
+      "phone": "+1 505-550-9299",
+      "website": "http://twomenandawrench.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "360 Mobile Tire services of New Mexico",
+      "phone": "+1 505-908-5477",
+      "website": "https://360mobiletire.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "A&F mobile heavy duty repair & Heavy Duty Towing",
+      "phone": "+1 505-297-8139",
+      "website": "http://heavydutyrepairsnm.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "A1 Mobile Tire Service LLC",
+      "phone": "+1 505-306-1720",
+      "website": "https://a1mobiletireservices.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "ABQ Mobile RV Repair",
+      "phone": "+1 505-537-5474",
+      "website": "https://abqmobilervrepair.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "ABQ Mobile Truck and Trailer Repair",
+      "phone": "+1 505-560-1834",
+      "website": "http://abqmobiletruckandtrailerrepair.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "ABQ Mobile Truck and Trailer Repair",
+      "phone": "+1 505-591-4776",
+      "website": "https://www.abqmobiletruckandtrailerrepair.com/4806-jefferson-st-ne-albuquerque-nm-87109",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "ALBQ Mobile Truck Repair",
+      "phone": "+1 505-587-1709",
+      "website": "http://albuquerquetruckrepair.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Advanced Diesel Performance",
+      "phone": "+1 505-717-1723",
+      "website": "https://www.advdieselperformance.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Albuquerque Mobile Truck Repair",
+      "phone": "+1 505-308-7625",
+      "website": "http://mobileautotruckrepairalbuquerque.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Albuquerque Truck Equipment",
+      "phone": "+1 505-898-8895",
+      "website": "http://ramonaate.wixsite.com/abqtruckequipment",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "All H.E.A.R.T Fleet Services LLC - Mobile Diesel Semi Truck/Trailer Repair",
+      "phone": "+1 505-835-4065",
+      "website": "https://allheartfleetservices.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Apex Mobile Autotech",
+      "phone": "+1 505-603-5104",
+      "website": "http://apexmobileautotech.net/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Back2road truck repair",
+      "phone": "+1 505-220-3541",
+      "website": "https://back2roadnm.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Bruckner's Mack & Volvo",
+      "phone": "+1 877-999-2451",
+      "website": "https://www.brucknertruck.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "By The Book Diesel & Auto Repair",
+      "phone": "+1 505-344-7758",
+      "website": "https://www.bythebookrepairs.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Castillo\u2019s Auto & Diesel Repair LLC",
+      "phone": "+1 505-639-0598",
+      "website": "http://castillosautodieselrepairllc.square.site/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Clark Truck Equipment Company Inc.",
+      "phone": "+1 505-880-8222",
+      "website": "https://www.cte-nm.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Construction Truck Equipment,LLC",
+      "phone": "+1 505-292-8018",
+      "website": "https://cte-abq.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Dave\u2019s Heavy Duty Collision & Alignment Center",
+      "phone": "+1 505-243-3518",
+      "website": "https://davesheavycollision.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Dylan's Precision Diesel",
+      "phone": "+1 505-999-8389",
+      "website": "http://dylansprecisiondiesel.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Gomez Diesel Service",
+      "phone": "+1 505-248-1026",
+      "website": "https://gomezdieselservice.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Good Sense RV & Motors",
+      "phone": "+1 505-300-4100",
+      "website": "https://goodsenserv.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Intercity Truck & Trailer Repair Inc",
+      "phone": "+1 505-878-9510",
+      "website": "https://www.intercitytowingnm.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "J And E Roadside Service And Truck Repair",
+      "phone": "+1 505-235-6221",
+      "website": "https://www.janderoadsideserviceandtruckrepair.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "M.C. Diesel",
+      "phone": "+1 505-994-0099",
+      "website": "https://www.mcdieselnm.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Mc Bride's Spring & Welding",
+      "phone": "+1 505-242-2174",
+      "website": "http://www.mcbridesinc.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Mobile Mechanic Albuquerque",
+      "phone": "+1 505-594-4441",
+      "website": "https://mobilemechanicalbuquerque.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "New Mexico Diesel Power Inc.",
+      "phone": "+1 505-821-1776",
+      "website": "http://www.nmdieselpower.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Old Town Tire & Automotive",
+      "phone": "+1 505-843-8473",
+      "website": "http://oldtowntireandautomotive.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "On-Site Diesel Truck & Trailer Repair",
+      "phone": "+1 505-400-4958",
+      "website": "http://roadrescueabq.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Performance Plus Inc",
+      "phone": "+1 505-873-7978",
+      "website": "http://www.performanceplusmachine.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Pilot Flying J Truck Care Center",
+      "phone": "+1 505-831-5377",
+      "website": "http://pilotflyingj.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Roberts Truck Center",
+      "phone": "+1 505-243-7883",
+      "website": "https://www.robertstruck.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Rush Truck Centers - Albuquerque Mobile Service",
+      "phone": "+1 915-775-6370",
+      "website": "https://www.rushtruckcenters.com/locations/16010000-albuquerque%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb-albuquerque-mobile-service",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Statkus Engines RV Service center",
+      "phone": "+1 505-765-1614",
+      "website": "http://www.statkusengines.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Stewart & Stevenson | Albuquerque, NM",
+      "phone": "+1 505-881-3511",
+      "website": "https://www.stewartandstevenson.com/location/albuquerque-nm/%3Futm_medium%3Dorganic%26utm_source%3Dgoogle%26utm_source_platform%3Dgbp%26utm_campaign%3Dalbuquerque%26utm_content%3Dwebsite-click",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "TA Travel Center",
+      "phone": "+1 505-884-1066",
+      "website": "https://www.ta-petro.com/location/nm/ta-albuquerque",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 505-859-7887",
+      "website": "https://www.ta-petro.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "TLC Fleet",
+      "phone": "+1 505-485-6399",
+      "website": "http://www.tlcfleet.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Truck and trailer repair LLC - Roadside Mobile Mechanic Service Assistance",
+      "phone": "+1 833-363-3522",
+      "website": "https://servicetruckandtrailer.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "Trucks Unique",
+      "phone": "+1 505-884-5749",
+      "website": "https://trucksunique.com/",
+      "city": "Albuquerque",
+      "state": "NM"
+    },
+    {
+      "name": "505 TRUCK SERVICE LLC AND ROAD SERVICE",
+      "phone": "+1 505-726-3225",
+      "website": "https://505truckservice.vercel.app/",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "A-J Tires & Auto Center Tire Pros",
+      "phone": "+1 505-722-6965",
+      "website": "https://www.ajtires.com/",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "Ace Truck Service, Inc.; Diesel, Truck, Trailer, RV, Mobile Repairs",
+      "phone": "+1 505-863-1989",
+      "website": "http://www.acetruckserviceinc.com/",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "American Muffler And Towing",
+      "phone": "+1 505-863-5990",
+      "website": "http://www.americanmufflerandtowing.com/",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "GMG Roadside Services",
+      "phone": "+1 505-391-4263",
+      "website": "https://roadsideassistancegallup.com/",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "J & J Truck Services",
+      "phone": "+1 505-726-1535",
+      "website": "http://www.jjtruckservice.com/",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "NKS TRUCK SERVICE",
+      "phone": "+1 505-722-9761",
+      "website": "https://nkstruckservice.wixsite.com/nkstruckservice",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "TA Travel Center",
+      "phone": "+1 505-863-6801",
+      "website": "https://www.ta-petro.com/location/nm/ta-gallup",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 505-835-2156",
+      "website": "https://www.ta-petro.com/",
+      "city": "Gallup",
+      "state": "NM"
+    },
+    {
+      "name": "Elite Diesel Solutions",
+      "phone": "+1 505-615-3159",
+      "website": "https://builder.bookipi.com/pages/elite-diesel-solutions-llc",
+      "city": "Grants",
+      "state": "NM"
+    },
+    {
+      "name": "505 TRUCK SERVICE LLC AND ROAD SERVICE",
+      "phone": "+1 505-290-9862",
+      "website": "https://505truckservice.top/",
+      "city": "Milan",
+      "state": "NM"
+    },
+    {
+      "name": "Alpha Mobile Mechanic Service",
+      "phone": "+1 505-290-7073",
+      "website": "https://alphamobilemechanic.godaddysites.com/",
+      "city": "Milan",
+      "state": "NM"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 505-835-2152",
+      "website": "https://www.ta-petro.com/",
+      "city": "Moriarty",
+      "state": "NM"
+    },
+    {
+      "name": "R&R Fleet Services LLC",
+      "phone": "+1 505-861-0404",
+      "website": "http://rrfleetservicesnm.com/",
+      "city": "Rio Communities",
+      "state": "NM"
+    },
+    {
+      "name": "TERRY'S SERVICE CENTER - TIRES, AUTO & TRUCK REPAIR",
+      "phone": "+1 575-576-2570",
+      "website": "https://terrys-servicecenter.com/",
+      "city": "San Jon",
+      "state": "NM"
+    },
+    {
+      "name": "Albuquerque Axle Surgeons",
+      "phone": "+1 505-203-0543",
+      "website": "http://www.nmaxlesurgeons.com/",
+      "city": "Sandia Park",
+      "state": "NM"
+    },
+    {
+      "name": "Hal Burns Truck, RV & Equipment Service",
+      "phone": "+1 505-471-1671",
+      "website": "http://www.halburns.com/",
+      "city": "Santa Fe",
+      "state": "NM"
+    },
+    {
+      "name": "Big Rig Truck Service Inc.",
+      "phone": "+1 575-472-5296",
+      "website": "http://bigrigtruckservice.wordpress.com/",
+      "city": "Santa Rosa",
+      "state": "NM"
+    },
+    {
+      "name": "Ortega's Wrecker Service & Auto Repair",
+      "phone": "+1 575-472-3204",
+      "website": "https://www.ortegaswreckerserviceandautorepair.com/",
+      "city": "Santa Rosa",
+      "state": "NM"
+    },
+    {
+      "name": "TA Travel Center",
+      "phone": "+1 575-935-9939",
+      "website": "https://www.ta-petro.com/location/nm/ta-santa-rosa",
+      "city": "Santa Rosa",
+      "state": "NM"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 575-366-8810",
+      "website": "https://www.ta-petro.com/",
+      "city": "Santa Rosa",
+      "state": "NM"
+    },
+    {
+      "name": "4 J's Towing & Recovery Services, LLC",
+      "phone": "+1 575-461-1801",
+      "website": "http://4jstowingrecovery.com/",
+      "city": "Tucumcari",
+      "state": "NM"
+    },
+    {
+      "name": "Boss Truck Shop",
+      "phone": "+1 575-461-8458",
+      "website": "http://www.bosstruckshops.com/",
+      "city": "Tucumcari",
+      "state": "NM"
+    },
+    {
+      "name": "Dhillon & Son Truck/Trailer/Tire Repair + Road Service",
+      "phone": "+1 575-403-1098",
+      "website": "https://dhillonandson.com/",
+      "city": "Tucumcari",
+      "state": "NM"
+    },
+    {
+      "name": "Jack's Truck Repair",
+      "phone": "+1 575-461-4601",
+      "website": "http://jackstowingrepair.com/",
+      "city": "Tucumcari",
+      "state": "NM"
+    },
+    {
+      "name": "John's Truck Service Inc.",
+      "phone": "+1 575-461-2085",
+      "website": "https://johnstruckserviceinc.com/",
+      "city": "Tucumcari",
+      "state": "NM"
+    },
+    {
+      "name": "Quality Lube & Tire",
+      "phone": "+1 575-461-0773",
+      "website": "http://www.qualitylubeandtire.com/",
+      "city": "Tucumcari",
+      "state": "NM"
+    },
+    {
+      "name": "D&H RV & Marine APEX",
+      "phone": "+1 919-362-4665",
+      "website": "http://www.dhrvcenter.com/",
+      "city": "Apex",
+      "state": "NC"
+    },
+    {
+      "name": "Jim Campen Trailer Sales",
+      "phone": "+1 828-684-4284",
+      "website": "http://www.jimcampen.com/",
+      "city": "Arden",
+      "state": "NC"
+    },
+    {
+      "name": "Asheville Mobile Truck Repair",
+      "phone": "+1 828-827-4635",
+      "website": "http://ashevillemobiletruckrepair.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "phone": "+1 828-412-0811",
+      "website": "https://www.firestonecompleteautocare.com/north-carolina/asheville/85-tunnel-rd/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dlocalmaps%26cmp%3Doloc_google_localmaps_maps",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "phone": "+1 828-575-0515",
+      "website": "https://www.firestonecompleteautocare.com/north-carolina/asheville/215-patton-ave/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dlocalmaps%26cmp%3Doloc_google_localmaps_maps",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "FleetPride",
+      "phone": "+1 828-274-5294",
+      "website": "https://branches.fleetpride.com/nc/asheville/truckparts-ash.html",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Jan Davis Tire Store",
+      "phone": "+1 828-253-5634",
+      "website": "http://www.jandavistire.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 828-298-0298",
+      "website": "http://leonardusa.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "MHC Kenworth - Asheville",
+      "phone": "+1 828-667-8771",
+      "website": "https://mhc.com/locations/mhc-kenworth-asheville",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "MR Motorcycle",
+      "phone": "+1 828-277-8600",
+      "website": "http://www.mr-motorcycle.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Mountain View Tire & Service",
+      "phone": "+1 828-252-9681",
+      "website": "http://mvtire.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Olen Hensley Automotive Inc.",
+      "phone": "+1 828-258-1738",
+      "website": "http://www.olenhensleyautomotive.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Sky Overland",
+      "phone": "+1 828-484-2474",
+      "website": "http://skyoverland.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Truck & Trailer SERVICES",
+      "phone": "+1 828-301-8543",
+      "website": "https://828roadassist.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "U-Haul Moving & Storage of E Asheville",
+      "phone": "+1 828-298-8551",
+      "website": "https://www.uhaul.com/Locations/Truck-Rentals-near-Asheville-NC-28805/867056/%3Futm_source%3Dgmb%26utm_medium%3Dprimary%26utm_campaign%3Duhaulsmlm%26utm_content%3D867056",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "U-Haul Moving & Storage of South Asheville",
+      "phone": "+1 828-483-5707",
+      "website": "https://www.uhaul.com/Locations/Truck-Rentals-near-Asheville-NC-28803/867071/%3Futm_source%3Dgmb%26utm_medium%3Dprimary%26utm_campaign%3Duhaulsmlm%26utm_content%3D867071",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Walker Tire - NC",
+      "phone": "+1 828-255-8200",
+      "website": "https://www.walker-tire.com/",
+      "city": "Asheville",
+      "state": "NC"
+    },
+    {
+      "name": "Piedmont Performance Diesel & Off-Road",
+      "phone": "+1 336-954-1516",
+      "website": "http://www.piedmontperformance.com/",
+      "city": "Browns Summit",
+      "state": "NC"
+    },
+    {
+      "name": "Central Carolina Diesel Repair",
+      "phone": "+1 336-907-0129",
+      "website": "https://ccdieselrepair.com/",
+      "city": "Burlington",
+      "state": "NC"
+    },
+    {
+      "name": "Diesel Engine & Heavy Equipment Repair",
+      "phone": "+1 336-227-8782",
+      "website": "https://www.derequipment.com/",
+      "city": "Burlington",
+      "state": "NC"
+    },
+    {
+      "name": "Rudy's Performance Parts",
+      "phone": "+1 866-757-6537",
+      "website": "https://rudysdiesel.com/",
+      "city": "Burlington",
+      "state": "NC"
+    },
+    {
+      "name": "Asheville Welding",
+      "phone": "+1 828-365-8799",
+      "website": "http://avlwelding.com/",
+      "city": "Candler",
+      "state": "NC"
+    },
+    {
+      "name": "Diesel Power Truck Center",
+      "phone": "+1 828-303-2009",
+      "website": "https://dieselpowertruckcenter.com/",
+      "city": "Candler",
+      "state": "NC"
+    },
+    {
+      "name": "Mountain Power Performance",
+      "phone": "+1 828-989-5153",
+      "website": "http://www.mountainpowerperformance.com/",
+      "city": "Candler",
+      "state": "NC"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 828-641-9658",
+      "website": "https://www.ta-petro.com/",
+      "city": "Candler",
+      "state": "NC"
+    },
+    {
+      "name": "TRUCK&TRAILER ROADSIDE ASSISTENCE",
+      "phone": "+1 828-483-2149",
+      "website": "https://www.truck-trailer-roadside-assistance.com/",
+      "city": "Candler",
+      "state": "NC"
+    },
+    {
+      "name": "Truck to Trailer | Truck Sales & Parts",
+      "phone": "+1 252-220-8829",
+      "website": "https://trucktotrailerparts.com/",
+      "city": "Candler",
+      "state": "NC"
+    },
+    {
+      "name": "Tidewater Fleet Maintenance LLC",
+      "phone": "+1 910-619-6840",
+      "website": "https://tidewaterfleetmaintenance.com/",
+      "city": "Castle Hayne",
+      "state": "NC"
+    },
+    {
+      "name": "Compass Rose Mobile RV Service",
+      "phone": "+1 919-391-7836",
+      "website": "https://www.compassrosemobilervservice.com/",
+      "city": "Chapel Hill",
+      "state": "NC"
+    },
+    {
+      "name": "Carolina Trailer Repair & Fabrications, LLC",
+      "phone": "+1 704-951-7756",
+      "website": "http://www.carolinatrailerrepair.com/",
+      "city": "Charlotte",
+      "state": "NC"
+    },
+    {
+      "name": "Dewey's Diesel & Tire",
+      "phone": "+1 828-464-5944",
+      "website": "https://deweysdieselandtire.com/",
+      "city": "Claremont",
+      "state": "NC"
+    },
+    {
+      "name": "Clarke Power Services, Inc.",
+      "phone": "+1 336-292-9240",
+      "website": "https://www.clarkepowerservices.com/locations/greensboro-nc",
+      "city": "Colfax",
+      "state": "NC"
+    },
+    {
+      "name": "Parrish Truck Tire Center",
+      "phone": "+1 336-334-9979",
+      "website": "https://parrishtrucktires.com/",
+      "city": "Colfax",
+      "state": "NC"
+    },
+    {
+      "name": "TranSource Truck & Trailer Centers: NC",
+      "phone": "+1 336-996-6060",
+      "website": "https://www.transourcetrucks.com/",
+      "city": "Colfax",
+      "state": "NC"
+    },
+    {
+      "name": "Northwest Carolina Truck & Trailer Repair",
+      "phone": "+1 336-865-0442",
+      "website": "http://www.northwestcarolina.com/",
+      "city": "Dobson",
+      "state": "NC"
+    },
+    {
+      "name": "#77 Auto Repair, Inc.",
+      "phone": "+1 919-294-4227",
+      "website": "https://number77autorepairinc.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "A&M Diesel Techs \u2013 Towing & Fleet Services",
+      "phone": "+1 919-822-3002",
+      "website": "http://www.amdieseltechs.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Advanced Maintenance",
+      "phone": "+1 919-309-2424",
+      "website": "http://www.advancedmaintenance.com/locations_nc_durham.html",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "C and C Automotive",
+      "phone": "+1 919-220-5633",
+      "website": "https://www.autorepairdurhamnc.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "CPR Towing & Truck Repair",
+      "phone": "+1 919-888-1888",
+      "website": "https://cprtowinginc.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Chapel Hill Tire - Hillsborough Rd",
+      "phone": "+1 919-251-5506",
+      "website": "https://www.chapelhilltire.com/locations/durham-hillsborough-rd",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Durham Tires",
+      "phone": "+1 919-220-8473",
+      "website": "https://durhamtire.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Durham Transmission Repair",
+      "phone": "+1 919-471-2506",
+      "website": "https://durhamtransmissionrepair.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Horus Mobile Mechanics Auto Repairs LLC",
+      "phone": "+1 919-637-8833",
+      "website": "https://mechanics2go-roadsideassistance-mobileautorepairs.com/forums/index.php",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 919-477-5835",
+      "website": "http://leonardusa.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Mobile Welding Tech, LLC.",
+      "phone": "+1 919-495-0715",
+      "website": "https://mobileweldingtech.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Roberts Truck & Auto Center",
+      "phone": "+1 919-683-6333",
+      "website": "http://www.robertstruckandautocenter.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "S & S Towing & Heavy Transport",
+      "phone": "+1 919-812-5153",
+      "website": "http://www.sstow.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Satco Truck Equipment, Inc.",
+      "phone": "+1 919-383-5547",
+      "website": "http://www.satcotruck.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Swedish Imports",
+      "phone": "+1 919-493-4545",
+      "website": "http://www.swedishimports.net/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Tactical Truck Repair & Towing",
+      "phone": "+1 984-209-1766",
+      "website": "https://www.tacticaltruckrepair.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Take 5 Oil Change",
+      "phone": "+1 919-373-2639",
+      "website": "https://www.take5.com/locations/oil-change/north-carolina/durham/31811/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Tire Solutions | Durham Commercial Tire Shop",
+      "phone": "+1 919-602-0000",
+      "website": "https://tiresolutionsnc.com/durham-nc/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Trailer Hitches at U-Haul",
+      "phone": "+1 919-682-9302",
+      "website": "https://www.uhaul.com/Locations/Trailer-Hitches-near-Durham-NC-27707/782017/%3Futm_source%3Dgmb%26utm_medium%3Dhitch%26utm_campaign%3Duhaulsmlm%26utm_content%3D782017",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Triangle Mobile Hitch",
+      "phone": "+1 844-994-4824",
+      "website": "https://www.trianglehitch.com/",
+      "city": "Durham",
+      "state": "NC"
+    },
+    {
+      "name": "Triad Truck & Trailer Repair",
+      "phone": "+1 336-395-3030",
+      "website": "http://www.tttrepair.com/",
+      "city": "Elon",
+      "state": "NC"
+    },
+    {
+      "name": "FleetPro Truck Center Inc",
+      "phone": "+1 828-407-1020",
+      "website": "http://fleetprotruckcenter.com/",
+      "city": "Fletcher",
+      "state": "NC"
+    },
+    {
+      "name": "Triangle RV Repair LLC",
+      "phone": "+1 919-346-7154",
+      "website": "https://www.trianglervrepair.com/",
+      "city": "Fuquay-Varina",
+      "state": "NC"
+    },
+    {
+      "name": "Advanced Maintenance",
+      "phone": "+1 888-607-2408",
+      "website": "http://www.advancedmaintenance.com/",
+      "city": "Garner",
+      "state": "NC"
+    },
+    {
+      "name": "Camping World - Garner",
+      "phone": "+1 888-795-3805",
+      "website": "https://rv.campingworld.com/dealer/garner-north-carolina",
+      "city": "Garner",
+      "state": "NC"
+    },
+    {
+      "name": "FleetPride Service Center",
+      "phone": "+1 919-779-2320",
+      "website": "https://branches.fleetpride.com/nc/garner/truckparts-ral-sc.html",
+      "city": "Garner",
+      "state": "NC"
+    },
+    {
+      "name": "Johnson & Johnson Import & Domestic Specialists",
+      "phone": "+1 919-773-2314",
+      "website": "https://www.jjimport.com/",
+      "city": "Garner",
+      "state": "NC"
+    },
+    {
+      "name": "Trailer Rental at U-Haul",
+      "phone": "+1 919-779-3196",
+      "website": "https://www.uhaul.com/Locations/Trailer-Rentals-near-Garner-NC-27529/961067/%3Futm_source%3Dgmb%26utm_medium%3Dtrailer%26utm_campaign%3Duhaulsmlm%26utm_content%3D961067",
+      "city": "Garner",
+      "state": "NC"
+    },
+    {
+      "name": "Archie & Sons Diesel Repair",
+      "phone": "+1 919-221-0008",
+      "website": "https://www.archieandsonsdieselrepair.com/",
+      "city": "Goldsboro",
+      "state": "NC"
+    },
+    {
+      "name": "Carolina Trailer & Equipment",
+      "phone": "+1 336-292-0722",
+      "website": "https://www.carolinatrailerandequipment.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Diesel Equipment Co",
+      "phone": "+1 336-373-8331",
+      "website": "https://dieselequipment.com/store/site/home",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "FleetPro Truck Center, Inc",
+      "phone": "+1 336-900-5597",
+      "website": "https://www.fleetprotruckcenter.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Force TK- Greensboro",
+      "phone": "+1 336-855-7756",
+      "website": "https://www.forcetk.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Gate City Trailers",
+      "phone": "+1 336-314-3638",
+      "website": "https://www.gatecitytrailers.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Greensboro AutoTech",
+      "phone": "+1 336-665-7070",
+      "website": "http://greensboroautotech.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Greensboro Onsite Truck Repair",
+      "phone": "+1 336-920-7604",
+      "website": "http://greensborotruckrepair.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Greensboro Trailer Sales & Service Inc",
+      "phone": "+1 336-272-4571",
+      "website": "http://www.greensborotrailer.net/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Greensboro Truck Repair",
+      "phone": "+1 336-936-5407",
+      "website": "http://greensboromobiletruckrepair.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Hudson Autoworks",
+      "phone": "+1 336-772-0685",
+      "website": "http://www.hudsonautoworks.com/%3Futm_source%3Dbing%26utm_medium%3Dorganic%26utm_campaign%3Dbing",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 336-294-3293",
+      "website": "http://leonardusa.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "McCarthy Tire Service",
+      "phone": "+1 336-668-0091",
+      "website": "https://locations.mccarthytire.com/piedmont-truck-tires-inc-6010df240d18",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "National Fleet Management, Inc.",
+      "phone": "+1 336-837-0441",
+      "website": "https://www.nationalfleetmgt.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Piedmont Trucks",
+      "phone": "+1 336-668-2401",
+      "website": "http://www.piedmonttrucks.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Statewide Trailer Alignment Frame",
+      "phone": "+1 336-294-1352",
+      "website": "https://www.stafinc.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Thompson Diesel Truck Repair and Towing",
+      "phone": "+1 336-808-5225",
+      "website": "https://thompsondieseltruckrepair.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Twin State Trailers",
+      "phone": "+1 336-542-5990",
+      "website": "http://www.tstrailer.com/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Vanguard Truck Centers",
+      "phone": "+1 336-993-2106",
+      "website": "https://vanguardtrucks.com/location/north-carolina/greensboro/",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Velocity Truck Centers",
+      "phone": "+1 336-668-0911",
+      "website": "https://www.velocitytruckcenters.com/location/greensboro",
+      "city": "Greensboro",
+      "state": "NC"
+    },
+    {
+      "name": "Carolina Diesel Performance",
+      "phone": "+1 336-523-5118",
+      "website": "https://carolinadieselperf.com/",
+      "city": "Hamptonville",
+      "state": "NC"
+    },
+    {
+      "name": "Camping World - Hendersonville",
+      "phone": "+1 888-762-4539",
+      "website": "https://rv.campingworld.com/dealer/hendersonville-north-carolina",
+      "city": "Hendersonville",
+      "state": "NC"
+    },
+    {
+      "name": "Jim Campen Trailer Sales",
+      "phone": "+1 828-684-8889",
+      "website": "http://www.jimcampen.com/",
+      "city": "Hendersonville",
+      "state": "NC"
+    },
+    {
+      "name": "Truck & Trailer Repair, INC",
+      "phone": "+1 828-324-7504",
+      "website": "http://www.truckandtrailerrepair.net/",
+      "city": "Hickory",
+      "state": "NC"
+    },
+    {
+      "name": "Ashby's Diesel",
+      "phone": "+1 910-329-1005",
+      "website": "http://ashbysdiesel.com/",
+      "city": "Holly Ridge",
+      "state": "NC"
+    },
+    {
+      "name": "Greenline Diesel & Auto Repair",
+      "phone": "+1 910-333-3227",
+      "website": "https://greenlinedieselperformance.com/",
+      "city": "Jacksonville",
+      "state": "NC"
+    },
+    {
+      "name": "Honor Diesel Center",
+      "phone": "+1 833-344-6667",
+      "website": "http://www.honordiesel.com/",
+      "city": "Kenly",
+      "state": "NC"
+    },
+    {
+      "name": "Competition Truck Repair",
+      "phone": "+1 336-257-8124",
+      "website": "https://www.ctrkville.com/",
+      "city": "Kernersville",
+      "state": "NC"
+    },
+    {
+      "name": "Diamond Automotive of the Triad",
+      "phone": "+1 336-992-0444",
+      "website": "http://www.diamondautomotiveofthetriad.com/",
+      "city": "Kernersville",
+      "state": "NC"
+    },
+    {
+      "name": "Ramble Trailerworks",
+      "phone": "+1 336-559-7626",
+      "website": "https://www.rambletrailerworks.com/",
+      "city": "Kernersville",
+      "state": "NC"
+    },
+    {
+      "name": "Tameless Performance",
+      "phone": "+1 828-505-8195",
+      "website": "http://tamelessperformance.com/",
+      "city": "Leicester",
+      "state": "NC"
+    },
+    {
+      "name": "Davis Diesel",
+      "phone": "+1 910-880-5879",
+      "website": "https://www.davisdsl.com/",
+      "city": "Leland",
+      "state": "NC"
+    },
+    {
+      "name": "R V Performance Specialist",
+      "phone": "+1 336-945-9944",
+      "website": "https://rvperformancespecialist.com/",
+      "city": "Lewisville",
+      "state": "NC"
+    },
+    {
+      "name": "North Davidson Automotive",
+      "phone": "+1 336-850-6587",
+      "website": "https://northdavidsonautomotive.com/",
+      "city": "Lexington",
+      "state": "NC"
+    },
+    {
+      "name": "NC Diesel Performance Truck Repair",
+      "phone": "+1 336-975-8091",
+      "website": "https://www.ncdieselperformance.net/",
+      "city": "Lincolnton",
+      "state": "NC"
+    },
+    {
+      "name": "McCurry's Diesel Roadside Repair LLC",
+      "phone": "+1 828-460-4357",
+      "website": "https://www.mccurrys-diesel-roadside-repair-llc.com/",
+      "city": "Marion",
+      "state": "NC"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 919-304-7478",
+      "website": "https://www.ta-petro.com/",
+      "city": "Mebane",
+      "state": "NC"
+    },
+    {
+      "name": "United Diesel Inc",
+      "phone": "+1 919-563-8840",
+      "website": "https://uniteddieselnc.com/",
+      "city": "Mebane",
+      "state": "NC"
+    },
+    {
+      "name": "Reese Trailer Sales",
+      "phone": "+1 828-684-3996",
+      "website": "https://www.reesetrailers.com/",
+      "city": "Mills River",
+      "state": "NC"
+    },
+    {
+      "name": "ECO Diesel Dynamics (By Appt. Only)",
+      "phone": "+1 704-999-5509",
+      "website": "https://ecodieseldynamics.com/",
+      "city": "Mocksville",
+      "state": "NC"
+    },
+    {
+      "name": "Mid Carolina Diesel",
+      "phone": "+1 336-753-1832",
+      "website": "https://midcarolinadiesel.com/",
+      "city": "Mocksville",
+      "state": "NC"
+    },
+    {
+      "name": "TA Travel Center",
+      "phone": "+1 336-751-3815",
+      "website": "https://www.ta-petro.com/location/nc/ta-mocksville",
+      "city": "Mocksville",
+      "state": "NC"
+    },
+    {
+      "name": "A & J Automotive",
+      "phone": "+1 919-230-0933",
+      "website": "https://mainstreetauto.com/location/aj-automotive/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Atlantic Auto and Diesel LLC",
+      "phone": "+1 919-815-0432",
+      "website": "https://www.atlanticautodiesel.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Barbour's Towing & Truck Repair",
+      "phone": "+1 919-790-3827",
+      "website": "https://barbourstowing.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Benchmark Autoworks",
+      "phone": "+1 919-664-8009",
+      "website": "http://www.benchmarkautoworks.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Black's Tire & Auto Service",
+      "phone": "+1 919-872-8800",
+      "website": "https://www.blackstire.com/Contact/Contact-A-Location/Mode/28/4201-Capital-Blvd-Raleigh-NC-27604/details",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Brisbon Automotive",
+      "phone": "+1 984-209-4595",
+      "website": "https://www.brisbonauto.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Choice Auto Repair",
+      "phone": "+1 919-233-0033",
+      "website": "https://choiceautorepair.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Classic Collision",
+      "phone": "+1 919-250-9422",
+      "website": "https://classiccollision.com/locations/classic-collision-south-rogers/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Duty Tire & Service Center",
+      "phone": "+1 919-772-6100",
+      "website": "https://www.dutytire.net/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "East Coast Fleet Service",
+      "phone": "+1 919-344-0683",
+      "website": "https://eastcoastfleetservice.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "East Coast Towing",
+      "phone": "+1 919-858-2715",
+      "website": "https://eastcoasttowing.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Epic Auto Center",
+      "phone": "+1 919-876-3533",
+      "website": "https://epicautocenter.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Firestone Complete Auto Care",
+      "phone": "+1 919-805-3461",
+      "website": "https://www.firestonecompleteautocare.com/north-carolina/raleigh/6000-glenwood-ave/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dlocalmaps%26cmp%3Doloc_google_localmaps_maps",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Gower's Brake & Alignment",
+      "phone": "+1 919-834-5909",
+      "website": "https://gowersbrakeandalignment.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "HRT Performance",
+      "phone": "+1 919-833-8671",
+      "website": "http://www.hausermachine.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Jay's Heavy Duty Repair and Towing",
+      "phone": "+1 919-977-0897",
+      "website": "https://jaysheavyduty.com/%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Joseph Motors Inc",
+      "phone": "+1 919-661-2886",
+      "website": "https://www.josephmotorsnc.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 919-872-4442",
+      "website": "http://leonardusa.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 919-329-7324",
+      "website": "http://leonardusa.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "MJ Brothers Auto & Truck Repair",
+      "phone": "+1 919-521-5101",
+      "website": "https://mjbrothersautorepair.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Marvel Auto Transport",
+      "phone": "+1 833-627-8351",
+      "website": "https://www.marvelautotransport.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Mechanics To Go",
+      "phone": "+1 919-744-4147",
+      "website": "http://www.mobilemechanicstogo.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Messer Transmission Inc",
+      "phone": "+1 919-834-2612",
+      "website": "http://messertransmissioninc.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Mobile Diesel Inc",
+      "phone": "+1 919-335-4800",
+      "website": "https://mobiledieselmedic.com/emergency-backup-diesel-engines",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Mobile Mechanic",
+      "phone": "+1 919-514-3208",
+      "website": "https://mobileautorepairpros.com/nc/onsite-mechanic-raleigh",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Motor Rite",
+      "phone": "+1 919-625-3667",
+      "website": "https://motorrite.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Murrays Tire",
+      "phone": "+1 919-821-0573",
+      "website": "http://murraystirebargains.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Nick's Towing & roadside (( we buy cars running or not ))",
+      "phone": "+1 919-771-6701",
+      "website": "http://nickstowingandroadside.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Prime Time Mobile Detailing",
+      "phone": "+1 919-436-0143",
+      "website": "http://primetimemobiledetail.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "RA Hitch & Truck Outfitters",
+      "phone": "+1 919-267-9595",
+      "website": "https://rahitch.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Raleigh Super Mobile Truck Repair",
+      "phone": "+1 919-343-9538",
+      "website": "http://raleighncmobiletruckrepair.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Red Rover Service",
+      "phone": "+1 336-499-1996",
+      "website": "https://redroverservice.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Relentless Collision",
+      "phone": "+1 919-747-9165",
+      "website": "https://www.relentlesscollision.com/relentless-collision-repair-raleigh/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Russ\u2019 Trailer Repair -Raleigh",
+      "phone": "+1 910-919-1736",
+      "website": "http://russtrailerrepair.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "The One Stop Shop",
+      "phone": "+1 704-606-3846",
+      "website": "https://the-1-stop-shop.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Top Gear Tow Truck Service",
+      "phone": "+1 984-254-3658",
+      "website": "http://topgeartowtruckservice.biz/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Trailer Hitches at U-Haul",
+      "phone": "+1 919-821-1450",
+      "website": "https://www.uhaul.com/Locations/Trailer-Hitches-near-Raleigh-NC-27603/782050/%3Futm_source%3Dgmb%26utm_medium%3Dhitch%26utm_campaign%3Duhaulsmlm%26utm_content%3D782050",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Trailer Rental at U-Haul",
+      "phone": "+1 919-876-3001",
+      "website": "https://www.uhaul.com/Locations/Trailer-Rentals-near-Raleigh-NC-27604/782068/%3Futm_source%3Dgmb%26utm_medium%3Dtrailer%26utm_campaign%3Duhaulsmlm%26utm_content%3D782068",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Trailer Rental at U-Haul",
+      "phone": "+1 919-890-0163",
+      "website": "https://www.uhaul.com/Locations/Trailer-Rentals-near-Raleigh-NC-27615/782072/%3Futm_source%3Dgmb%26utm_medium%3Dtrailer%26utm_campaign%3Duhaulsmlm%26utm_content%3D782072",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "TranSource Truck & Trailer Centers",
+      "phone": "+1 919-782-8785",
+      "website": "http://www.transourcetrucks.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Triangle European",
+      "phone": "+1 919-582-7699",
+      "website": "https://triangleeuropean.co/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Triangle Fleet Services",
+      "phone": "+1 919-659-5497",
+      "website": "https://www.trianglefleetservices.com/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Velocity Truck Centers",
+      "phone": "+1 919-231-2900",
+      "website": "https://www.velocitytruckcenters.com/location/raleigh",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "Xpress Auto Transport",
+      "phone": "+1 919-887-6515",
+      "website": "https://www.xpressautoship.com/city/raleigh-north-carolina/",
+      "city": "Raleigh",
+      "state": "NC"
+    },
+    {
+      "name": "TranSource Trucks- Wilmington",
+      "phone": "+1 888-494-6336",
+      "website": "http://www.transourcetrucks.com/",
+      "city": "Rocky Point",
+      "state": "NC"
+    },
+    {
+      "name": "RVRX Mobile RV Repair LLC",
+      "phone": "+1 336-692-5984",
+      "website": "https://rvrx.net/",
+      "city": "Rural Hall",
+      "state": "NC"
+    },
+    {
+      "name": "Salisbury Truck & Trailer Repair",
+      "phone": "+1 704-223-5808",
+      "website": "https://salisburytruckandtrailerrepair.com/%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick",
+      "city": "Salisbury",
+      "state": "NC"
+    },
+    {
+      "name": "NC Truck And Diesel",
+      "phone": "+1 919-934-9345",
+      "website": "http://www.nctruckanddiesel.com/",
+      "city": "Smithfield",
+      "state": "NC"
+    },
+    {
+      "name": "Auto Equipment Inc",
+      "phone": "+1 704-872-4116",
+      "website": "http://www.autoequipmentinc.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Carolina Industrial Trucks - Statesville, NC",
+      "phone": "+1 704-924-8523",
+      "website": "https://www.citrucks.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Deaton Truck & Tire Service, Inc",
+      "phone": "+1 877-332-8660",
+      "website": "https://deatonfleetsolutions.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Excel Truck Group - Statesville",
+      "phone": "+1 704-252-5400",
+      "website": "https://www.exceltruckgroup.com/locations/statesville/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Gallaher Fleet Solutions",
+      "phone": "+1 704-960-8951",
+      "website": "https://www.gallaherfleetsolutions.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Holland Transfer Co",
+      "phone": "+1 704-872-4269",
+      "website": "http://www.hollandtransferco.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Holland Truck & Trailer Repair LLC",
+      "phone": "+1 704-768-2961",
+      "website": "https://www.hollandlogistics.com/truck-and-trailer-repair",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 336-515-9740",
+      "website": "http://leonardusa.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Mobile Auto Repair",
+      "phone": "+1 888-608-6324",
+      "website": "https://mobileautorepair.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Mobile Mechanic of Statesville",
+      "phone": "+1 888-391-6324",
+      "website": "http://mobilemechanic.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Parrish Truck Tire Center",
+      "phone": "+1 704-872-6565",
+      "website": "https://parrishtrucktires.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "We Do Diesels Plus",
+      "phone": "+1 704-546-2525",
+      "website": "https://wedodieselsllc.com/",
+      "city": "Statesville",
+      "state": "NC"
+    },
+    {
+      "name": "Oliver Diesel & Auto Repair",
+      "phone": "+1 336-644-9200",
+      "website": "http://www.oliverdieselnc.com/",
+      "city": "Stokesdale",
+      "state": "NC"
+    },
+    {
+      "name": "ACE ROADSIDE SERVICE",
+      "phone": "+1 828-606-5978",
+      "website": "https://aceroadsideservice.com/",
+      "city": "Swannanoa",
+      "state": "NC"
+    },
+    {
+      "name": "Valley Truck Service",
+      "phone": "+1 828-686-7003",
+      "website": "http://www.valleytruckservice.net/",
+      "city": "Swannanoa",
+      "state": "NC"
+    },
+    {
+      "name": "NC Trailers",
+      "phone": "+1 336-475-5054",
+      "website": "https://nctrailers.com/",
+      "city": "Thomasville",
+      "state": "NC"
+    },
+    {
+      "name": "Pure Diesel Repair, Inc.",
+      "phone": "+1 336-448-0324",
+      "website": "https://puredieselnc.com/",
+      "city": "Thomasville",
+      "state": "NC"
+    },
+    {
+      "name": "Thomasville Diesel Truck Service",
+      "phone": "+1 336-889-5388",
+      "website": "http://www.thomasvillediesel.com/",
+      "city": "Thomasville",
+      "state": "NC"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 336-449-6060",
+      "website": "https://www.ta-petro.com/",
+      "city": "Whitsett",
+      "state": "NC"
+    },
+    {
+      "name": "Trailer Labs",
+      "phone": "+1 919-628-8569",
+      "website": "https://trailerlabs.co/",
+      "city": "Willow Spring",
+      "state": "NC"
+    },
+    {
+      "name": "Advanced Automotive & RV",
+      "phone": "+1 910-452-4661",
+      "website": "http://www.advancedautomotiveonline.net/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Advanced Maintenance",
+      "phone": "+1 888-452-9206",
+      "website": "http://advancedmaintenance.com/locations_nc_wilmington.html",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "All Motors Automotive",
+      "phone": "+1 910-769-0476",
+      "website": "http://www.allmotorsautomotive.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Clarke Power Services, Inc.",
+      "phone": "+1 910-392-7220",
+      "website": "https://www.clarkepowerservices.com/locations/wilmington-nc",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "DeMann Marine Power",
+      "phone": "+1 910-791-6222",
+      "website": "http://demannmarine.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "East Coast Autos and Trailers",
+      "phone": "+1 910-762-4555",
+      "website": "http://www.eastcoastautosandtrailers.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "FleetPride",
+      "phone": "+1 910-762-8761",
+      "website": "https://branches.fleetpride.com/nc/wilmington/truckparts-wnc.html",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Howard RV Center",
+      "phone": "+1 910-791-5371",
+      "website": "http://www.hrvc.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Howard RV Center - Service Dept.",
+      "phone": "+1 910-792-6911",
+      "website": "http://www.hrvc.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "JBE Marine",
+      "phone": "+1 910-371-8528",
+      "website": "https://www.jbemarine.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Kennedy Automotive Services",
+      "phone": "+1 910-799-4441",
+      "website": "http://www.kennedyautomotive.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Labriola's Automotive",
+      "phone": "+1 910-297-2590",
+      "website": "http://labriolasauto.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 910-392-4921",
+      "website": "http://leonardusa.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "McCarthy Tire Service",
+      "phone": "+1 910-791-0132",
+      "website": "https://locations.mccarthytire.com/mccarthy-tire-service-c037a1fc079b",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "MobileTech",
+      "phone": "+1 910-769-9122",
+      "website": "http://www.mobiletechilm.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "MobileTech",
+      "phone": "+1 910-250-4060",
+      "website": "http://www.mobiletechilm.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Mud Dog Trailers",
+      "phone": "+1 910-759-6222",
+      "website": "http://www.muddogtrailers.com/contact",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "PERFORMANCE PARTS PLUS",
+      "phone": "+1 910-518-5337",
+      "website": "https://www.3pfleet.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Picone Automotive",
+      "phone": "+1 910-815-0029",
+      "website": "https://piconeautomotive.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Pinnacle Trailer Sales Inc",
+      "phone": "+1 910-342-0445",
+      "website": "https://www.pinnacletrailers.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Port Diesel",
+      "phone": "+1 910-274-5577",
+      "website": "https://www.portdiesel.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Specialized Mechanical Services, Inc",
+      "phone": "+1 910-620-3212",
+      "website": "https://www.specializedmechanical.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "The Car Guys - Wilmington, NC - Auto Repair",
+      "phone": "+1 910-399-8042",
+      "website": "https://www.thecarguys.us/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Velocity Truck Centers",
+      "phone": "+1 910-763-6281",
+      "website": "http://www.velocitytruckcenters.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Wilmington Tank & Trailer",
+      "phone": "+1 910-763-2286",
+      "website": "http://www.wilmingtontankandtrailer.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "Wilmington Truck Repair",
+      "phone": "+1 910-586-3286",
+      "website": "http://wilmingtonmobiletruckrepair.com/",
+      "city": "Wilmington",
+      "state": "NC"
+    },
+    {
+      "name": "AC Auto",
+      "phone": "+1 336-717-4808",
+      "website": "https://acauto.net/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Bryant's Truck & Trailer Rpr",
+      "phone": "+1 336-661-0702",
+      "website": "http://bryants-rpr.jany.io/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Car Tow Dolly Inc.",
+      "phone": "+1 336-996-4396",
+      "website": "https://cartowdolly.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Carolina Auto Service",
+      "phone": "+1 336-765-8599",
+      "website": "https://carolinamobileautoservice.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Cottman Transmission and Total Auto Care",
+      "phone": "+1 336-901-9060",
+      "website": "https://triadtransmission.com/winston-salem/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Devil Dog Diesel and Automotive Repair",
+      "phone": "+1 336-995-5711",
+      "website": "https://www.devildogdieselandautomotiverepair.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Elite Fleet Services, LLC",
+      "phone": "+1 336-934-3030",
+      "website": "https://www.elitefleetservices.org/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Flow Buick GMC of Winston-Salem - Service",
+      "phone": "+1 336-790-0621",
+      "website": "https://www.flowgmauto.com/service/center.htm%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgoogle_business_profile",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Flow Chevrolet of Winston Salem - Service",
+      "phone": "+1 336-760-7000",
+      "website": "https://www.flowchevy.com/service%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgoogle_business_profile",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Goodyear Commercial Tire & Service Centers",
+      "phone": "+1 336-748-9128",
+      "website": "http://www.goodyearctsc.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Gordon's Radiator & A/C Service",
+      "phone": "+1 336-788-9039",
+      "website": "https://www.gordonsradiator.net/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "J Medic Auto Repair",
+      "phone": "+1 336-744-4444",
+      "website": "http://www.jmedic.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Jackson Auto Worx",
+      "phone": "+1 336-753-5570",
+      "website": "https://www.jacksonautoworx.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Leonard Truck Outfitters",
+      "phone": "+1 336-725-4787",
+      "website": "http://leonardusa.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Mobile Mechanic Winston Salem",
+      "phone": "+1 336-439-3784",
+      "website": "https://mobileautorepairpros.com/nc/onsite-mechanic-winston-salem",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "NC Trailers of Winston-Salem",
+      "phone": "+1 336-499-9888",
+      "website": "https://nctrailers.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Northwest Motorworks",
+      "phone": "+1 336-448-0042",
+      "website": "https://www.northwestmotorworks.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Parrish Truck Tire Center",
+      "phone": "+1 336-661-1392",
+      "website": "https://parrishtrucktires.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Rattle & Hum Automotive",
+      "phone": "+1 336-293-7312",
+      "website": "http://www.rattleandhumautomotive.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Tito\u2019s Car Care Center",
+      "phone": "+1 336-986-9736",
+      "website": "http://www.titosautoservice.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Trailer Rental at U-Haul",
+      "phone": "+1 336-724-6951",
+      "website": "https://www.uhaul.com/Locations/Trailer-Rentals-near-Winston-Salem-NC-27101/789054/%3Futm_source%3Dgmb%26utm_medium%3Dtrailer%26utm_campaign%3Duhaulsmlm%26utm_content%3D789054",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Triangle Body Works of the Piedmont LLC",
+      "phone": "+1 336-788-0631",
+      "website": "http://www.trianglebodyworks.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Triangle Campers Inc",
+      "phone": "+1 336-748-9438",
+      "website": "http://trianglecampers.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Webber Off-Road & Diesel Performance",
+      "phone": "+1 336-448-2256",
+      "website": "http://www.webberoffroad.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Winston-Salem OnSite Truck Repair",
+      "phone": "+1 336-891-3087",
+      "website": "https://usamobiletruckrepair.com/nc/winston-salem/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "Worldwide Auto Body 2 Marine, RV and Heavy Commercial",
+      "phone": "+1 336-992-5678",
+      "website": "http://www.worldwideautobodync.com/",
+      "city": "Winston-Salem",
+      "state": "NC"
+    },
+    {
+      "name": "NCB Diesel and Offroad",
+      "phone": "+1 919-665-1600",
+      "website": "http://ncbdiesel.com/",
+      "city": "Youngsville",
+      "state": "NC"
+    },
+    {
+      "name": "Brandon Mobile RV Repair LLC",
+      "phone": "+1 405-436-4469",
+      "website": "http://brandonmobilervrepair.com/",
+      "city": "Blanchard",
+      "state": "OK"
+    },
+    {
+      "name": "Tulsa Mobile Mechanic",
+      "phone": "+1 918-559-5098",
+      "website": "https://tulsamobilemechanics.com/",
+      "city": "Broken Arrow",
+      "state": "OK"
+    },
+    {
+      "name": "BCK Diesel Services LLC",
+      "phone": "+1 405-821-5560",
+      "website": "https://www.bckdieselservices.com/",
+      "city": "Edmond",
+      "state": "OK"
+    },
+    {
+      "name": "Dyess Truck and Trailer Repair",
+      "phone": "+1 405-343-8382",
+      "website": "https://www.dyesscustoms.com/",
+      "city": "Edmond",
+      "state": "OK"
+    },
+    {
+      "name": "Mobile Mechanics of Edmond",
+      "phone": "+1 405-509-9332",
+      "website": "https://www.mobilemechanicsofedmond.com/",
+      "city": "Edmond",
+      "state": "OK"
+    },
+    {
+      "name": "Premier Diesel",
+      "phone": "+1 405-413-2225",
+      "website": "https://premierdieselok.com/",
+      "city": "Edmond",
+      "state": "OK"
+    },
+    {
+      "name": "Superior Diesel LLC",
+      "phone": "+1 405-969-3312",
+      "website": "https://superiordieselrepair.myshopify.com/",
+      "city": "Edmond",
+      "state": "OK"
+    },
+    {
+      "name": "5A Repair",
+      "phone": "+1 580-303-4744",
+      "website": "https://www.5arepair.com/",
+      "city": "Elk City",
+      "state": "OK"
+    },
+    {
+      "name": "Elk City RV Sales & Rentals",
+      "phone": "+1 580-243-3300",
+      "website": "https://elkcityrvsales.com/",
+      "city": "Elk City",
+      "state": "OK"
+    },
+    {
+      "name": "JG Diesel Repairs and Towing",
+      "phone": "+1 580-379-0790",
+      "website": "https://jgrepairs.com/",
+      "city": "Elk City",
+      "state": "OK"
+    },
+    {
+      "name": "O-TEX Trailer & Truck Services, LLC.",
+      "phone": "+1 580-243-8304",
+      "website": "http://o-texservices.com/",
+      "city": "Elk City",
+      "state": "OK"
+    },
+    {
+      "name": "Sparks automotive",
+      "phone": "+1 580-303-0099",
+      "website": "http://sparksmobilemechanic.com/",
+      "city": "Elk City",
+      "state": "OK"
+    },
+    {
+      "name": "Trailer Tec",
+      "phone": "+1 580-225-3121",
+      "website": "https://www.trailertecok.com/",
+      "city": "Elk City",
+      "state": "OK"
+    },
+    {
+      "name": "Wade's RV ServiceCenter",
+      "phone": "+1 918-291-1011",
+      "website": "http://wadesrv.com/",
+      "city": "Glenpool",
+      "state": "OK"
+    },
+    {
+      "name": "After Hours Towing LLC",
+      "phone": "+1 918-319-5121",
+      "website": "https://afterhourstowingok.com/",
+      "city": "Henryetta",
+      "state": "OK"
+    },
+    {
+      "name": "Bruton & Brown Towing & Recovery",
+      "phone": "+1 918-652-1234",
+      "website": "https://brutonandbrowntowingandrecovery.com/%3Futm_source%3Dgbp%26utm_medium%3Dwebclick",
+      "city": "Henryetta",
+      "state": "OK"
+    },
+    {
+      "name": "J & R Industrial Engine Services",
+      "phone": "+1 405-692-3946",
+      "website": "https://jrindustrialeng.com/",
+      "city": "Moore",
+      "state": "OK"
+    },
+    {
+      "name": "The Trailer Pros",
+      "phone": "+1 405-692-7242",
+      "website": "http://www.thetrailerpros.com/",
+      "city": "Moore",
+      "state": "OK"
+    },
+    {
+      "name": "Hansmeyer Diesel Performance",
+      "phone": "+1 405-202-4279",
+      "website": "https://www.hansmeyerdiesel.com/",
+      "city": "Norman",
+      "state": "OK"
+    },
+    {
+      "name": "A1 RV Repair",
+      "phone": "+1 405-665-8087",
+      "website": "https://a1rvrepair.com/locations/oklahoma/rv-repair-oklahoma-city/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "A1 RV Repair",
+      "phone": "+1 405-665-8800",
+      "website": "https://a1rvrepair.com/locations/oklahoma/rv-repair-oklahoma-city/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "A1 RV Repair",
+      "phone": "+1 405-787-0909",
+      "website": "https://a1rvrepair.com/locations/oklahoma/okc-metro/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "A1 RV Repair",
+      "phone": "+1 405-778-8080",
+      "website": "https://a1rvrepair.com/locations/oklahoma/rv-repair-oklahoma-city/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Anytime Anywhere Truck Repair",
+      "phone": "+1 405-556-1633",
+      "website": "https://www.anytimeanywheretruckrepair.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Beck's Garage",
+      "phone": "+1 405-842-9920",
+      "website": "http://www.becksgarage.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Big Rig Product",
+      "phone": "+1 405-672-0371",
+      "website": "http://www.bigrigproducts.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Black Knight Diesel Performance and Repair",
+      "phone": "+1 405-208-2617",
+      "website": "https://www.blackknightdiesel.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Bob Hurley RV Oklahoma City",
+      "phone": "+1 405-778-8500",
+      "website": "https://www.bobhurleyrv.com/okc-location",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Boomer Diesel Engine",
+      "phone": "+1 405-948-1393",
+      "website": "https://www.boomerdiesel.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Broadway Machine",
+      "phone": "+1 405-236-4369",
+      "website": "https://www.broadwaymachine.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Bubba's Mobile truck & trailer repair inc",
+      "phone": "+1 405-501-1587",
+      "website": "https://bubbastruckservice.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Bulldog Diesel & Mobile Truck Repair",
+      "phone": "+1 405-252-1610",
+      "website": "https://bulldogdieselgasrepair.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "CP Trailer",
+      "phone": "+1 405-347-1717",
+      "website": "http://www.cp-trailer.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Camping World - Oklahoma City East",
+      "phone": "+1 877-839-4463",
+      "website": "https://rv.campingworld.com/dealer/east-oklahoma-city-oklahoma",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "City Trailer, a Pronoss Company",
+      "phone": "+1 405-947-4885",
+      "website": "https://www.citytrailerinc.com/default.htm",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Clean Diesel Specialists - Oklahoma City, Oklahoma",
+      "phone": "+1 405-946-9800",
+      "website": "https://www.cleandieselspecialists.com/locations/cds-oklahoma-city",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Custom Trailer Sales",
+      "phone": "+1 405-427-3036",
+      "website": "http://customtrailersales.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Fleet Services",
+      "phone": "+1 405-232-0206",
+      "website": "http://www.fleetservices1.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "FleetPride Service Center",
+      "phone": "+1 405-495-6100",
+      "website": "https://branches.fleetpride.com/ok/oklahomacity/truckparts-oc2-sc.html",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "FlexArmor Oklahoma",
+      "phone": "+1 904-236-9649",
+      "website": "https://www.rvroof.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Fun Town RV Oklahoma City",
+      "phone": "+1 855-996-5526",
+      "website": "https://www.funtownrv.com/locations/oklahoma-city",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Gill Express Truck/Trailer Repair",
+      "phone": "+1 405-819-9550",
+      "website": "http://gillexpress.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Horn Automotive Inc",
+      "phone": "+1 405-470-2731",
+      "website": "https://hornautomotiveokc.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "L H & D",
+      "phone": "+1 405-229-4568",
+      "website": "http://www.lhdtruckrepair.com/p/blog-page.html",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "MTS Mobile Truck Repair Services OK",
+      "phone": "+1 405-237-8323",
+      "website": "https://mobiletrucksrepair.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "McClain\u2019s RV Superstore",
+      "phone": "+1 405-847-0749",
+      "website": "http://www.mcclainsrv.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "McClain\u2019s RV Superstore Service and Parts",
+      "phone": "+1 405-849-1085",
+      "website": "https://www.mcclainsrv.com/service",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Mobile Auto Repair Pros of Oklahoma City",
+      "phone": "+1 405-458-8927",
+      "website": "https://mobileautorepairpros.com/ok/mobile-mechanic-oklahoma-city/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Mobile RV Repair of OKC",
+      "phone": "+1 405-719-2703",
+      "website": "https://www.okcmobilervrepair.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Monarch Power Supply",
+      "phone": "+1 405-655-5732",
+      "website": "https://www.monarchpowersupply.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "OKC Fleet Services",
+      "phone": "+1 405-876-7003",
+      "website": "https://www.okcfleetservices.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "P&M Truck Repair and Wash",
+      "phone": "+1 405-551-3320",
+      "website": "https://pandmtruckservice.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "PRONOSS",
+      "phone": "+1 405-235-3573",
+      "website": "http://pronoss.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Perfection Truck Parts & Equipment",
+      "phone": "+1 405-947-6603",
+      "website": "https://www.perfectionequipment.com/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb-perfection",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "R&D Truck And Trailer Repair Inc",
+      "phone": "+1 405-819-8036",
+      "website": "https://dhilliontruckrepair.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Ron Hoover RV & Marine of Oklahoma City",
+      "phone": "+1 405-232-1800",
+      "website": "https://www.ronhooverrvs.com/rv-dealer-oklahoma-city-lewis-rv-center",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Rush Truck Centers - Oklahoma City Service",
+      "phone": "+1 405-782-3500",
+      "website": "https://www.rushtruckcenters.com/locations/13020000-oklahoma-city%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb-oklahoma-city-service",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Shepherd Automotive",
+      "phone": "+1 405-843-8500",
+      "website": "https://www.shepherdautomotive.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 405-563-9705",
+      "website": "https://www.ta-petro.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 405-228-7060",
+      "website": "https://www.ta-petro.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 405-493-8532",
+      "website": "https://www.ta-petro.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "TRC Truck Repair Center - Oklahoma City",
+      "phone": "+1 405-850-0022",
+      "website": "https://reedtruckandtrailerrepair.com/%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "TrailersPlus",
+      "phone": "+1 405-353-6231",
+      "website": "https://www.trailersplus.com/Oklahoma/Oklahoma_City/inventory/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp%26y_source%3D1_OTY0OTc0OC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%253D%253D",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Truck Medic",
+      "phone": "+1 405-464-3099",
+      "website": "http://www.truckmedic.co/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Truck-N-Trailer Truck Repair Shop",
+      "phone": "+1 405-912-5800",
+      "website": "https://oktruckrepair.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Turbo Diesel of Oklahoma",
+      "phone": "+1 405-495-5656",
+      "website": "http://turbodieselok.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "United Engines | Oklahoma City, OK",
+      "phone": "+1 405-947-3321",
+      "website": "http://www.unitedholdingscorp.com/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "Warren CAT Power Systems",
+      "phone": "+1 405-945-3464",
+      "website": "https://www.warrencat.com/g/okc_rental_power/",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "name": "American Rv Specialties INC.",
+      "phone": "+1 479-434-4990",
+      "website": "https://rvrepairdirect.com/directory/american-rv-specialties/",
+      "city": "Pocola",
+      "state": "OK"
+    },
+    {
+      "name": "Lee's Tire Service",
+      "phone": "+1 918-775-3042",
+      "website": "https://www.leestireservice.com/",
+      "city": "Sallisaw",
+      "state": "OK"
+    },
+    {
+      "name": "River Valley Supply",
+      "phone": "+1 918-235-6906",
+      "website": "https://www.rivervalleysupplyok.com/",
+      "city": "Sallisaw",
+      "state": "OK"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 580-928-1185",
+      "website": "https://www.ta-petro.com/",
+      "city": "Sayre",
+      "state": "OK"
+    },
+    {
+      "name": "Norwood Diesel & Auto",
+      "phone": "+1 405-483-5165",
+      "website": "https://www.norwooddiesel.com/",
+      "city": "Union City",
+      "state": "OK"
+    },
+    {
+      "name": "GKT Truck Repair Services",
+      "phone": "+1 918-323-4029",
+      "website": "https://www.gkttruckrepair.com/",
+      "city": "Vinita",
+      "state": "OK"
+    },
+    {
+      "name": "Franklin's Automotive & Diesel Repair",
+      "phone": "+1 405-999-2529",
+      "website": "http://franklinsautomotive.com/",
+      "city": "Yukon",
+      "state": "OK"
+    },
+    {
+      "name": "All Star fleet Llc - Mobile truck repair",
+      "phone": "+1 615-719-2739",
+      "website": "http://www.allstarfleetllc.com/",
+      "city": "Antioch",
+      "state": "TN"
+    },
+    {
+      "name": "Clarke Power Services, Inc.",
+      "phone": "+1 615-262-4141",
+      "website": "https://www.clarkepowerservices.com/locations/nashville-tn",
+      "city": "Antioch",
+      "state": "TN"
+    },
+    {
+      "name": "Mobile Mechanic Muscle Music-City",
+      "phone": "+1 615-496-3900",
+      "website": "https://mobilemechanicmusclenearme.com/",
+      "city": "Antioch",
+      "state": "TN"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 615-649-0686",
+      "website": "https://www.ta-petro.com/",
+      "city": "Antioch",
+      "state": "TN"
+    },
+    {
+      "name": "Best 1 Diesel Coach and Diesel Workz",
+      "phone": "+1 615-552-0530",
+      "website": "https://best1dieselcdw.com/",
+      "city": "Ashland City",
+      "state": "TN"
+    },
+    {
+      "name": "Choate Diesel Solutions - Service, Repair, Accessories",
+      "phone": "+1 901-553-9847",
+      "website": "http://www.diesel911.com/",
+      "city": "Bolivar",
+      "state": "TN"
+    },
+    {
+      "name": "Renegade Truck Repair & Refrigeration",
+      "phone": "+1 615-568-8895",
+      "website": "https://renegadetruckrepair.com/",
+      "city": "Clarksville",
+      "state": "TN"
+    },
+    {
+      "name": "Burton",
+      "phone": "+1 931-261-8659",
+      "website": "https://burtontruckingandautorepair.com/",
+      "city": "Cookeville",
+      "state": "TN"
+    },
+    {
+      "name": "Cookeville RV and Marine",
+      "phone": "+1 931-646-4678",
+      "website": "http://www.cookevillerv.com/",
+      "city": "Cookeville",
+      "state": "TN"
+    },
+    {
+      "name": "Impact Truck and Trailer",
+      "phone": "+1 931-717-1570",
+      "website": "https://balancedtruckandauto.com/",
+      "city": "Cookeville",
+      "state": "TN"
+    },
+    {
+      "name": "Rebel Road Repair",
+      "phone": "+1 615-997-0732",
+      "website": "http://mobileroadservicenashville.com/",
+      "city": "Cross Plains",
+      "state": "TN"
+    },
+    {
+      "name": "TA Travel Center",
+      "phone": "+1 731-424-5591",
+      "website": "https://www.ta-petro.com/location/tn/ta-denmark",
+      "city": "Denmark",
+      "state": "TN"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 731-574-0459",
+      "website": "https://www.ta-petro.com/",
+      "city": "Denmark",
+      "state": "TN"
+    },
+    {
+      "name": "Arlington Truck and Trailer Repair",
+      "phone": "+1 901-517-1539",
+      "website": "https://www.arlingtontruckrepairs.com/",
+      "city": "Eads",
+      "state": "TN"
+    },
+    {
+      "name": "Nashville RV Rentals",
+      "phone": "+1 629-299-2077",
+      "website": "http://nashvillervrentals.com/%3Futm_campaign%3Dgmb",
+      "city": "Franklin",
+      "state": "TN"
+    },
+    {
+      "name": "Performance Truck Inc.",
+      "phone": "+1 865-938-1004",
+      "website": "https://www.performancetruckinc.com/",
+      "city": "Heiskell",
+      "state": "TN"
+    },
+    {
+      "name": "B RAY\u2019S Mechanic Service",
+      "phone": "+1 731-435-3699",
+      "website": "https://www.braysmms.com/",
+      "city": "Henderson",
+      "state": "TN"
+    },
+    {
+      "name": "Weatherford Diesel",
+      "phone": "+1 629-254-7706",
+      "website": "http://www.weatherforddiesel.com/",
+      "city": "Hermitage",
+      "state": "TN"
+    },
+    {
+      "name": "Clean Diesel Specialists - Knoxville, Tennessee",
+      "phone": "+1 865-279-9379",
+      "website": "https://www.cleandieselspecialists.com/locations/cds-knoxville",
+      "city": "Jacksboro",
+      "state": "TN"
+    },
+    {
+      "name": "A+ Towing & Recovery Service LLC",
+      "phone": "+1 731-741-4545",
+      "website": "https://aplustowingrecoveryservice.com/%3Futm_source%3Domg-gbp%26utm_medium%3Dwebclick",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Best Rate Truck & Trailer Repair",
+      "phone": "+1 731-201-1843",
+      "website": "https://bestratefleetservices.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Class 8 Truck & Trailer Repair",
+      "phone": "+1 731-444-0327",
+      "website": "https://www.class8truckandtrailerrepair.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Coleman Taylor Transmissions",
+      "phone": "+1 731-424-7165",
+      "website": "https://colemantaylorjackson.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "DIGit Truck & Trailer",
+      "phone": "+1 731-300-3600",
+      "website": "http://www.trucksdigit.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Dennis Mitchell Automotive",
+      "phone": "+1 731-424-1486",
+      "website": "http://www.dennismitchellsautomotive.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Integrity Auto & Diesel Repair",
+      "phone": "+1 731-298-1061",
+      "website": "https://integrityauto.live/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Jackson Trailer Service Inc",
+      "phone": "+1 731-423-1533",
+      "website": "https://www.jacksontrailerservice.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "KPS Truck and Trailer Repair",
+      "phone": "+1 731-616-3113",
+      "website": "http://kpsrepair.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Northside Auto Service",
+      "phone": "+1 731-664-6933",
+      "website": "https://www.northsideautoservicetn.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Pilot Travel Center",
+      "phone": "+1 731-422-5545",
+      "website": "https://locations.pilotflyingj.com/us/tn/jackson/30-sand-pebble-dr",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Sterling Auto Service, LLC",
+      "phone": "+1 731-664-5782",
+      "website": "http://sterlingautoservicellc.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "TAG Truck Center Jackson, TN",
+      "phone": "+1 731-423-3782",
+      "website": "https://www.tntxtruck.com/Locations/Tennessee/Jackson",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Volunteer International Truck Dealership",
+      "phone": "+1 731-422-3411",
+      "website": "http://www.volunteerintl.com/",
+      "city": "Jackson",
+      "state": "TN"
+    },
+    {
+      "name": "Specialized Truck Repair",
+      "phone": "+1 615-378-1600",
+      "website": "https://www.specializedtruckrepair.com/",
+      "city": "Kingston Springs",
+      "state": "TN"
+    },
+    {
+      "name": "ACT Roadside Assistance",
+      "phone": "+1 866-597-5872",
+      "website": "https://www.actroadsideassistance.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "AnyTime Towing & Recovery",
+      "phone": "+1 865-622-4604",
+      "website": "https://www.anytimetowing24.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Axle Logistics",
+      "phone": "+1 800-693-1779",
+      "website": "http://www.axlelogistics.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "B & M Automotive & Diesel Service",
+      "phone": "+1 865-922-7111",
+      "website": "https://www.autorepairknoxvilletn.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Campers Inn RV of Knoxville Service Center",
+      "phone": "+1 865-424-5676",
+      "website": "https://www.campersinn.com/rv-service",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Certified Diesel Solutions",
+      "phone": "+1 865-964-6598",
+      "website": "http://cdspros.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Clarke Power Services, Inc.",
+      "phone": "+1 865-689-3722",
+      "website": "https://www.clarkepowerservices.com/locations/knoxville-tn",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Diesel Heads",
+      "phone": "+1 865-282-3206",
+      "website": "https://dieselheads.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "East Tennessee Truck & Trailer Repair",
+      "phone": "+1 865-660-2378",
+      "website": "http://truckrepairknoxville.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Eurotech Knoxville",
+      "phone": "+1 865-213-2858",
+      "website": "https://eurotechknoxville.com/%3Futm_source%3Dgoogle%26utm_medium%3Dgmb",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Fleet Services of Knoxville",
+      "phone": "+1 865-339-4904",
+      "website": "http://www.fleetservicesknoxville.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "FleetPride",
+      "phone": "+1 865-525-2489",
+      "website": "https://branches.fleetpride.com/tn/knoxville/truckparts-knx.html",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Interstate Repair Services",
+      "phone": "+1 865-637-4986",
+      "website": "http://www.interstaterepairservice.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Knox Trailers, Inc.",
+      "phone": "+1 865-523-1115",
+      "website": "http://www.kptrailers.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "MHC Carrier Transicold - Knoxville",
+      "phone": "+1 865-637-9202",
+      "website": "https://mhc.com/locations/mhc-carrier-transicold-knoxville",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Mobile Truck & Trailer Repair of Knoxville",
+      "phone": "+1 865-424-7502",
+      "website": "https://knoxvilletrucktrailerrepair.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Mobile Truck Repair Knoxville",
+      "phone": "+1 865-351-6173",
+      "website": "http://mobiletruckrepairknoxville.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Mobile Truck Repair Knoxville",
+      "phone": "+1 865-432-1948",
+      "website": "http://mobiletruckrepairknoxville.com/640-n-gay-st-knoxville-tn-37917",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Moonshine Diesel",
+      "phone": "+1 865-730-3156",
+      "website": "https://bootleggerindustries.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Ole Ben Diesel",
+      "phone": "+1 865-237-9091",
+      "website": "https://www.olebendiesel.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Outlaw Offroad - Knoxville",
+      "phone": "+1 865-312-6181",
+      "website": "https://outlawknoxville.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Post Onsite Tank Testing & Repair",
+      "phone": "+1 865-523-4067",
+      "website": "https://postonsite.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Powerhouse diesel",
+      "phone": "+1 865-640-2097",
+      "website": "http://www.powerhouse-diesel.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "RT Clapp Automotive - a Main Street Auto shop",
+      "phone": "+1 865-213-5577",
+      "website": "https://mainstreetauto.com/location/rt-clapp-automotive/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "RV's For Less",
+      "phone": "+1 865-521-9112",
+      "website": "http://www.rvsforless.net/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Ryder Truck Maintenance Shop",
+      "phone": "+1 865-637-0591",
+      "website": "https://ryder.com/locations/USA/TN/KNOXVILLE/1247%3Futm_source%3Dlocal",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 865-545-0574",
+      "website": "https://www.ta-petro.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 865-693-3934",
+      "website": "https://www.ta-petro.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Thompson Truck Group",
+      "phone": "+1 865-637-4881",
+      "website": "https://www.thompsontruckgroup.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Thompson Truck Group Trailer Parts & Services",
+      "phone": "+1 865-546-9781",
+      "website": "https://www.thompsontruckgroup.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Trailer Specialists of Knoxville, LLC",
+      "phone": "+1 865-219-7294",
+      "website": "http://www.trailerspecialist.net/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Tri County Auto Fleet Services",
+      "phone": "+1 865-577-8888",
+      "website": "https://www.tricountyautofleet.com/",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Worldwide Equipment",
+      "phone": "+1 865-688-4300",
+      "website": "https://www.thetruckpeople.com/check-out-our--locations",
+      "city": "Knoxville",
+      "state": "TN"
+    },
+    {
+      "name": "Campers Inn RV of Knoxville RV Collision Center",
+      "phone": "+1 865-424-5648",
+      "website": "https://www.campersinn.com/knoxville/rv-service",
+      "city": "Kodak",
+      "state": "TN"
+    },
+    {
+      "name": "Junior's Diesel Repair, LLC",
+      "phone": "+1 615-892-3355",
+      "website": "http://www.jrsdieselrepair.com/",
+      "city": "La Vergne",
+      "state": "TN"
+    },
+    {
+      "name": "Sam Truck Trailer Repair",
+      "phone": "+1 615-481-8158",
+      "website": "http://samtrucktrailer.com/",
+      "city": "La Vergne",
+      "state": "TN"
+    },
+    {
+      "name": "Yourway Diesel Repair",
+      "phone": "+1 901-281-9568",
+      "website": "https://yourwaydieselrepair.com/",
+      "city": "Lakeland",
+      "state": "TN"
+    },
+    {
+      "name": "Nashville Heavy duty diesel truck & trailer repair",
+      "phone": "+1 615-293-5608",
+      "website": "http://dieselrepair5.godaddysites.com/",
+      "city": "Lebanon",
+      "state": "TN"
+    },
+    {
+      "name": "865 Diesel",
+      "phone": "+1 865-317-1393",
+      "website": "http://865diesel.com/",
+      "city": "Lenoir City",
+      "state": "TN"
+    },
+    {
+      "name": "G & A Equipment Inc. / G & A Truck & Auto Service",
+      "phone": "+1 865-988-7574",
+      "website": "https://gaeq.com/",
+      "city": "Lenoir City",
+      "state": "TN"
+    },
+    {
+      "name": "Knoxville Diesel Truck & Trailer Specialists",
+      "phone": "+1 865-288-0899",
+      "website": "https://knoxvilledieselrepair.com/",
+      "city": "Lenoir City",
+      "state": "TN"
+    },
+    {
+      "name": "Lenoir City TN - Mobile Truck Repair",
+      "phone": "+1 865-317-4347",
+      "website": "https://lenoircitymobiletruckrepair.com/",
+      "city": "Lenoir City",
+      "state": "TN"
+    },
+    {
+      "name": "Vortex Fleet Services",
+      "phone": "+1 731-431-5179",
+      "website": "https://vortexfleet.com/",
+      "city": "Medina",
+      "state": "TN"
+    },
+    {
+      "name": "Clarke Power Services, Inc.",
+      "phone": "+1 901-396-7320",
+      "website": "https://www.clarkepowerservices.com/locations/memphis-tn",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Custom Springs & Trailer Repair",
+      "phone": "+1 901-365-1788",
+      "website": "http://custom-springs.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Depot Connect International (PSC)",
+      "phone": "+1 662-551-8169",
+      "website": "https://depotconnect.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Diesel Care & Performance",
+      "phone": "+1 800-961-9290",
+      "website": "https://dieselcare.store/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Emission & Cooling Solutions",
+      "phone": "+1 901-377-8080",
+      "website": "http://www.ecspart.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "FleetPro Truck Parts",
+      "phone": "+1 888-850-4377",
+      "website": "https://truckpartsstorememphis.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "G & W Diesel Services Inc",
+      "phone": "+1 901-948-1625",
+      "website": "https://gw-diesel.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "General Truck Sales & Service Inc. Volvo.",
+      "phone": "+1 901-345-3270",
+      "website": "http://www.generaltruck.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Interstate Drop Yard",
+      "phone": "+1 901-573-4261",
+      "website": "http://www.interstatedropyard.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "M S Trailer & Truck Repair",
+      "phone": "+1 901-362-6800",
+      "website": "https://mstrailer.cc/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Memphis Auto Repair Service Inc",
+      "phone": "+1 901-327-0096",
+      "website": "http://www.memphisautorepairserviceinc.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Memphis Equipment Co.",
+      "phone": "+1 901-774-0600",
+      "website": "https://memphisequipment.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Memphis On-Site Truck Repair",
+      "phone": "+1 901-582-7364",
+      "website": "https://truckrepairmemphis.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Mobile Auto Repair Pros of Memphis",
+      "phone": "+1 901-401-9868",
+      "website": "https://mobileautorepairpros.com/tn/mobile-mechanic-memphis/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Mobile Mechanic Memphis LLC Always Imitated Never Duplicated",
+      "phone": "+1 901-430-1000",
+      "website": "https://mobilemechanicmemphis-llc.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "My Mobile Mechanic of Memphis",
+      "phone": "+1 901-437-0107",
+      "website": "https://mymobilemechanic.net/mobile-mechanic-memphis",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Phil's Truck Service",
+      "phone": "+1 901-581-7987",
+      "website": "http://www.philstruckservice.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Revive Diesel Mechanic",
+      "phone": "+1 901-606-6340",
+      "website": "https://revivediesel.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Surwic Trailer Hitch Co Inc",
+      "phone": "+1 901-946-2931",
+      "website": "https://www.surwictrailerhitch.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "TCB Truck Service",
+      "phone": "+1 901-410-8946",
+      "website": "https://www.tcbtruckservice.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Tri-State Thermo King - Memphis",
+      "phone": "+1 901-332-7344",
+      "website": "http://www.tstk.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Truck & Trailer Repair Memphis",
+      "phone": "+1 901-446-3163",
+      "website": "https://www.memphismobiletruckrepairs.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Truck Repair Memphis",
+      "phone": "+1 901-266-8525",
+      "website": "https://truckrepair24hr-memphis.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "United Diesel Power - Truck Repair",
+      "phone": "+1 901-619-4344",
+      "website": "https://uniteddieselpower.com/",
+      "city": "Memphis",
+      "state": "TN"
+    },
+    {
+      "name": "Autow Fleet Services",
+      "phone": "+1 615-244-1130",
+      "website": "http://autowfleet.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Bass Ewing Garage & Transmission",
+      "phone": "+1 615-385-4168",
+      "website": "http://www.ewingbassgarage.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "CML Truck and Trailer Repair",
+      "phone": "+1 629-206-9018",
+      "website": "https://www.cmltruckandtrailerrepair.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Elite Trailer Sales & Services",
+      "phone": "+1 615-350-8041",
+      "website": "http://www.elitetrailernashville.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Emission & Cooling Solutions",
+      "phone": "+1 615-251-1551",
+      "website": "http://www.ecspart.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Fast Fleet",
+      "phone": "+1 423-481-8877",
+      "website": "https://fastfleetrs.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Fleet Fix - Fleet Maintenance and Auto Repair",
+      "phone": "+1 615-840-6367",
+      "website": "http://www.fleetfixtn.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "FleetPride",
+      "phone": "+1 615-244-2853",
+      "website": "https://branches.fleetpride.com/tn/nashville/truckparts-nas.html",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Gateway Truck & Refrigeration",
+      "phone": "+1 615-366-1923",
+      "website": "https://www.gtr.inc/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Jasper Engines & Transmissions",
+      "phone": "+1 800-827-7455",
+      "website": "https://www.jasperengines.com/find-an-installer",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Link Automotive Services",
+      "phone": "+1 615-256-3060",
+      "website": "https://linkautomotiveservice.net/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "M&D of Nashville (Formerly DSS Pro Diesel & Taylor Diesel)",
+      "phone": "+1 615-242-4072",
+      "website": "http://dssprodiesel.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Music City Trailer Repair",
+      "phone": "+1 615-454-6568",
+      "website": "http://musiccitytrailerrepair.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Nashville Mobile Truck And Trailer Repair",
+      "phone": "+1 629-276-9590",
+      "website": "http://nashvillemobiletruckrepair.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Nashville Truck and Trailer Road Assistance",
+      "phone": "+1 615-584-1695",
+      "website": "https://nashvilletrucktrailerassistance.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Rush National Tire and Truck Repair",
+      "phone": "+1 901-849-2276",
+      "website": "https://rntmobilerepair.wixsite.com/rush-national",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Service Tire-Truck Tire & Alignment Experts",
+      "phone": "+1 615-244-8473",
+      "website": "http://www.servtire.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Specialized Truck Repair - 24/7 Roadside Truck Repair",
+      "phone": "+1 615-878-9744",
+      "website": "http://strfleet.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "TGC Auto & Truck Repair",
+      "phone": "+1 615-255-8959",
+      "website": "http://www.automotiverepairsnashville.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "TSR LLC",
+      "phone": "+1 615-889-8430",
+      "website": "http://www.tsrllc.net/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "USA Motor & Machine",
+      "phone": "+1 615-726-3725",
+      "website": "http://usa-motor-machine.jany.io/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Welltek Auto Electrical Diagnostics",
+      "phone": "+1 615-736-5604",
+      "website": "https://welltekautodiagnostics.com/",
+      "city": "Nashville",
+      "state": "TN"
+    },
+    {
+      "name": "Scott's Truck Service",
+      "phone": "+1 731-642-4789",
+      "website": "https://scottstruckservice.com/",
+      "city": "Paris",
+      "state": "TN"
+    },
+    {
+      "name": "All Pro Diesel LLC",
+      "phone": "+1 615-389-0873",
+      "website": "https://allprodiesel.shop/",
+      "city": "Portland",
+      "state": "TN"
+    },
+    {
+      "name": "State Line Inspection and Repair",
+      "phone": "+1 615-775-8272",
+      "website": "https://www.statelineinspectionandrepair.com/",
+      "city": "Portland",
+      "state": "TN"
+    },
+    {
+      "name": "Ricky's RV Repair, LLC",
+      "phone": "+1 865-908-3245",
+      "website": "http://www.rickysrv.com/",
+      "city": "Sevierville",
+      "state": "TN"
+    },
+    {
+      "name": "Knoxville Fleet Truck and Trailer Repair",
+      "phone": "+1 865-850-2551",
+      "website": "https://www.truckdown.com/search/view-detail/knoxville_fleet_truck_and_trailer_repair__seymour_tn/5e80165d2ce5e300019ca34e",
+      "city": "Seymour",
+      "state": "TN"
+    },
+    {
+      "name": "Rush Truck Centers - Nashville Service",
+      "phone": "+1 615-220-7600",
+      "website": "https://www.rushtruckcenters.com/locations/11010000-nashville%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb-nashville-service",
+      "city": "Smyrna",
+      "state": "TN"
+    },
+    {
+      "name": "All American Truck and Trailer Repair",
+      "phone": "+1 931-254-0401",
+      "website": "http://www.aatandt.com/",
+      "city": "Sparta",
+      "state": "TN"
+    },
+    {
+      "name": "Outlaw Performance Inc.",
+      "phone": "+1 615-416-5943",
+      "website": "http://www.outlawperfinc.com/",
+      "city": "Springfield",
+      "state": "TN"
+    },
+    {
+      "name": "I-75 Tire, Truck, and Trailer Repair",
+      "phone": "+1 423-333-8128",
+      "website": "https://shekine.github.io/I75TTT/",
+      "city": "Sweetwater",
+      "state": "TN"
+    },
+    {
+      "name": "806 diesel repair",
+      "phone": "+1 806-699-1894",
+      "website": "https://806diesel.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Amarillo Super Mobile Truck Repair",
+      "phone": "+1 806-256-8827",
+      "website": "http://amarillotxmobiletruckrepair.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "American Equipment & Trailer",
+      "phone": "+1 806-383-8831",
+      "website": "http://www.americantrailer.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Baldwin Truck & Trailer Repair",
+      "phone": "+1 806-350-7700",
+      "website": "http://baldwintruckandtrailer.net/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Coolhorse Trailer and RV Service and Repair Center",
+      "phone": "+1 806-468-9121",
+      "website": "https://www.coolhorse.com/pages/horse-trailer-trailer-repair-in-amarillo-texas-coolhorse",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Darrels Garage & Equipment Sales",
+      "phone": "+1 806-383-7979",
+      "website": "http://www.derrellsgarage.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "De Volada Truck Repair",
+      "phone": "+1 806-418-2941",
+      "website": "http://devoladatruckrepair.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Dhillon & Brothers-Tires/Road service",
+      "phone": "+1 806-591-9112",
+      "website": "https://www.dhillonandbrothers.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Family Camping Service Center Inc",
+      "phone": "+1 806-622-0441",
+      "website": "http://famcampserv.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Fun Town RV Amarillo",
+      "phone": "+1 833-242-1194",
+      "website": "https://www.funtownrv.com/locations/amarillo",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "G Truck Service",
+      "phone": "+1 806-681-2859",
+      "website": "https://www.semitruckrepairamarillotx.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Gossett Garage Truck Accessories & Tires",
+      "phone": "+1 806-513-3528",
+      "website": "http://www.gossettgarage.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Jeff Durbin Automotive",
+      "phone": "+1 806-352-1373",
+      "website": "http://jeffdurbinautomotive.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Khalsa Truck Repair Shop",
+      "phone": "+1 806-203-0942",
+      "website": "https://khalsatruckrepairshop.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Lone Star Truck Repair",
+      "phone": "+1 806-696-4535",
+      "website": "https://lonestartruckrepair.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Mikey's Turbo Exchange",
+      "phone": "+1 806-371-9559",
+      "website": "https://mikeysturboexchange.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Mobile Truck Repair Amarillo",
+      "phone": "+1 806-513-5623",
+      "website": "https://www.amarillomobiletruckrepair.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Panhandle Diesel Performance",
+      "phone": "+1 806-576-2502",
+      "website": "https://panhandledieseltx.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Peak Thermo King - Amarillo",
+      "phone": "+1 806-376-5837",
+      "website": "https://trailerservicesofwesttexas.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Reyna's Mobile Mechanic & Tire",
+      "phone": "+1 806-639-3680",
+      "website": "http://www.reynasmobilemt.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Ron Hoover RV & Marine of Amarillo",
+      "phone": "+1 806-318-5544",
+      "website": "https://www.ronhooverrvs.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Roy's Unlimited",
+      "phone": "+1 806-236-1743",
+      "website": "http://www.roysunlimited.net/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Star Truck & Auto Collision",
+      "phone": "+1 806-383-3083",
+      "website": "https://www.startruckandbody.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 806-370-3761",
+      "website": "https://www.ta-petro.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "TA Truck Service",
+      "phone": "+1 806-372-3698",
+      "website": "https://www.ta-petro.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Tow Brothers Equipment Co",
+      "phone": "+1 806-376-5486",
+      "website": "http://towbrosco.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "WBC Truck & Trailer Repair",
+      "phone": "+1 806-674-4856",
+      "website": "https://www.wbctruckandtrailer.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "WS Truck Repair Inc",
+      "phone": "+1 806-576-0858",
+      "website": "https://www.wstruckrepair.net/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Watson Automotive & Diesel, LLC",
+      "phone": "+1 806-367-8502",
+      "website": "https://watsonautomotiveanddiesel.com/",
+      "city": "Amarillo",
+      "state": "TX"
+    },
+    {
+      "name": "Coffman Customs",
+      "phone": "+1 806-340-7932",
+      "website": "https://www.coffmancustoms.com/",
+      "city": "Canyon",
+      "state": "TX"
+    },
+    {
+      "name": "D&A Diesel Repair Inc",
+      "phone": "+1 806-414-1939",
+      "website": "http://www.dadieselrepairinc.com/",
+      "city": "Canyon",
+      "state": "TX"
+    }
+  ]
+}

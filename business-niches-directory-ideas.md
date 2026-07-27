@@ -108,3 +108,26 @@ IV therapy (#31–32), and mobile wellness — growing fast with thin directory
 coverage today.
 
 Start with one, prove the lead-flow, then clone the playbook into the next.
+
+---
+
+## Bonus: A Fresh Top 10 (nothing to do with trucking / roadside repair)
+
+A separate, curated shortlist for a completely different lane — high-value
+service categories with fragmented providers who'll happily pay for exposure.
+None of these touch vehicles, highways, or breakdown repair.
+
+1. **Personal injury & specialty attorneys (by practice area + city)** — Among the most valuable leads that exist; a single case is worth tens of thousands to a firm, so directories in this space command premium listing/lead fees. Highly fragmented, intensely local ("car accident lawyer near me").
+2. **Wedding venues & vendors (by city)** — High emotion, high budget, non-negotiable timeline. Couples build shortlists from directories, and venues/photographers/planners pay strongly for featured placement. Endlessly monetizable across many vendor categories on one site.
+3. **Vacation rentals & unique stays (cabins, glamping, treehouses, A-frames)** — Booming experiential-travel demand, thin niche coverage vs. the big platforms, and affiliate/booking commissions on every stay. Great for a content + SEO play around "unique stays near [destination]."
+4. **Childcare, daycares & preschools (by city + program type)** — Parents research urgently and locally, providers are fragmented and hard to compare, and enrollment leads are high-value and recurring. Waitlist demand makes listings genuinely useful.
+5. **Coworking & flexible office / meeting-room space** — Post-remote-work structural growth, business buyers with budgets, and per-lead value is high. Easy to seed and monetize with booking/affiliate deals and featured operators.
+6. **Private tutors, test prep & music/skill lessons** — Parents and adult learners spend freely on outcomes; instructors are scattered and lack SEO. Recurring engagements and clear "near me / online" intent make lead-gen reliable.
+7. **Estate sales, auctions & liquidators** — Underserved online, time-sensitive events, and a built-in repeat audience of buyers *and* sellers. Monetize with listing fees, featured events, and buyer email/alert subscriptions.
+8. **Assisted living & senior living communities (by city + care level)** — Aging-population tailwind, emotionally urgent family research, and move-in leads worth thousands. High-value, high-trust niche with strong directory precedent.
+9. **Med spas & aesthetics (Botox, laser, injectables)** — Cash-pay, high-margin, fast-growing, and "near me" driven. Clinics pay for booking leads and featured placement; easy to expand across treatment types and cities.
+10. **Pet boarding, daycare, grooming & dog trainers** — Recurring, convenience-driven spend from a passionate audience; solo operators with weak websites. Strong local intent and easy to monetize with listings plus booking affiliates.
+
+**If you want the single strongest pick here:** personal injury attorneys (#1)
+for raw lead value, or vacation rentals / unique stays (#3) if you'd rather
+build a content-and-affiliate audience play than sell leads to pros.

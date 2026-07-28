@@ -72,8 +72,25 @@ Build: `cd workspace-source && python3 workspace_generator.py` → writes
   address, then again from the Rufus address).
 - ⚠️ Daphne CoWork **bounced** — scraped address was a site-template
   placeholder. Reach at (251) 327-3723. Listing data since corrected.
-- ⏳ **An inbox-manager run was launched and had not reported back** when this
-  handoff was written. Re-run it in the new session.
+- ✅ **Inbox triage ran.** No operator replies yet (sends were only ~2h old).
+  ~165 bulk threads archived; labels `Operators`/`Leads`/`FYI`/`Bulk` created;
+  ~45 financial/legal/security threads left untouched by design. It found three
+  things worth knowing:
+  - **All "New workspace lead" emails so far are Rufus's own tests.** Real lead
+    count is **zero**.
+  - **Lead notifier fired twice for one submission** (same `captured_at`).
+    **Fixed** — `lead-backend.gs` now dedupes on `lead_id`. ⚠️ **The fix is in
+    the repo but NOT yet deployed** — Rufus must paste the updated
+    `lead-backend.gs` into the Apps Script editor and redeploy.
+  - **Outreach links render as ugly `google.com/url?q=…` redirects** (Gmail
+    auto-wraps plaintext URLs, and one had a stray control char). Verified they
+    still resolve, so the 14 sent emails are fine — but future batches should be
+    drafted with `htmlBody` and a proper `<a href>` so the link looks clean.
+  - Flagged as likely phishing, untouched: `noreply@cardfraudalerts.com`
+    "URGENT: Please Verify Recent Account Activity" (claims to be Self Financial;
+    sender domain doesn't match). Don't click.
+  - Needs a human reply: Telnyx support (Mark Morse) asking if the latency issue
+    persists; ZeroBounce tickets 2866270 / 2866407 / 2866539.
 - ⚠️ **Daily routine** "Daily inbox triage — FlexWorkspace" (7 AM Central) exists
   but **has no Gmail connector** — the org blocks attaching connectors via API.
   Rufus must attach Gmail in the claude.ai Routines UI or it will report

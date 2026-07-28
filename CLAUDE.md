@@ -246,3 +246,5 @@ future sessions.
 - Cloud sandbox lacks pandoc, pdftoppm, working LibreOffice; verify docx via XML.
 - Verify scraped emails before sending; template placeholders like `myemail@` bounce.
 - Global desktop CLAUDE.md never loads in cloud sessions; keep it in the repo.
+- Gmail rewrites plaintext URLs into ugly google.com/url redirects; send HTML anchors.
+- Lead backend needs lead_id dedupe; one submission can POST twice.

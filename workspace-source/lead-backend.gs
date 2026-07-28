@@ -40,6 +40,21 @@ function doPost(e) {
       sh.appendRow(["received_at"].concat(FIELDS));
       sh.setFrozenRows(1);
     }
+
+    // Idempotency: one submission can reach us twice (browser retry, double
+    // click, redirect replay). If this lead_id is already logged, stop —
+    // don't add a duplicate row and don't send a second notification.
+    if (p.lead_id) {
+      var idCol = FIELDS.indexOf("lead_id") + 2; // +1 for received_at, +1 to 1-index
+      var last = sh.getLastRow();
+      if (last > 1) {
+        var seen = sh.getRange(2, idCol, last - 1, 1).getValues();
+        for (var s = 0; s < seen.length; s++) {
+          if (String(seen[s][0]) === String(p.lead_id)) return redirectPage(p._next);
+        }
+      }
+    }
+
     var row = [new Date()];
     for (var i = 0; i < FIELDS.length; i++) {
       row.push(p[FIELDS[i]] || "");

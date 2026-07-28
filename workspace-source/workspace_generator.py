@@ -57,6 +57,10 @@ GA4_ID = ""
 # the operator's own number on each listing if left blank.
 TRACKING_PHONE = ""   # e.g. "(256) 555-0100"
 
+# Google Search Console HTML-file verification token (the filename without
+# .html). Emitted at the site root every build so verification never breaks.
+GOOGLE_SITE_VERIFICATION = "googleaf127d96642b3615"
+
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "public"
@@ -847,6 +851,9 @@ def generate_sitemap(spaces, buckets_index, hoods_index):
     write(OUTPUT_DIR / "sitemap.xml", sitemap)
     write(OUTPUT_DIR / "robots.txt",
           f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
+    if GOOGLE_SITE_VERIFICATION:
+        fname = f"{GOOGLE_SITE_VERIFICATION}.html"
+        write(OUTPUT_DIR / fname, f"google-site-verification: {fname}")
 
 
 # --------------------------------------------------------------------------- #

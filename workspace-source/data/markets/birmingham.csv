@@ -1,0 +1,5 @@
+name,phone,website,city,state,full_address,neighborhood,google_rating,review_count,latitude,longitude,zip,description,space_types,amenities,price_day,price_month,offers_tour,data_confidence
+Forge,,https://workatforge.com,Birmingham,AL,"120 19th St N Suite 200, Birmingham, AL 35203",Downtown,,,,,35203,"Birmingham's first professional coworking space, with coworking and meeting space in the heart of downtown.","coworking,hot_desk,meeting_room",,,,no,medium
+Innovation Depot,,https://innovationdepot.org,Birmingham,AL,"1500 1st Ave N, Birmingham, AL 35203",Downtown,,,,,35203,"Birmingham's tech incubator and entrepreneurship hub, with workspace for startups and a deep founder community.","coworking,private_office",,,,no,medium
+Thrive Coworking,,,Birmingham,AL,"1209 1st Ave S, Birmingham, AL 35233",Parkside,,,,,35233,"Coworking on 1st Avenue South near Railroad Park and the Parkside district.","coworking",,,,no,low
+Execusuites,,,Birmingham,AL,"2024 3rd Ave N, Birmingham, AL 35203",Downtown,,,,,35203,"Executive suites and office space on 3rd Avenue North downtown.","private_office",,,,no,low

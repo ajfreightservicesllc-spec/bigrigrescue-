@@ -8,6 +8,19 @@
       "**/node_modules/**"
     ],
     "trailingSlash": true,
-    "cleanUrls": false
+    "cleanUrls": false,
+    "redirects": [
+      { "source": "/space/:rest*", "destination": "/huntsville/space/:rest*", "type": 301 },
+      { "source": "/guides/:rest*", "destination": "/huntsville/guides/:rest*", "type": 301 },
+      { "source": "/guides", "destination": "/huntsville/guides/", "type": 301 },
+      { "source": "/neighborhood/:rest*", "destination": "/huntsville/neighborhood/:rest*", "type": 301 },
+      { "source": "/amenity/:rest*", "destination": "/huntsville/amenity/:rest*", "type": 301 },
+      { "source": "/private-office{,/**}", "destination": "/huntsville/private-office/", "type": 301 },
+      { "source": "/coworking{,/**}", "destination": "/huntsville/coworking/", "type": 301 },
+      { "source": "/meeting-rooms{,/**}", "destination": "/huntsville/meeting-rooms/", "type": 301 },
+      { "source": "/virtual-office{,/**}", "destination": "/huntsville/virtual-office/", "type": 301 },
+      { "source": "/day-pass{,/**}", "destination": "/huntsville/day-pass/", "type": 301 },
+      { "source": "/event-space{,/**}", "destination": "/huntsville/event-space/", "type": 301 }
+    ]
   }
 }

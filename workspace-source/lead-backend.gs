@@ -17,7 +17,7 @@
 
 var NOTIFY_EMAIL = "ajfreightservicesllc@gmail.com";
 var SHEET_NAME = "Leads";
-var FALLBACK_REDIRECT = "https://work-spacehuntsville.web.app/thank-you/";
+var FALLBACK_REDIRECT = "https://flexworkspace.online/thank-you/";
 
 var FIELDS = [
   "lead_id", "captured_at", "space_name", "space_address", "source", "metro",

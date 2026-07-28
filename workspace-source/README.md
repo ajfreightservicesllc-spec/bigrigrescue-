@@ -1,4 +1,12 @@
-# Workspace Directory — Q1 Build & Seed
+# FlexWorkspace — Alabama Workspace Directory
+
+> **Now multi-market:** flexworkspace.online covers 10 Alabama markets
+> (Huntsville flagship + Birmingham, Mobile, Montgomery, Tuscaloosa,
+> Auburn–Opelika, Decatur, Dothan, Florence–Muscle Shoals, Fairhope–Daphne).
+> Market data lives in `data/markets/<slug>.csv`; the brand homepage is the
+> market picker. Old single-market URLs 301-redirect via `firebase.json`.
+
+# Original Q1 Build & Seed notes (Huntsville flagship)
 
 A coworking / flexible-office / meeting-room directory built on the same
 crawler → enriched-CSV → static-site pipeline as Big Rig Rescue, but aimed at a

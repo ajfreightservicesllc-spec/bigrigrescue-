@@ -69,6 +69,20 @@ verification half of the template — accurate listings help either way.
 
 ---
 
+## Contact roster (from operators' own public sites — verify at send time)
+
+| Operator | Email | Note |
+|---|---|---|
+| Coin Coworking (both locations) | will@coincoworking.com | Named person — likely owner; send first |
+| Huntsville West | office@huntsvillewest.com | Alt: communitymanager@huntsvillewest.com |
+| Common Ground Cowork | hello@commongroundcowork.com | Main inbox |
+| Office Hub Huntsville | sales@officehubhsv.com | Sales inbox |
+| Huntsville Hub | (none published) | Contact form on huntsvillehub.com or phone from their Google listing |
+| Spaces / Regus | (no local email) | Apply to the IWG partner referral program; verify listings via local phone |
+
+Send individually (never CC), each with its personalized opener. If an address
+bounces, fall back to the site's contact form.
+
 ## Cadence
 
 1. **Day 0:** send the email (Tue–Thu morning lands best).

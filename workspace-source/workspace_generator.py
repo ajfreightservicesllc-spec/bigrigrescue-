@@ -85,6 +85,12 @@ DATA_DIR = BASE_DIR / "data"
 MARKETS_DIR = DATA_DIR / "markets"
 OUTPUT_DIR = BASE_DIR / "public"
 
+# Operator photos (supplied by operators or taken by us — never scraped).
+# Drop a file named <space-slug>.jpg/.png/.webp in assets/photos/ and it
+# automatically appears on that space's card and page at the next build.
+PHOTOS_DIR = BASE_DIR / "assets" / "photos"
+PHOTO_EXTS = (".jpg", ".jpeg", ".png", ".webp")
+
 
 # --------------------------------------------------------------------------- #
 # Taxonomy
@@ -326,6 +332,10 @@ def render_header(title, description, canonical_path="/", noindex=False,
         .tile.soon {{ opacity:.65; }}
         .card {{ background:var(--card); border:1px solid var(--line); border-radius:14px;
             padding:22px 24px; margin-bottom:18px; box-shadow:0 2px 10px rgba(30,42,74,.05); }}
+        .card img.photo {{ width:100%; max-height:200px; object-fit:cover;
+            border-radius:10px; margin-bottom:12px; display:block; }}
+        .space-hero {{ width:100%; max-height:340px; object-fit:cover;
+            border-radius:14px; margin:16px 0 6px; display:block; }}
         .card h3 {{ font-size:20px; margin-bottom:2px; }}
         .card h3 a {{ color:var(--ink); }}
         .card .meta {{ font-size:13px; color:var(--muted); margin:4px 0 10px; }}
@@ -478,6 +488,15 @@ def lead_form(space=None, source="directory", market=None):
 """
 
 
+def photo_for(space):
+    """Return the site-relative photo path for a space, or None."""
+    slug = space_slug(space)
+    for ext in PHOTO_EXTS:
+        if (PHOTOS_DIR / f"{slug}{ext}").exists():
+            return f"/assets/photos/{slug}{ext}"
+    return None
+
+
 def space_card(space, market):
     p = f"/{market['slug']}"
     slug = space_slug(space)
@@ -485,8 +504,12 @@ def space_card(space, market):
     reviews = space.get("review_count", "").strip()
     rating_html = (f'<span class="rating">★ {rating}</span> '
                    f'<span class="meta">({reviews} reviews)</span>') if rating else ""
+    photo = photo_for(space)
+    photo_html = (f'<a href="{p}/space/{slug}/"><img class="photo" src="{photo}" '
+                  f'alt="{space["name"]}" loading="lazy"></a>') if photo else ""
     return f"""
         <div class="card">
+            {photo_html}
             <h3><a href="{p}/space/{slug}/">{space['name']}</a></h3>
             <div class="meta">{space.get('neighborhood','')} · {space.get('city','')}, {space.get('state','')}</div>
             {rating_html}
@@ -814,6 +837,7 @@ def generate_space_page(market, space):
         <div class="split">
             <div>
                 <h2 class="section" style="margin-top:22px">{name}</h2>
+                {f'<img class="space-hero" src="{photo_for(space)}" alt="{name}">' if photo_for(space) else ''}
                 <div class="meta">{addr}</div>
                 {rating_html}
                 <div class="price">{price_summary(space)}</div>
@@ -982,12 +1006,30 @@ def index_market(spaces):
             "amenities": amenities}
 
 
+def copy_photos():
+    if not PHOTOS_DIR.exists():
+        return 0
+    import shutil
+    dest = OUTPUT_DIR / "assets" / "photos"
+    dest.mkdir(parents=True, exist_ok=True)
+    n = 0
+    for f in PHOTOS_DIR.iterdir():
+        if f.suffix.lower() in PHOTO_EXTS:
+            shutil.copy2(f, dest / f.name)
+            n += 1
+    return n
+
+
 def main():
     market_data = []
     for m in MARKETS:
         spaces = load_market_spaces(m)
         market_data.append((m, index_market(spaces)))
         print(f"{m['name']:24s} {len(spaces)} spaces")
+
+    n_photos = copy_photos()
+    if n_photos:
+        print(f"Copied {n_photos} operator photos")
 
     print("Generating brand homepage + shared pages...")
     generate_brand_homepage(market_data)

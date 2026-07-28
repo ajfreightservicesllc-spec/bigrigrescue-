@@ -32,7 +32,7 @@ from collections import defaultdict
 BRAND = "Huntsville Workspaces"
 METRO = "Huntsville"
 METRO_TAGLINE = "Coworking, private offices & meeting rooms in Huntsville, AL"
-BASE_URL = "https://huntsvilleworkspaces.com"       # no trailing slash
+BASE_URL = "https://work-spacehuntsville.web.app"   # no trailing slash
 
 # Lead capture: point this at your form backend (Formspree, Basin, your own
 # endpoint, etc.). Every submitted lead includes hidden tracking fields (unique

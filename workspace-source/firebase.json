@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "work-spacehuntsville",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "trailingSlash": true,
+    "cleanUrls": false
+  }
+}

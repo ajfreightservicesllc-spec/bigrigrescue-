@@ -73,6 +73,8 @@ the bundled sample so you can preview immediately.
 - [x] Tracked lead flow: unique lead id, first-touch UTM attribution, GA4
       `generate_lead` conversion, thank-you page (browser-verified) — see
       `LEAD-TRACKING.md`
+- [x] Firebase Hosting configured → `work-spacehuntsville.web.app` (site in the
+      `aiansweragency-main` project). Deploy steps in `DEPLOY.md`.
 - [ ] Verify & fill phone, ratings (Google Places export) and pricing per operator
 - [ ] Wire `LEAD_ENDPOINT` (form backend) + `GA4_ID` + tracking phone in CONFIG
 - [ ] Sign referral agreements with operators (offline — see the launch plan)

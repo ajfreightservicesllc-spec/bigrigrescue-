@@ -35,13 +35,24 @@ METRO_TAGLINE = "Coworking, private offices & meeting rooms in Huntsville, AL"
 BASE_URL = "https://huntsvilleworkspaces.com"       # no trailing slash
 
 # Lead capture: point this at your form backend (Formspree, Basin, your own
-# endpoint, etc.). Every submitted lead includes hidden fields identifying the
-# space and source so you can attribute referral commissions.
+# endpoint, etc.). Every submitted lead includes hidden tracking fields (unique
+# lead id, timestamp, space, page, referrer, first-touch UTMs) so you can
+# attribute — and defend — referral commissions. See LEAD-TRACKING.md.
 LEAD_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID"
+
+# Where the form redirects after a successful submit (the thank-you page fires
+# the GA4 conversion). Formspree/Basin honor a hidden _next field.
+LEAD_REDIRECT = "/thank-you/"
+LEAD_SUBJECT = f"New workspace lead — {METRO}"
+
+# GA4 measurement id (e.g. "G-XXXXXXXXXX"). When set, every page loads GA4 and
+# a `generate_lead` event fires on submit + on the thank-you page. Leave blank
+# to omit analytics entirely.
+GA4_ID = ""
 
 # Tracked phone number for the directory (call-tracking line). Falls back to
 # the operator's own number on each listing if left blank.
-TRACKING_PHONE = ""   # e.g. "(919) 555-0100"
+TRACKING_PHONE = ""   # e.g. "(256) 555-0100"
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -155,8 +166,88 @@ def ensure_dir(path):
 # Shared HTML: header / footer / components
 # --------------------------------------------------------------------------- #
 
-def render_header(title, description, canonical_path="/"):
+def render_ga4():
+    """GA4 loader — only emitted when GA4_ID is configured."""
+    if not GA4_ID:
+        return ""
+    return f"""    <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){{dataLayer.push(arguments);}}
+      gtag('js', new Date());
+      gtag('config', '{GA4_ID}');
+    </script>
+"""
+
+
+def render_tracking_js():
+    """First-touch attribution + lead-form field population.
+
+    Captures UTMs / referrer / landing page on first visit and persists them,
+    so a lead that converts later still carries its original source. On each
+    lead form it stamps a unique lead id, timestamp, page + referrer, and the
+    stored first-touch fields, then fires a GA4 `generate_lead` event.
+    """
+    return """    <script>
+    (function () {
+      var KEY = 'hw_attr';
+      var UTM = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid'];
+      function parseUTM() {
+        var p = new URLSearchParams(location.search), o = {};
+        UTM.forEach(function (k) { if (p.get(k)) o[k] = p.get(k); });
+        return o;
+      }
+      var attr;
+      try { attr = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) {}
+      if (!attr) {
+        attr = {
+          first_touch_at: new Date().toISOString(),
+          landing_page: location.pathname,
+          referrer: document.referrer || 'direct',
+          utm: parseUTM()
+        };
+        try { localStorage.setItem(KEY, JSON.stringify(attr)); } catch (e) {}
+      }
+      function genId() {
+        return 'HW-' + Date.now().toString(36).toUpperCase() +
+               '-' + Math.random().toString(36).slice(2, 7).toUpperCase();
+      }
+      function fill(form) {
+        function set(name, val) {
+          var el = form.querySelector('[name="' + name + '"]');
+          if (el && !el.value) el.value = val || '';
+        }
+        set('lead_id', genId());
+        set('captured_at', new Date().toISOString());
+        set('page_url', location.href);
+        set('page_path', location.pathname);
+        set('referrer', attr.referrer);
+        set('first_touch_at', attr.first_touch_at);
+        set('landing_page', attr.landing_page);
+        var u = attr.utm || {};
+        UTM.forEach(function (k) { set(k, u[k]); });
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('form[data-lead]').forEach(function (f) {
+          fill(f);
+          f.addEventListener('submit', function () {
+            fill(f);
+            var sn = f.querySelector('[name="space_name"]');
+            var sc = f.querySelector('[name="source"]');
+            if (window.gtag) gtag('event', 'generate_lead', {
+              space: sn ? sn.value : '', source: sc ? sc.value : ''
+            });
+          });
+        });
+      });
+    })();
+    </script>
+"""
+
+
+def render_header(title, description, canonical_path="/", noindex=False):
     canonical = BASE_URL + canonical_path
+    robots = '\n    <meta name="robots" content="noindex,follow">' if noindex else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -165,8 +256,8 @@ def render_header(title, description, canonical_path="/"):
     <title>{title}</title>
     <meta name="description" content="{description}">
     <meta name="theme-color" content="#1e2a4a">
-    <link rel="canonical" href="{canonical}">
-    <style>
+    <link rel="canonical" href="{canonical}">{robots}
+{render_ga4()}{render_tracking_js()}    <style>
         :root {{
             --navy:#1e2a4a; --navy-2:#2b3c66; --accent:#3b82f6;
             --accent-2:#06b6d4; --ink:#1f2733; --muted:#5b6675;
@@ -303,11 +394,30 @@ def lead_form(space=None, source="directory"):
         <div class="lead">
             <h3>{heading}</h3>
             <p class="small">{sub}</p>
-            <form action="{LEAD_ENDPOINT}" method="POST">
+            <form action="{LEAD_ENDPOINT}" method="POST" data-lead>
+                <!-- Formspree/Basin control fields -->
+                <input type="hidden" name="_next" value="{BASE_URL}{LEAD_REDIRECT}">
+                <input type="hidden" name="_subject" value="{LEAD_SUBJECT}">
+                <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                <!-- Attribution: identifies the space + how the lead reached us -->
                 <input type="hidden" name="space_name" value="{space_name}">
                 <input type="hidden" name="space_address" value="{space_addr}">
                 <input type="hidden" name="source" value="{source}">
                 <input type="hidden" name="metro" value="{METRO}">
+                <!-- Populated client-side by the tracking script -->
+                <input type="hidden" name="lead_id" value="">
+                <input type="hidden" name="captured_at" value="">
+                <input type="hidden" name="page_url" value="">
+                <input type="hidden" name="page_path" value="">
+                <input type="hidden" name="referrer" value="">
+                <input type="hidden" name="first_touch_at" value="">
+                <input type="hidden" name="landing_page" value="">
+                <input type="hidden" name="utm_source" value="">
+                <input type="hidden" name="utm_medium" value="">
+                <input type="hidden" name="utm_campaign" value="">
+                <input type="hidden" name="utm_term" value="">
+                <input type="hidden" name="utm_content" value="">
+                <input type="hidden" name="gclid" value="">
                 <label>Your name</label>
                 <input type="text" name="name" required>
                 <label>Email</label>
@@ -598,6 +708,31 @@ def generate_list_your_space():
     write(OUTPUT_DIR / "list-your-space" / "index.html", html)
 
 
+def generate_thank_you():
+    """Post-submit confirmation. noindex; fires a GA4 conversion on view."""
+    html = render_header(
+        f"Thanks — we'll be in touch | {BRAND}",
+        "Your workspace request was received.",
+        "/thank-you/", noindex=True)
+    fire = (f"""    <script>
+      if (window.gtag) gtag('event', 'generate_lead', {{ page: 'thank_you' }});
+    </script>
+""" if GA4_ID else "")
+    html += f"""
+    <div class="container">
+        <div class="card" style="margin-top:40px; text-align:center">
+            <h2 class="section" style="margin-top:6px">Thanks — request received ✅</h2>
+            <p style="color:var(--muted); max-width:560px; margin:0 auto 8px">
+               We're matching you with the right {METRO} workspace and will follow
+               up shortly with pricing and tour options — usually the same day.</p>
+            <p style="margin-top:16px"><a class="btn" href="/">← Back to {BRAND}</a></p>
+        </div>
+    </div>
+{fire}"""
+    html += render_footer()
+    write(OUTPUT_DIR / "thank-you" / "index.html", html)
+
+
 def generate_sitemap(spaces, buckets_index, hoods_index):
     urls = ["/"]
     urls += [f"/{slug}/" for slug in buckets_index]
@@ -661,6 +796,7 @@ def main():
         generate_space_page(s)
 
     generate_list_your_space()
+    generate_thank_you()
     generate_sitemap(spaces, buckets_index, hoods_index)
 
     print(f"\n✓ Site generated -> {OUTPUT_DIR}")

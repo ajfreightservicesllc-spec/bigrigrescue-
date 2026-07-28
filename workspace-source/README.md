@@ -30,10 +30,13 @@ workspace data, reach full local coverage, and ship a conversion-focused site.
 
 Big Rig Rescue monetizes an emergency "call now" button. This niche monetizes
 **tracked referral leads**, so every page is built around a
-**"Request pricing & a tour"** form. Each submission includes hidden fields
-(`space_name`, `space_address`, `source`, `metro`) so you can attribute — and
-get paid for — referral commissions. There's also a `/list-your-space/` page
-that feeds operator sign-ups (free listings, featured placement, referral deals).
+**"Request pricing & a tour"** form. Each submission carries a full attribution
+payload — a unique `lead_id`, timestamp, the space, page, referrer, and
+first-touch UTMs — so you can prove which lead came from you and collect the
+referral commission. See **`LEAD-TRACKING.md`** for the field list, backend
+setup (Formspree/Basin/self-hosted), GA4 conversions, and the reconciliation
+workflow. There's also a `/list-your-space/` page that feeds operator sign-ups
+(free listings, featured placement, referral deals).
 
 ## Run it
 
@@ -67,6 +70,9 @@ the bundled sample so you can preview immediately.
 - [x] Conversion-focused static site generator (tracked lead form on every page)
 - [x] Pipeline verified end-to-end — crawled the 8 real Huntsville sites live
 - [x] Metro chosen + seeded: **Huntsville, AL** (8 operators, 6 neighborhoods)
+- [x] Tracked lead flow: unique lead id, first-touch UTM attribution, GA4
+      `generate_lead` conversion, thank-you page (browser-verified) — see
+      `LEAD-TRACKING.md`
 - [ ] Verify & fill phone, ratings (Google Places export) and pricing per operator
-- [ ] Wire `LEAD_ENDPOINT` + tracking phone in the generator CONFIG
+- [ ] Wire `LEAD_ENDPOINT` (form backend) + `GA4_ID` + tracking phone in CONFIG
 - [ ] Sign referral agreements with operators (offline — see the launch plan)

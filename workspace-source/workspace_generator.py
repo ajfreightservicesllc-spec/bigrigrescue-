@@ -29,10 +29,10 @@ from collections import defaultdict
 # --------------------------------------------------------------------------- #
 # CONFIG — edit these for your metro / brand
 # --------------------------------------------------------------------------- #
-BRAND = "Raleigh Workspaces"
-METRO = "Raleigh"
-METRO_TAGLINE = "Coworking, private offices & meeting rooms in Raleigh, NC"
-BASE_URL = "https://raleighworkspaces.com"          # no trailing slash
+BRAND = "Huntsville Workspaces"
+METRO = "Huntsville"
+METRO_TAGLINE = "Coworking, private offices & meeting rooms in Huntsville, AL"
+BASE_URL = "https://huntsvilleworkspaces.com"       # no trailing slash
 
 # Lead capture: point this at your form backend (Formspree, Basin, your own
 # endpoint, etc.). Every submitted lead includes hidden fields identifying the
@@ -47,11 +47,13 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "public"
 
-# Prefer the real crawler output; fall back to the bundled sample so the
-# pipeline runs out of the box.
-ENRICHED_CSV = DATA_DIR / "workspace_enriched.csv"
-if not ENRICHED_CSV.exists():
-    ENRICHED_CSV = DATA_DIR / "workspace_enriched_sample.csv"
+# Prefer live crawler output; fall back to the committed Huntsville enriched
+# data, then the generic sample — so the pipeline runs out of the box.
+for _candidate in ("workspace_enriched.csv", "huntsville_enriched.csv",
+                   "workspace_enriched_sample.csv"):
+    ENRICHED_CSV = DATA_DIR / _candidate
+    if ENRICHED_CSV.exists():
+        break
 
 
 # --------------------------------------------------------------------------- #
@@ -113,7 +115,7 @@ def load_spaces():
     spaces = []
     with open(ENRICHED_CSV, "r", encoding="utf-8") as f:
         for row in csv.DictReader(f):
-            if row.get("name", "").strip() and row.get("phone", "").strip():
+            if row.get("name", "").strip():
                 spaces.append(row)
     return spaces
 

@@ -12,12 +12,19 @@ workspace data, reach full local coverage, and ship a conversion-focused site.
 |---|---|
 | `workspace_crawler.py` | Reads a seed CSV of workspace locations, fetches each operator's site, and extracts space types, amenities, pricing signals, and tour offers. Resumable, checkpointed. |
 | `workspace_generator.py` | Turns the enriched CSV into a static SEO site: homepage, space-type pages, neighborhood pages, amenity pages, individual space pages, sitemap + robots. |
-| `data/workspace_seed_sample.csv` | Sample **seed** schema (crawler input). Replace with a real Google Places export for your metro. |
-| `data/workspace_enriched_sample.csv` | Sample **enriched** output so the generator runs out of the box. |
+| `data/huntsville_seed.csv` | **Real Huntsville, AL seed** — 8 actual coworking operators (crawler input). |
+| `data/huntsville_enriched.csv` | Curated Huntsville enriched data the generator builds from (reproducible, tracked). |
+| `data/workspace_seed_sample.csv` | Generic **seed** schema example (fictional). |
+| `data/workspace_enriched_sample.csv` | Generic **enriched** example (fictional fallback). |
 | `public/` | Generated site (git-ignored; run the generator to (re)build). |
 
-> The bundled Raleigh, NC rows are **fictional sample data** to demonstrate the
-> pipeline — not real business listings. Replace them with your metro's data.
+> **Active metro: Huntsville, AL.** `huntsville_seed.csv` lists 8 real operators
+> (Coin, Common Ground, Huntsville Hub, Office Hub, Spaces, Regus, Huntsville
+> West). Space types/amenities in `huntsville_enriched.csv` come from crawling
+> the reliable sites plus published info for the JS-rendered ones (Coin, Spaces,
+> Regus). **Phone, ratings and pricing are intentionally blank** — fill them
+> from a Google Places export and each operator's current rate card; don't
+> publish unverified prices for real businesses.
 
 ## The conversion difference
 
@@ -58,7 +65,8 @@ the bundled sample so you can preview immediately.
 
 - [x] Crawler adapted to workspace data (space types, amenities, pricing, tours)
 - [x] Conversion-focused static site generator (tracked lead form on every page)
-- [x] Pipeline verified end-to-end on sample data
-- [ ] Seed your metro to ~100% coverage (needs a real Google Places export)
-- [ ] Wire `LEAD_ENDPOINT` + tracking phone
+- [x] Pipeline verified end-to-end — crawled the 8 real Huntsville sites live
+- [x] Metro chosen + seeded: **Huntsville, AL** (8 operators, 6 neighborhoods)
+- [ ] Verify & fill phone, ratings (Google Places export) and pricing per operator
+- [ ] Wire `LEAD_ENDPOINT` + tracking phone in the generator CONFIG
 - [ ] Sign referral agreements with operators (offline — see the launch plan)

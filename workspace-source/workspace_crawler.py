@@ -34,8 +34,10 @@ BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 
 # Seed CSV of workspace locations for your target metro (Google Places export
-# or hand-built). See data/workspace_seed_sample.csv for the expected columns.
-SEED_CSV = DATA_DIR / "workspace_seed_sample.csv"
+# or hand-built). Prefers the Huntsville seed, then the generic sample.
+SEED_CSV = DATA_DIR / "huntsville_seed.csv"
+if not SEED_CSV.exists():
+    SEED_CSV = DATA_DIR / "workspace_seed_sample.csv"
 RESULTS_CSV = DATA_DIR / "workspace_enriched.csv"
 PROGRESS_FILE = DATA_DIR / "crawl_progress.json"
 
@@ -118,7 +120,9 @@ def load_locations():
     with open(SEED_CSV, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if row.get("name", "").strip() and row.get("phone", "").strip():
+            # Need a name; a website lets us enrich (phone is optional and
+            # usually filled from a Google Places export, not scraped).
+            if row.get("name", "").strip():
                 locations.append(row)
     return locations
 

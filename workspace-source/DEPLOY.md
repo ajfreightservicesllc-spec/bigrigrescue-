@@ -9,24 +9,40 @@ Live URLs:
 - https://work-spacehuntsville.web.app
 - https://work-spacehuntsville.firebaseapp.com
 
-## First-time setup (once)
+> **Note:** the site shows Firebase's "Site Not Found" page until the first
+> successful deploy. Cloud (web) Claude sessions can't deploy directly — they
+> have no Firebase credentials — which is why auto-deploy below exists.
+
+## Option A — Auto-deploy from GitHub (recommended, one-time setup)
+
+`.github/workflows/deploy-workspace.yml` builds and deploys automatically on
+every push that touches `workspace-source/`. One-time setup:
+
+1. Open the [Firebase console](https://console.firebase.google.com) →
+   `aiansweragency-main` → ⚙️ Project settings → **Service accounts** →
+   **Generate new private key**. A JSON file downloads.
+2. On GitHub: repo → Settings → Secrets and variables → **Actions** →
+   **New repository secret**.
+   - Name: `FIREBASE_SERVICE_ACCOUNT_AIANSWERAGENCY_MAIN`
+   - Value: paste the *entire contents* of that JSON file.
+3. Done. Every push now deploys; you can also trigger it manually from the
+   Actions tab ("Run workflow").
+
+> Treat that JSON key like a password: paste it only into GitHub's secret
+> field — never commit it to the repo or share it in chat.
+
+## Option B — Deploy from your computer
 
 ```bash
-npm install -g firebase-tools   # if you don't have it
-firebase login
-```
+npm install -g firebase-tools   # once
+firebase login                  # once
 
-## Deploy (every time)
-
-The generated site (`public/`) is git-ignored, so **build first, then deploy**:
-
-```bash
 cd workspace-source
-python3 workspace_generator.py                     # builds public/
+python3 workspace_generator.py                     # builds public/ (git-ignored)
 firebase deploy --only hosting:work-spacehuntsville
 ```
 
-That's it — the site is live at the URLs above within a few seconds.
+Either option: the site is live at the URLs above within seconds of deploy.
 
 ## Before your real launch
 

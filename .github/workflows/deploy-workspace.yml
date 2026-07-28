@@ -1,0 +1,32 @@
+name: Deploy Huntsville Workspaces to Firebase Hosting
+
+on:
+  push:
+    branches: [main, "claude/business-niches-directory-79ex07"]
+    paths:
+      - "workspace-source/**"
+      - ".github/workflows/deploy-workspace.yml"
+  workflow_dispatch: {}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build static site
+        working-directory: workspace-source
+        run: python3 workspace_generator.py
+
+      - name: Deploy to Firebase Hosting (work-spacehuntsville)
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_AIANSWERAGENCY_MAIN }}
+          projectId: aiansweragency-main
+          channelId: live
+          entryPoint: workspace-source

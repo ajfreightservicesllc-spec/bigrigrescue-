@@ -26,6 +26,8 @@ from pathlib import Path
 from urllib.parse import quote
 from collections import defaultdict
 
+from guides_content import GUIDES
+
 # --------------------------------------------------------------------------- #
 # CONFIG — edit these for your metro / brand
 # --------------------------------------------------------------------------- #
@@ -529,6 +531,18 @@ def generate_homepage(spaces, buckets_index, hoods_index):
             </a>
 """
     html += """        </div>
+        <h2 class="section">Huntsville workspace guides</h2>
+        <div class="grid">
+"""
+    for g in GUIDES[:3]:
+        html += f"""            <a class="tile" href="/guides/{g['slug']}/">
+                <h3>{g['h1']}</h3><div class="sub">{g['meta']}</div>
+            </a>
+"""
+    html += """            <a class="tile" href="/guides/">
+                <h3>All guides →</h3><div class="sub">Costs, comparisons and neighborhood breakdowns.</div>
+            </a>
+        </div>
         <h2 class="section">Featured workspaces</h2>
 """
     # Feature highest-rated first
@@ -709,6 +723,88 @@ def generate_list_your_space():
     write(OUTPUT_DIR / "list-your-space" / "index.html", html)
 
 
+def generate_guide_page(guide):
+    """One SEO guide: article content + FAQ (with JSON-LD) + lead form."""
+    slug = guide["slug"]
+    path = f"/guides/{slug}/"
+    html = render_header(guide["title"], guide["meta"], path)
+
+    body = ""
+    for heading, section_html in guide["sections"]:
+        body += f"<h3 style='margin:26px 0 10px;font-size:20px'>{heading}</h3>\n{section_html}\n"
+
+    faq_html = ""
+    if guide.get("faq"):
+        faq_html = "<h3 style='margin:26px 0 10px;font-size:20px'>Frequently asked questions</h3>"
+        for q, a in guide["faq"]:
+            faq_html += (f"<div class='card' style='padding:16px 18px'>"
+                         f"<strong>{q}</strong>"
+                         f"<p style='color:var(--muted);margin-top:6px'>{a}</p></div>")
+
+    schema = [{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": guide["h1"],
+        "description": guide["meta"],
+        "author": {"@type": "Organization", "name": BRAND},
+        "publisher": {"@type": "Organization", "name": BRAND},
+        "mainEntityOfPage": BASE_URL + path,
+    }]
+    if guide.get("faq"):
+        schema.append({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": q,
+                "acceptedAnswer": {"@type": "Answer", "text": a},
+            } for q, a in guide["faq"]],
+        })
+
+    html += f"""
+    <div class="container">
+        <div class="breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / {guide['h1']}</div>
+        <div class="split">
+            <div>
+                <h2 class="section" style="margin-top:18px">{guide['h1']}</h2>
+                {guide['intro']}
+                {body}
+                {faq_html}
+                <p style="margin-top:22px"><a class="btn alt" href="/guides/">← All Huntsville workspace guides</a></p>
+            </div>
+            {lead_form(source=f'guide:{slug}')}
+        </div>
+        <script type="application/ld+json">
+{json.dumps(schema, indent=2)}
+        </script>
+    </div>
+"""
+    html += render_footer()
+    write(OUTPUT_DIR / "guides" / slug / "index.html", html)
+
+
+def generate_guides_hub():
+    """Index page listing every guide."""
+    html = render_header(
+        f"Huntsville Workspace Guides | {BRAND}",
+        f"Local guides to coworking, offices and meeting rooms in {METRO}: "
+        f"costs, comparisons and neighborhood breakdowns.",
+        "/guides/")
+    html += f"""
+    <div class="container">
+        <div class="breadcrumb"><a href="/">Home</a> / Guides</div>
+        <h2 class="section">{METRO} workspace guides</h2>
+        <div class="grid">
+"""
+    for g in GUIDES:
+        html += f"""            <a class="tile" href="/guides/{g['slug']}/">
+                <h3>{g['h1']}</h3><div class="sub">{g['meta']}</div>
+            </a>
+"""
+    html += "        </div>\n    </div>\n" + render_footer()
+    write(OUTPUT_DIR / "guides" / "index.html", html)
+
+
 def generate_thank_you():
     """Post-submit confirmation. noindex; fires a GA4 conversion on view."""
     html = render_header(
@@ -740,6 +836,7 @@ def generate_sitemap(spaces, buckets_index, hoods_index):
     urls += [f"/neighborhood/{slugify(h)}/" for h in hoods_index]
     urls += [f"/amenity/{slugify(t)}/" for t in AMENITY_PAGES]
     urls += [f"/space/{space_slug(s)}/" for s in spaces]
+    urls += ["/guides/"] + [f"/guides/{g['slug']}/" for g in GUIDES]
     urls += ["/list-your-space/"]
     body = "".join(
         f"    <url><loc>{BASE_URL}{u}</loc><changefreq>weekly</changefreq>"
@@ -795,6 +892,11 @@ def main():
     print(f"Generating {len(spaces)} space pages...")
     for s in spaces:
         generate_space_page(s)
+
+    print(f"Generating {len(GUIDES)} guide pages...")
+    for g in GUIDES:
+        generate_guide_page(g)
+    generate_guides_hub()
 
     generate_list_your_space()
     generate_thank_you()

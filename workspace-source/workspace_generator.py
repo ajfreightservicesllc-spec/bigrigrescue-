@@ -38,7 +38,8 @@ BASE_URL = "https://work-spacehuntsville.web.app"   # no trailing slash
 # endpoint, etc.). Every submitted lead includes hidden tracking fields (unique
 # lead id, timestamp, space, page, referrer, first-touch UTMs) so you can
 # attribute — and defend — referral commissions. See LEAD-TRACKING.md.
-LEAD_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID"
+LEAD_ENDPOINT = ("https://script.google.com/macros/s/"
+                 "AKfycby6nRfjsZegwjur-bg2hrlVcFQokEulMgwCVVAYbcyPz9vbT4K8ceqn9XzUX0_uQxYo7Q/exec")
 
 # Where the form redirects after a successful submit (the thank-you page fires
 # the GA4 conversion). Formspree/Basin honor a hidden _next field.

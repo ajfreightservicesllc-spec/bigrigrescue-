@@ -4,3 +4,7 @@ public/
 # Real crawl output (keep only the sample seed/enriched CSVs in git)
 data/workspace_enriched.csv
 data/crawl_progress.json
+
+# Python cache
+__pycache__/
+*.pyc

@@ -51,7 +51,7 @@ LEAD_SUBJECT = f"New workspace lead — {METRO}"
 # GA4 measurement id (e.g. "G-XXXXXXXXXX"). When set, every page loads GA4 and
 # a `generate_lead` event fires on submit + on the thank-you page. Leave blank
 # to omit analytics entirely.
-GA4_ID = ""
+GA4_ID = "G-T5F8V3Y1XY"
 
 # Tracked phone number for the directory (call-tracking line). Falls back to
 # the operator's own number on each listing if left blank.

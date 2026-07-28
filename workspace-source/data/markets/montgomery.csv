@@ -1,5 +1,5 @@
 name,phone,website,city,state,full_address,neighborhood,google_rating,review_count,latitude,longitude,zip,description,space_types,amenities,price_day,price_month,offers_tour,data_confidence
 Regus - RSA Dexter Avenue,,https://www.regus.com,Montgomery,AL,"445 Dexter Ave Suite 4050, Montgomery, AL 36104",Downtown,,,,,36104,"Private offices, coworking and meeting rooms in the RSA Dexter building, steps from the State Capitol.","private_office,coworking,meeting_room,virtual_office",,,,no,medium
-Wellness Oasis Coworking,,,Montgomery,AL,"335 Kershaw Industrial Blvd Suite B, Montgomery, AL 36117",East Montgomery,,,,,36117,"Coworking with a wellness focus off Kershaw Industrial Boulevard.","coworking",,,,no,low
-JC Federal Properties,,,Montgomery,AL,"4758 Woodmere Blvd #F, Montgomery, AL 36106",Woodmere,,,,,36106,"Meeting rooms and office space on Woodmere Boulevard.","meeting_room,private_office",,,,no,low
-BSA Center,,,Montgomery,AL,"2624 Eastern Blvd, Montgomery, AL 36117",Eastern Boulevard,,,,,36117,"Meeting rooms and event space on Eastern Boulevard.","meeting_room,event_space",,,,no,low
+Wellness Oasis Coworking,,https://wellnessoasispikeroad.com,Montgomery,AL,"335 Kershaw Industrial Blvd Suite B, Montgomery, AL 36117",East Montgomery,5.0,22,,,36117,Coworking with a wellness focus off Kershaw Industrial Boulevard.,coworking,,,,no,low
+JC Federal Properties,,https://jcfederalproperties.com,Montgomery,AL,"4758 Woodmere Blvd #F, Montgomery, AL 36106",Woodmere,,,,,36106,Meeting rooms and office space on Woodmere Boulevard.,"meeting_room,private_office",,,,no,low
+BSA Center,,,Montgomery,AL,"2624 Eastern Blvd, Montgomery, AL 36117",Eastern Boulevard,5.0,4,,,36117,Meeting rooms and event space on Eastern Boulevard.,"meeting_room,event_space",,,,no,low

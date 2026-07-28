@@ -43,10 +43,33 @@ to `/thank-you/`), `_subject`, and a `_gotcha` honeypot for spam.
 **Option B — Basin** — same idea (basin.com), also has Sheets/Zapier export and
 a honeypot; drop-in compatible with the `_next`/`_subject` fields.
 
-**Option C — Self-hosted (most control, no per-lead fees)** — a Cloudflare
-Worker or Google Apps Script web app that accepts the POST and appends to a
-Google Sheet / Airtable. Point `LEAD_ENDPOINT` at it. Use this once volume makes
-per-lead pricing annoying.
+**Option C — Google Apps Script (free, no per-lead fees) — CHOSEN.**
+The ready-to-paste script is **`lead-backend.gs`** in this folder. It appends
+every lead to a Google Sheet, emails you instantly, and redirects the visitor
+to /thank-you/. Setup (~5 minutes, all in the browser):
+
+1. Go to [sheets.google.com](https://sheets.google.com) → **Blank spreadsheet**.
+   Name it `Huntsville Workspaces — Leads`.
+2. In the sheet: **Extensions → Apps Script**. Delete the starter code in the
+   editor.
+3. Open `lead-backend.gs` (in this repo), copy ALL of it, paste into the editor.
+   Click the 💾 save icon.
+4. (Optional but smart) In the toolbar function dropdown pick `testEmail` →
+   **Run**. Google asks for permissions → **Review** → choose your account →
+   "Advanced" → "Go to … (unsafe)" → **Allow**. (It's your own script; this
+   warning appears for all personal scripts.) Check your inbox for the test
+   email.
+5. **Deploy → New deployment** → gear icon → **Web app**:
+   - Description: `lead backend`
+   - Execute as: **Me**
+   - Who has access: **Anyone**  ← required so the website's form can post
+   - Click **Deploy** (approve permissions if asked again).
+6. **Copy the Web app URL** (ends in `/exec`) and send it to Claude — it gets
+   set as `LEAD_ENDPOINT`, the site regenerates, and auto-deploy publishes it.
+
+To change where notifications go, edit `NOTIFY_EMAIL` at the top of the script.
+If you ever edit the script later: Deploy → **Manage deployments** → ✏️ edit →
+new version — the /exec URL stays the same.
 
 > Whatever you choose, the destination must be a **spreadsheet or CRM you
 > control** — that ledger is what you reconcile against operator move-ins.

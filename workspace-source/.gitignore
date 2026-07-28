@@ -1,0 +1,6 @@
+# Generated static site — rebuild with: python3 workspace_generator.py
+public/
+
+# Real crawl output (keep only the sample seed/enriched CSVs in git)
+data/workspace_enriched.csv
+data/crawl_progress.json

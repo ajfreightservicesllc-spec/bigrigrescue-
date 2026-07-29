@@ -1,3 +1,0 @@
-name,phone,website,city,state,full_address,neighborhood,google_rating,review_count,latitude,longitude,zip,description,space_types,amenities,price_day,price_month,offers_tour,data_confidence
-CoLab Opelika,,https://www.colabopelika.com,Opelika,AL,"404 S 8th St, Opelika, AL 36801",Downtown Opelika,,,,,36801,"Private office space and coworking across several buildings in the heart of downtown Opelika.","private_office,coworking",,,,no,medium
-Connect Workspace,,,Auburn,AL,"1922 Professional Circle, Auburn, AL 36830",Auburn,,,,,36830,"Private offices and meeting rooms on Professional Circle in Auburn.","private_office,meeting_room",,,,no,low

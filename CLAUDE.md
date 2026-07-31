@@ -209,17 +209,23 @@ container). What that means:
 - Nothing outside the repo persists. `C:\dumpster\`, `business.md`, the
   decisions log, env vars — none of it is reachable.
 - Claude **cannot deploy Firebase from a cloud session** (no credentials). Push
-  to `workspace-source/` and GitHub Actions deploys.
+  to the repo and GitHub Actions deploys.
 - Claude **cannot send email** — Gmail drafts only; I send.
 - Paths are Linux (`/home/user/<repo>/`), not `C:\`.
 
 ## This repo
 
-- **FlexWorkspace** (`workspace-source/`) — active. Alabama workspace directory
-  at flexworkspace.online. **Read `HANDOFF.md`** for full state: infrastructure,
-  data, outreach status, next actions.
-- **Big Rig Rescue** (`rigrescue-source/`, `bigrigrescue-redirect/`) — the
-  earlier I-40 truck repair directory. Don't disturb.
+- **Big Rig Rescue** (`rigrescue-source/`, `bigrigrescue-redirect/`) — the I-40
+  truck repair directory. This is what the repo is for. Don't disturb it unless
+  I ask.
+- **Planning docs** — `business-niches-directory-ideas.md` and
+  `office-space-directory-12-month-launch-plan.md`. History: the FlexWorkspace
+  idea started here, so its origin write-ups stayed behind.
+- ⚠️ **FlexWorkspace does NOT live here anymore.** It moved to its own repo,
+  `ajfreightservicesllc-spec/flex-workspace` (private), on 2026-07-29. All
+  FlexWorkspace work — generator, market CSVs, guides, lead backend, outreach,
+  deploy workflow — happens there. Nothing in this repo deploys
+  flexworkspace.online.
 
 **Directory data rules:** listings are real businesses only. Never invent phones,
 ratings, or prices — leave blank if unverified. No scraped photos (copyright);
@@ -248,3 +254,5 @@ future sessions.
 - Global desktop CLAUDE.md never loads in cloud sessions; keep it in the repo.
 - Gmail rewrites plaintext URLs into ugly google.com/url redirects; send HTML anchors.
 - Lead backend needs lead_id dedupe; one submission can POST twice.
+- Firebase serves the last deploy forever; a live site doesn't prove the pipeline works.
+- Apps Script changes need a manual paste + redeploy; git push does nothing.

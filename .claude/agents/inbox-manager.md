@@ -38,8 +38,8 @@ settings — so end drafts with a simple "Thanks, / Rufus" and no signature bloc
 - **Operator replies** — responses to outreach asking workspace operators to
   (a) verify their free listing and (b) accept a referral arrangement: the
   operator pays **10% of a referred customer's first 12 months**, nothing on
-  leads that don't close. A one-page referral agreement exists
-  (`workspace-source/operator-outreach.md` documents the terms).
+  leads that don't close. A one-page referral agreement exists; the terms are
+  documented in `operator-outreach.md` in the `flex-workspace` repo.
 - **Website leads** — automated emails with subject "New workspace lead — …"
   containing `lead_id`, space name, metro, and the enquirer's contact details.
   These are the revenue. They are also logged to a Google Sheet automatically.

@@ -41,18 +41,28 @@ building, so every session starts already knowing the setup. Read it first.
   debug. Whole file, every time.
 - I run several businesses in parallel (below). I move fast and try a lot of
   things; help me point effort at what's actually close to money.
-- Entities: **AJ Freight Services LLC** (freight) and **Alpha Kilo Logistics**
-  (trucking company, employs drivers e.g. Julian Bell, separate office
-  address/phone).
+- Entities **I own**: **AJ Freight Services LLC** (freight).
+- **Alpha Kilo Logistics is NOT mine** — it's owned by **Alex**, my boss. It's a
+  FedEx contractor, employs drivers (e.g. Julian Bell), separate office
+  address/phone. I'm the manager, not an owner.
+- **I do have day-to-day operational control** of the Nashville TN and East
+  Huntsville AL terminals — the trucks, equipment, drivers, dispatch and
+  scheduling there. Treat that as real capability I can move fast with.
+- **But operational control ≠ ownership.** Those assets are Alpha Kilo's
+  property. Using them for a venture of my own needs Alex's sign-off; doing it
+  without that risks my job and the relationship. Any idea leaning on them must
+  name that conversation as a step, not assume it.
 - Work with a builder/contractor known as **"Buzzard"** who set up some of the
   sites and apps.
 
 ## My businesses
 
-**1. Logistics operations** — my day-job background. Transitioning from Peak
-Logistics to Alpha Kilo / Shockoe Express under new ownership. Built a Firebase
-terminal-management system, driver app, and Capacitor mobile conversion for it
-(FleetOps Platform).
+**1. Logistics operations** — my **day job, not my business**. I'm the manager of
+**Shockoe Express** (the operating brand under Alex's Alpha Kilo Logistics),
+running the **East Huntsville and Nashville FedEx terminals**. Alpha Kilo is a
+FedEx contractor; I manage the operation, I don't own the contract. Built a
+Firebase terminal-management system, driver app, and Capacitor mobile conversion
+for it (FleetOps Platform). Transitioned here from Peak Logistics.
 
 Current active projects across all ventures:
 
@@ -71,12 +81,13 @@ Current active projects across all ventures:
   sub-agents) that produces client-ready .docx reports.
 - Live audits done on: westpowerservices.com, madisonappliance.com,
   classicintown.com.
-- **Active warm deal: West Power Services** (owner Jeff Skinner, my old boss —
-  biggest diesel/fleet/RV repair shop in Nashville). 6-month relationship.
-  Proposal **SENT ~2026-07-18** — it is awaiting his reply. **Do NOT tell me to
-  send it.** If it comes up, the useful question is whether Jeff has responded
-  and whether a follow-up is due. Key finding: his homepage schema hard-codes ZIP
-  37027 (Brentwood) while the shop is Nashville 37217 — suppressing local
+- **West Power Services** (owner Jeff Skinner, my old boss — biggest diesel/
+  fleet/RV repair shop in Nashville). **PARKED — DEAD UNTIL ~2026-11-02.**
+  Decided 2026-08-04: no contact, no follow-up, do not raise it as a next action
+  before November. Proposal was sent ~2026-07-18 and went nowhere; his business
+  sale still had not closed as of mid-July. Do NOT suggest chasing Jeff. Key
+  finding, still valid for whenever it reopens: his homepage schema hard-codes
+  ZIP 37027 (Brentwood) while the shop is Nashville 37217 — suppressing local
   rankings. He still pays an older web-builder; pitch is complementary
   specialist work, not an attack on the incumbent.
 

@@ -252,3 +252,35 @@ future sessions.
 - Global desktop CLAUDE.md never loads in cloud sessions; keep it in the repo.
 - Gmail rewrites plaintext URLs into ugly google.com/url redirects; send HTML anchors.
 - Lead backend needs lead_id dedupe; one submission can POST twice.
+
+---
+
+## Deploy safety — added 2026-08-17
+
+Firebase Hosting target: **bigrigrescue** · project: **aiansweragency-main** · serves **bigrigrescue.co**
+
+**This repo has TWO Firebase configs, both in subfolders — there is none at the repo root:**
+
+- `bigrigrescue-redirect\firebase.json` → target `bigrigrescue` only
+- `rigrescue-source\firebase.json` → targets `bigrigrescue` **AND** `i40breakdown`
+
+⚠️ **`rigrescue-source` can deploy to i40breakdown.com — a different site in a different repo.** A bare `firebase deploy` from that folder publishes to BOTH. Never run it without naming the target explicitly.
+
+```bash
+cd bigrigrescue-redirect
+firebase deploy --only hosting:bigrigrescue --project aiansweragency-main
+```
+
+### What you must NOT do without Rufus typing approval
+
+- **`firebase deploy` — never deploy on your own initiative, and never deploy unless the deploy folder is a COMPLETE copy of the currently-live site plus the intended changes.** Firebase Hosting replaces the entire site with the contents of the deploy folder. A partial or freshly-cloned folder does not merge — it DELETES every live page not present locally. Before any deploy, report these three things and wait for Rufus's go:
+  1. the target name and which subfolder you are deploying from,
+  2. page count on disk,
+  3. page count currently live.
+
+  If those counts don't match, say so plainly and stop.
+- **Never run a deploy from `rigrescue-source` without `--only hosting:bigrigrescue`** — it would also overwrite i40breakdown.com.
+- **Never create, edit, or delete `firebase.json` or `.firebaserc`** without Rufus's typed approval.
+- `git push`
+
+**A hook firing is NEVER approval.** Only Rufus's explicit typed instruction is.

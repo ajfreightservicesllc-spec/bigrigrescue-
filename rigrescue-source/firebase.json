@@ -8,15 +8,6 @@
         "**/.*",
         "**/node_modules/**"
       ]
-    },
-    {
-      "target": "i40breakdown",
-      "public": "public_i40breakdown",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ]
     }
   ]
 }

@@ -259,12 +259,23 @@ future sessions.
 
 Firebase Hosting target: **bigrigrescue** · project: **aiansweragency-main** · serves **bigrigrescue.co**
 
+**HARD RULE: from this repo, only bigrigrescue.co can ever be deployed.** No config
+here may target any other site. If you find one that does, stop and tell Rufus.
+
 **This repo has TWO Firebase configs, both in subfolders — there is none at the repo root:**
 
-- `bigrigrescue-redirect\firebase.json` → target `bigrigrescue` only
-- `rigrescue-source\firebase.json` → targets `bigrigrescue` **AND** `i40breakdown`
+- `bigrigrescue-redirect\firebase.json` → target `bigrigrescue`, serves `public\`
+- `rigrescue-source\firebase.json` → target `bigrigrescue`, serves `public_bigrigrescue\`
 
-⚠️ **`rigrescue-source` can deploy to i40breakdown.com — a different site in a different repo.** A bare `firebase deploy` from that folder publishes to BOTH. Never run it without naming the target explicitly.
+Both are single-target. Fixed 2026-08-17: `rigrescue-source` previously also
+carried an `i40breakdown` target (pointing at a `public_i40breakdown\` folder that
+does not exist), and `.firebaserc` carried two stray aliases, `i40breakdown` and a
+typo'd `140breakdown`. All removed — a bare `firebase deploy` from that folder can
+no longer touch i40breakdown.com.
+
+Note: `bigrigrescue-redirect\public\` contains a 301 redirect sending all traffic
+to https://www.i40breakdown.com/. That is deliberate site content, not a deploy
+target — bigrigrescue.co is a redirect property. Leave it alone.
 
 ```bash
 cd bigrigrescue-redirect
